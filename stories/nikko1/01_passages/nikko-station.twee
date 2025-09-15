@@ -1,0 +1,51 @@
+:: Nikko Station
+<div class="card active" id="card9">
+<div class="card-number">9</div>
+<div class="card-header">
+<h1 class="card-title">日光駅</h1>
+<h2 class="card-subtitle">Nikko Station</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/JR_Nikko_Station_West_Entrance_1.jpg/800px-JR_Nikko_Station_West_Entrance_1.jpg" alt="Nikko Station" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location9')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon9">+</div>
+</div>
+<div class="location-content" id="location9">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1434 栃木県日光市相生町115</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">115 Aioimachi, Nikko, Tochigi 321-1434, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nikko+Station+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Nikko Station serves as the main railway gateway to the historic temples and natural wonders of Nikko. The station is served by both JR East's Nikko Line and Tobu Railway's Nikko Line, providing convenient access from Tokyo and other major cities.</p>
+
+<div class="highlight">
+The station's traditional architecture with its distinctive roof design reflects Nikko's cultural heritage and serves as an elegant introduction to the city.
+</div>
+
+<p>From Tokyo, visitors can reach Nikko Station via JR trains from Shinjuku or Ueno stations (approximately 2 hours), or via the faster Tobu Spacia limited express from Asakusa (about 1 hour 50 minutes). The station complex includes tourist information services, local bus connections, and various shops and restaurants.</p>
+
+<p>The station area features convenient amenities for travelers, including coin lockers for storing luggage while sightseeing, rental bicycle services, and access to local bus routes that connect to all major attractions including the shrine and temple complex, Lake Chuzenji, and Kegon Falls.</p>
+
+<p>Tourist information centers at the station provide maps, brochures in multiple languages, and assistance with accommodation bookings. The staff can help visitors plan efficient sightseeing routes and purchase discounted combination tickets for temples, shrines, and local transportation.</p>
+
+<a href="https://www.jreast.co.jp/e/stations/e598.html" target="_blank" class="wikipedia-link">🚂 JR East Station Information</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Kamenoi Hotel Okunikko Yumoto">← Kamenoi Hotel</a>
+<a class="nav-link" data-passage="Yumoto Onsen Bus stop">Visit Bus Stop →</a>
+</div>
+</div>

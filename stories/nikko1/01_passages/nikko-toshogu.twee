@@ -1,0 +1,49 @@
+:: Nikko Toshogu
+<div class="card active" id="card3">
+<div class="card-number">3</div>
+<div class="card-header">
+<h1 class="card-title">日光東照宮</h1>
+<h2 class="card-subtitle">Nikko Toshogu</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nikko_Toshogu_Yomeimon_M3100.jpg/800px-Nikko_Toshogu_Yomeimon_M3100.jpg" alt="Nikko Toshogu Yomeimon Gate" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location3')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon3">+</div>
+</div>
+<div class="location-content" id="location3">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1431 栃木県日光市山内2301</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">2301 Sannai, Nikko, Tochigi 321-1431, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nikko+Toshogu+Shrine+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Nikko Toshogu is the final resting place of Tokugawa Ieyasu, the founder of the Tokugawa shogunate that ruled Japan for over 250 years. This lavishly decorated shrine complex represents the pinnacle of Japanese craftsmanship and artistic achievement.</p>
+
+<div class="highlight">
+The shrine contains over 5,000 carvings, including the famous "see no evil, hear no evil, speak no evil" monkeys and the legendary sleeping cat.
+</div>
+
+<p>The most spectacular structure is the Yomeimon Gate, known as the "Gate of Sunlight," which features incredibly intricate carvings and gold leaf decorations. The shrine took two years and 15,000 craftsmen to complete in 1617, demonstrating the immense power and wealth of the Tokugawa regime.</p>
+
+<p>Unlike the understated aesthetic typically associated with Japanese architecture, Toshogu is deliberately opulent, using bright colors, gold leaf, and elaborate decorations to honor the shogun who unified Japan and ushered in an era of peace and prosperity.</p>
+
+<a href="https://en.wikipedia.org/wiki/Nikk%C5%8D_T%C5%8Dsh%C5%8D-g%C5%AB" target="_blank" class="wikipedia-link">📖 Read more on Wikipedia</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Rinnoji Temple">← Rinnoji Temple</a>
+<a class="nav-link" data-passage="Futarasan Shrine">Visit Futarasan →</a>
+</div>
+</div>

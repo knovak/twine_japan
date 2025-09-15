@@ -1,0 +1,51 @@
+:: Kanaya Hotel History Museum
+<div class="card active" id="card5">
+<div class="card-number">5</div>
+<div class="card-header">
+<h1 class="card-title">金谷ホテル歴史館</h1>
+<h2 class="card-subtitle">Kanaya Hotel History Museum</h2>
+</div>
+
+<div class="card-content">
+<img src="https://www.kanayahotel.co.jp/nkh/museum/img/main_img.jpg" alt="Kanaya Hotel History Museum" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location5')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon5">+</div>
+</div>
+<div class="location-content" id="location5">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1401 栃木県日光市上鉢石町1300</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">1300 Kamihatsushicho, Nikko, Tochigi 321-1401, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Kanaya+Hotel+History+Museum+Nikko+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>The Kanaya Hotel History Museum showcases the heritage of Japan's oldest luxury resort hotel, which has been welcoming distinguished guests since 1873. Founded by Zenichiro Kanaya, the hotel became a symbol of Japan's opening to international visitors during the Meiji period.</p>
+
+<div class="highlight">
+The museum occupies the hotel's original 1893 building, preserving the architectural charm that once hosted royalty, diplomats, and celebrities from around the world.
+</div>
+
+<p>Exhibits include historical artifacts, vintage photographs, guest registers showing famous signatures, traditional hotel furnishings, and displays about the evolution of hospitality in Japan. The museum tells the story of how the Kanaya Hotel became a bridge between Japanese and Western culture during a time of rapid modernization.</p>
+
+<p>Notable guests throughout history have included Albert Einstein, Helen Keller, the Duke of Windsor, and numerous members of European royalty. The hotel's blend of Japanese hospitality with Western-style accommodations created a unique cultural experience that attracted international visitors to Nikko.</p>
+
+<p>The museum also features exhibits about the hotel's famous cuisine, including the development of "Kanaya curry," which became a signature dish combining Japanese and Western culinary traditions.</p>
+
+<a href="https://www.kanayahotel.co.jp/nkh/museum/" target="_blank" class="wikipedia-link">🏨 Visit Official Museum Site</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Futarasan Shrine">← Futarasan Shrine</a>
+<a class="nav-link" data-passage="Tamozawa Imperial Villa">Visit Imperial Villa →</a>
+</div>
+</div>

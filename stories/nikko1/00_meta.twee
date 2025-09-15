@@ -1,0 +1,20 @@
+:: StoryTitle
+Nikko Travel Guide
+
+:: StoryData
+{
+  "ifid": "A892D347-8BFC-4A21-9E5A-3F7B9E8C1024",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Table of Contents",
+  "zoom": 1
+}
+
+:: StoryStylesheet [stylesheet]
+@import url("../../shared/styles/story.css");
+@import url("./assets/styles.css");
+
+:: Story JavaScript [script]
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);

@@ -1,0 +1,51 @@
+:: Nikko Onsen Nikko Senhime Monogatari
+<div class="card active" id="card7">
+<div class="card-number">7</div>
+<div class="card-header">
+<h1 class="card-title">日光温泉 日光千姫物語</h1>
+<h2 class="card-subtitle">Nikko Onsen Nikko Senhime Monogatari</h2>
+</div>
+
+<div class="card-content">
+<img src="https://images.trvl-media.com/lodging/1000000/990000/987400/987330/c9d5e8b0.jpg" alt="Nikko Onsen Nikko Senhime Monogatari" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location7')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon7">+</div>
+</div>
+<div class="location-content" id="location7">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1662 栃木県日光市湯波1390</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">1390 Yunishigawa, Nikko, Tochigi 321-1662, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nikko+Onsen+Nikko+Senhime+Monogatari+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Nikko Onsen Nikko Senhime Monogatari is a luxury onsen resort that embodies the finest traditions of Japanese hospitality while offering modern comfort and elegance. The hotel is named after Princess Sen (Senhime), connecting guests to Japan's rich historical heritage.</p>
+
+<div class="highlight">
+The resort features multiple natural hot spring baths, including outdoor rotenburo with views of Nikko's mountains and forests.
+</div>
+
+<p>The hotel offers a perfect blend of traditional ryokan experience and contemporary luxury. Guests can enjoy authentic kaiseki dining featuring local Nikko specialties like yuba (tofu skin), Tochigi beef, and seasonal mountain vegetables. The resort's onsen waters are renowned for their therapeutic properties, helping to soothe tired muscles and promote relaxation.</p>
+
+<p>Accommodations range from traditional tatami-mat rooms with futon bedding to modern rooms with Western-style beds, many featuring private hot spring baths. The hotel's attention to detail extends to every aspect of the guest experience, from the yukata robes and tea ceremony service to the carefully curated seasonal decorations throughout the property.</p>
+
+<p>The resort serves as an ideal base for exploring Nikko's UNESCO World Heritage sites, with easy access to the shrine and temple complex while providing a tranquil retreat to unwind after a day of sightseeing.</p>
+
+<a href="https://www.booking.com/hotel/jp/nikko-senhime-monogatari.html" target="_blank" class="wikipedia-link">🏨 View Booking Information</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Tamozawa Imperial Villa">← Imperial Villa</a>
+<a class="nav-link" data-passage="Kamenoi Hotel Okunikko Yumoto">Visit Kamenoi Hotel →</a>
+</div>
+</div>
