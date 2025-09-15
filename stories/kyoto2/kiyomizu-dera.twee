@@ -1,0 +1,49 @@
+::Kiyomizu-dera
+<div class="card" id="card3">
+<div class="card-number">3</div>
+<div class="card-header">
+<h1 class="card-title">清水寺</h1>
+<h2 class="card-subtitle">Kiyomizu-dera (Pure Water Temple)</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Kyoto-Kiyomizu_Temple-2.JPG" alt="Kiyomizu-dera temple with wooden stage" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location3')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon3">+</div>
+</div>
+<div class="location-content" id="location3">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒605-0862 京都府京都市東山区清水1-294</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">1-294 Kiyomizu, Higashiyama-ku, Kyoto 605-0862, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera+Temple+Kyoto+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Perched on the wooded hills of eastern Kyoto, Kiyomizu-dera offers breathtaking views over the ancient capital. This UNESCO World Heritage site was founded in 778 CE and represents some of Japan's finest traditional architecture.</p>
+
+<div class="highlight">
+The main hall's famous wooden veranda juts out 13 meters above the hillside, supported entirely without using a single nail in its construction.
+</div>
+
+<p>The temple gets its name from the Otowa Waterfall that runs beneath it, where visitors drink from three streams said to grant wishes for love, academic success, and longevity. But tradition warns you can only drink from one stream, or your wish won't come true!</p>
+
+<p>The phrase "to jump off the stage at Kiyomizu" is the Japanese equivalent of "to take a leap of faith." During the Edo period, it was believed that surviving a 13-meter jump from the wooden platform would grant your wish - though the practice was eventually banned.</p>
+
+<a href="https://en.wikipedia.org/wiki/Kiyomizu-dera" target="_blank" class="wikipedia-link">📖 Read more on Wikipedia</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" onclick="showCard(0)">← Table of Contents</a>
+<a class="nav-link" onclick="showCard(1)">← Golden Pavilion</a>
+<a class="nav-link" onclick="showCard(2)">← Thousand Torii Gates</a>
+</div>
+</div>

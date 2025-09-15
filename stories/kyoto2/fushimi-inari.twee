@@ -1,0 +1,49 @@
+::Fushimi Inari Taisha
+<div class="card" id="card2">
+<div class="card-number">2</div>
+<div class="card-header">
+<h1 class="card-title">伏見稲荷大社</h1>
+<h2 class="card-subtitle">Fushimi Inari Taisha</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Inscriptions_on_torii%2C_Fushimi_Inari_shrine%2C_Kyoto.jpg" alt="Fushimi Inari Taisha torii gates" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location2')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon2">+</div>
+</div>
+<div class="location-content" id="location2">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒612-0882 京都府京都市伏見区深草薮之内町68</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">68 Fukakusa Yabunouchichō, Fushimi-ku, Kyoto 612-0882, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Fushimi+Inari+Taisha+Kyoto+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Famous for its thousands of vermillion torii gates that create tunnels up the mountainside, Fushimi Inari is the head shrine of the kami Inari, the Shinto god of rice, agriculture, and prosperity.</p>
+
+<div class="highlight">
+The shrine features over 10,000 torii gates donated by individuals and businesses, each with the donor's name inscribed on the back.
+</div>
+
+<p>Dating back to 711 CE, this shrine predates Kyoto itself. The torii trail leads up Mount Inari, taking 2-3 hours to complete the full circuit. Along the way, you'll encounter smaller shrines, tea houses, and hundreds of stone fox statues.</p>
+
+<p>Foxes (kitsune) are considered messengers of Inari, which is why you'll see fox statues throughout the shrine grounds, often with keys or jewels in their mouths representing the keys to rice granaries.</p>
+
+<a href="https://en.wikipedia.org/wiki/Fushimi_Inari_Taisha" target="_blank" class="wikipedia-link">📖 Read more on Wikipedia</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" onclick="showCard(0)">← Table of Contents</a>
+<a class="nav-link" onclick="showCard(1)">← Golden Pavilion</a>
+<a class="nav-link" onclick="showCard(3)">Climb to Kiyomizu-dera →</a>
+</div>
+</div>
