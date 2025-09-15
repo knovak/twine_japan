@@ -1,0 +1,36 @@
+name: Build & Deploy Pages (Tweego + PWA)
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cache Tweego
+        uses: actions/cache@v4
+        with:
+          path: .bin
+          key: tweego-${{ runner.os }}-2_1_1
+      - name: Install Tweego
+        run: scripts/get_tweego.sh
+      - name: Build
+        run: scripts/build.sh
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4
