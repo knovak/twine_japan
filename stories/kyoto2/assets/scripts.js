@@ -1,15 +1,3 @@
-function showCard(cardNumber) {
-    // Hide all cards
-    const cards = document.querySelectorAll('.card');
-    cards.forEach(card => card.classList.remove('active'));
-    
-    // Show selected card
-    const targetCard = document.getElementById(`card${cardNumber}`);
-    if (targetCard) {
-        targetCard.classList.add('active');
-    }
-}
-
 function toggleLocation(locationId) {
     const content = document.getElementById(locationId);
     const iconId = locationId.replace('location', 'icon');
@@ -29,9 +17,3 @@ function toggleLocation(locationId) {
         }
     }
 }
-
-// Initialize the first card as active when page loads
-document.addEventListener('DOMContentLoaded', function() {
-    // Show table of contents by default
-    showCard(0);
-});

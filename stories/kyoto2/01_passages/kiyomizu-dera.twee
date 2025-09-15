@@ -42,8 +42,8 @@ The main hall's famous wooden veranda juts out 13 meters above the hillside, sup
 </div>
 
 <div class="navigation">
-<a class="nav-link" onclick="showCard(0)">← Table of Contents</a>
-<a class="nav-link" onclick="showCard(1)">← Golden Pavilion</a>
-<a class="nav-link" onclick="showCard(2)">← Thousand Torii Gates</a>
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Kinkaku-ji">← Golden Pavilion</a>
+<a class="nav-link" data-passage="Fushimi Inari Taisha">← Thousand Torii Gates</a>
 </div>
 </div>
