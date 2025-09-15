@@ -243,6 +243,9 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     background: white;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .toc-item:hover {

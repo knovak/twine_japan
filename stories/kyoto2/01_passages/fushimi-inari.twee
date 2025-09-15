@@ -42,8 +42,8 @@ The shrine features over 10,000 torii gates donated by individuals and businesse
 </div>
 
 <div class="navigation">
-<a class="nav-link" onclick="showCard(0)">← Table of Contents</a>
-<a class="nav-link" onclick="showCard(1)">← Golden Pavilion</a>
-<a class="nav-link" onclick="showCard(3)">Climb to Kiyomizu-dera →</a>
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Kinkaku-ji">← Golden Pavilion</a>
+<a class="nav-link" data-passage="Kiyomizu-dera">Climb to Kiyomizu-dera →</a>
 </div>
 </div>

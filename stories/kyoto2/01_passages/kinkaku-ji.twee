@@ -42,8 +42,8 @@ The top two floors are completely covered in gold leaf, creating a stunning mirr
 </div>
 
 <div class="navigation">
-<a class="nav-link" onclick="showCard(0)">← Table of Contents</a>
-<a class="nav-link" onclick="showCard(2)">Visit Fushimi Inari →</a>
-<a class="nav-link" onclick="showCard(3)">Explore Kiyomizu-dera →</a>
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Fushimi Inari Taisha">Visit Fushimi Inari →</a>
+<a class="nav-link" data-passage="Kiyomizu-dera">Explore Kiyomizu-dera →</a>
 </div>
 </div>
