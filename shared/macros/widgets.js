@@ -1,0 +1,1 @@
+(function(){ if(!window.Macro||!Macro.add)return; Macro.add('templeFact',{handler(){const n=String(this.args[0]||''); const f={Kiyomizu:'Famous wooden stage.',Inari:'Thousands of vermilion torii.',Kinkakuji:'Golden pavilion over Mirror Pond.'}; this.output.append(f[n]||'');}}); })();
