@@ -4,16 +4,13 @@ body {
     margin: 0;
     padding: 10px;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    display: block;
     box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
     body {
         padding: 5px;
-        align-items: flex-start;
     }
 }
 
@@ -35,7 +32,7 @@ body {
 
 @media (max-width: 768px) {
     .card {
-        width: 98%;
+        width: 95%;
         padding: 20px;
         margin: 10px auto;
         border-radius: 10px;
@@ -334,4 +331,70 @@ body {
 .toc-item p {
     margin: 0;
     color: #666;
+}
+
+/* Table of Contents Section Headers */
+h2 {
+    color: #2E8B57;
+    font-size: 1.5em;
+    margin: 25px 0 15px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #2E8B57;
+    text-align: left;
+}
+
+h1 {
+    color: #2E8B57;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+}
+
+/* Table of Contents Container */
+#passages {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #passages {
+        padding: 10px;
+    }
+}
+
+/* Overall container for better centering */
+.passage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .passage {
+        padding: 10px;
+        margin: 0 auto;
+    }
+}
+
+/* Ensure all content is properly centered */
+body > * {
+    max-width: 100%;
+}
+
+#story {
+    margin: 0 auto;
+    max-width: 100%;
 }
