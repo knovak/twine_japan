@@ -346,6 +346,10 @@ body {
 }
 
 /* Table of Contents Section Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #1e3a8a !important;
+}
+
 h2 {
     color: #1e3a8a !important;
     font-size: 1.5em;
@@ -362,12 +366,26 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Override any Twine default styles */
-.passage h1, .passage h2 {
+/* Override any Twine default styles with more specific selectors */
+.passage h1, .passage h2, .passage h3 {
     color: #1e3a8a !important;
 }
 
-#passages h1, #passages h2 {
+#passages h1, #passages h2, #passages h3 {
+    color: #1e3a8a !important;
+}
+
+body h1, body h2, body h3 {
+    color: #1e3a8a !important;
+}
+
+/* Ensure story content headers are dark blue */
+#story h1, #story h2, #story h3 {
+    color: #1e3a8a !important;
+}
+
+/* Force override any inline styles */
+* h1, * h2, * h3 {
     color: #1e3a8a !important;
 }
 
@@ -415,7 +433,30 @@ body > * {
     max-width: 100%;
 }
 
+/* Hide Twine UI sidebar */
+#ui-bar {
+    display: none !important;
+}
+
+/* Adjust story area to use full width without sidebar */
 #story {
-    margin: 0 auto;
-    max-width: 100%;
+    margin: 0 auto !important;
+    margin-left: 0 !important;
+    max-width: 100% !important;
+}
+
+#passages {
+    margin-left: 0 !important;
+}
+
+/* Additional header color enforcement */
+[data-passage] h1, [data-passage] h2, [data-passage] h3 {
+    color: #1e3a8a !important;
+}
+
+/* Override any theme defaults */
+html body .passage h1,
+html body .passage h2,
+html body .passage h3 {
+    color: #1e3a8a !important;
 }
