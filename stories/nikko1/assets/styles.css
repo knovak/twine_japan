@@ -1,11 +1,12 @@
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'Georgia', serif !important;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
     padding: 10px;
     min-height: 100vh;
     display: block;
     box-sizing: border-box;
+    line-height: 1.6 !important;
 }
 
 @media (max-width: 768px) {
@@ -459,4 +460,20 @@ html body .passage h1,
 html body .passage h2,
 html body .passage h3 {
     color: #1e3a8a !important;
+}
+
+/* Override shared story styles */
+tw-story {
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+/* Override link defaults */
+a {
+    text-decoration: none !important;
+}
+
+.wikipedia-link, .maps-link, .nav-link {
+    text-decoration: none !important;
 }
