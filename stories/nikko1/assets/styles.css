@@ -2,11 +2,19 @@ body {
     font-family: 'Georgia', serif;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 5px;
+        align-items: flex-start;
+    }
 }
 
 .card {
@@ -14,13 +22,24 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     max-width: 650px;
-    width: 90%;
+    width: 95%;
     padding: 40px;
     display: none;
     position: relative;
     border: 3px solid #2E8B57;
     max-height: 90vh;
     overflow-y: auto;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 98%;
+        padding: 20px;
+        margin: 10px auto;
+        border-radius: 10px;
+    }
 }
 
 .card.active {
@@ -46,11 +65,23 @@ body {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 1.8em;
+    }
+}
+
 .card-subtitle {
     font-size: 1.1em;
     color: #666;
     text-align: center;
     font-style: italic;
+}
+
+@media (max-width: 768px) {
+    .card-subtitle {
+        font-size: 1em;
+    }
 }
 
 .card-content {
@@ -69,12 +100,14 @@ body {
 }
 
 .highlight {
-    background-color: #e8f5e8;
+    background-color: #1e3a8a;
+    color: white;
     padding: 15px;
     border-radius: 8px;
-    border-left: 4px solid #28a745;
+    border-left: 4px solid #3b82f6;
     margin: 20px 0;
     font-style: italic;
+    font-weight: 500;
 }
 
 /* Collapsible Location Styles */
@@ -186,6 +219,25 @@ body {
     box-shadow: 0 5px 15px rgba(0,102,204,0.3);
 }
 
+.maps-link-prominent {
+    display: inline-block;
+    background: #ea4335;
+    color: white;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    margin: 15px 10px 15px 0;
+}
+
+.maps-link-prominent:hover {
+    background: #d33b2c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(234,67,53,0.3);
+}
+
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -194,6 +246,13 @@ body {
     margin-top: 30px;
     padding-top: 20px;
     border-top: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
 .nav-link {
@@ -207,6 +266,16 @@ body {
     text-align: center;
     min-width: 150px;
     cursor: pointer;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        width: 100%;
+        min-width: auto;
+        padding: 15px 20px;
+        font-size: 1.1em;
+    }
 }
 
 .nav-link:hover {
