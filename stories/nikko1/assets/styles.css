@@ -2,17 +2,31 @@ body {
     font-family: 'Georgia', serif !important;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
-    padding: 10px;
+    padding: 15px;
     min-height: 100vh;
-    display: block;
-    box-sizing: border-box;
     line-height: 1.6 !important;
 }
 
-@media (max-width: 768px) {
-    body {
-        padding: 5px;
-    }
+/* Main title colors - simple approach */
+h1 {
+    color: #1e3a8a;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #1e3a8a;
+    font-size: 1.5em;
+    margin: 20px 0 10px 0;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #1e3a8a;
+}
+
+h3 {
+    color: #2E8B57;
+    margin: 0 0 10px 0;
+    font-size: 1.3em;
 }
 
 .card {
@@ -37,6 +51,14 @@ body {
         padding: 20px;
         margin: 10px auto;
         border-radius: 10px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
     }
 }
 
@@ -63,23 +85,11 @@ body {
     text-align: center;
 }
 
-@media (max-width: 768px) {
-    .card-title {
-        font-size: 1.8em;
-    }
-}
-
 .card-subtitle {
     font-size: 1.1em;
     color: #666;
     text-align: center;
     font-style: italic;
-}
-
-@media (max-width: 768px) {
-    .card-subtitle {
-        font-size: 1em;
-    }
 }
 
 .card-content {
@@ -90,14 +100,6 @@ body {
 
 .card-content p {
     margin: 12px 0;
-}
-
-.card-content p:first-child {
-    margin-top: 0;
-}
-
-.card-content p:last-child {
-    margin-bottom: 0;
 }
 
 .temple-image {
@@ -229,25 +231,6 @@ body {
     box-shadow: 0 5px 15px rgba(0,102,204,0.3);
 }
 
-.maps-link-prominent {
-    display: inline-block;
-    background: #ea4335;
-    color: white;
-    text-decoration: none;
-    padding: 10px 16px;
-    border-radius: 20px;
-    font-weight: bold;
-    font-size: 0.9em;
-    transition: all 0.3s ease;
-    margin: 15px 10px 15px 0;
-}
-
-.maps-link-prominent:hover {
-    background: #d33b2c;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(234,67,53,0.3);
-}
-
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -277,15 +260,6 @@ body {
     min-width: 150px;
     cursor: pointer;
     display: block;
-}
-
-@media (max-width: 768px) {
-    .nav-link {
-        width: 100%;
-        min-width: auto;
-        padding: 15px 20px;
-        font-size: 1.1em;
-    }
 }
 
 .nav-link:hover {
@@ -346,134 +320,12 @@ body {
     color: #666;
 }
 
-/* Table of Contents Section Headers */
-h1, h2, h3, h4, h5, h6 {
-    color: #1e3a8a !important;
-}
-
-h2 {
-    color: #1e3a8a !important;
-    font-size: 1.5em;
-    margin: 20px 0 10px 0;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #1e3a8a;
-    text-align: left;
-}
-
-h1 {
-    color: #1e3a8a !important;
-    font-size: 2.5em;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Override any Twine default styles with more specific selectors */
-.passage h1, .passage h2, .passage h3 {
-    color: #1e3a8a !important;
-}
-
-#passages h1, #passages h2, #passages h3 {
-    color: #1e3a8a !important;
-}
-
-body h1, body h2, body h3 {
-    color: #1e3a8a !important;
-}
-
-/* Ensure story content headers are dark blue */
-#story h1, #story h2, #story h3 {
-    color: #1e3a8a !important;
-}
-
-/* Force override any inline styles */
-* h1, * h2, * h3 {
-    color: #1e3a8a !important;
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2em;
-    }
-    
-    h2 {
-        font-size: 1.3em;
-    }
-}
-
-/* Table of Contents Container */
-#passages {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-    #passages {
-        padding: 10px;
-    }
-}
-
-/* Overall container for better centering */
-.passage {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 15px;
-    box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-    .passage {
-        padding: 8px;
-        margin: 0 auto;
-    }
-}
-
-/* Ensure all content is properly centered */
-body > * {
-    max-width: 100%;
-}
-
 /* Hide Twine UI sidebar */
 #ui-bar {
     display: none !important;
 }
 
-/* Adjust story area to use full width without sidebar */
-#story {
-    margin: 0 auto !important;
-    margin-left: 0 !important;
-    max-width: 100% !important;
-}
-
-#passages {
-    margin-left: 0 !important;
-}
-
-/* Additional header color enforcement */
-[data-passage] h1, [data-passage] h2, [data-passage] h3 {
-    color: #1e3a8a !important;
-}
-
-/* Override any theme defaults */
-html body .passage h1,
-html body .passage h2,
-html body .passage h3 {
-    color: #1e3a8a !important;
-}
-
-/* Override shared story styles */
-tw-story {
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    padding: 0 !important;
-}
-
-/* Override link defaults */
+/* Clean link styling */
 a {
-    text-decoration: none !important;
-}
-
-.wikipedia-link, .maps-link, .nav-link {
-    text-decoration: none !important;
+    text-decoration: none;
 }
