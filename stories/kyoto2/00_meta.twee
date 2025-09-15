@@ -4,8 +4,8 @@ Kyoto Temple Guide
 :: StoryData
 {
   "ifid": "D674C882-DFFE-4373-B838-BEB6E6750492",
-  "format": "Harlowe",
-  "format-version": "3.3.5",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
   "start": "Table of Contents",
   "zoom": 1
 }
