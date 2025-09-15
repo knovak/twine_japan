@@ -1,16 +1,4 @@
-::StoryTitle
-Kyoto Temple Guide
-
-::StoryData
-{
-  "ifid": "D674C882-DFFE-4373-B838-BEB6E6750492",
-  "format": "Harlowe",
-  "format-version": "3.3.5",
-  "start": "Table of Contents",
-  "zoom": 1
-}
-
-::Table of Contents
+:: Table of Contents
 # 京都寺院ガイド
 ## Kyoto Temple Guide
 
@@ -40,3 +28,4 @@ Click on any temple above to begin your virtual journey through Kyoto's spiritua
 <div class="navigation">
 <a class="nav-link" onclick="showCard(1)">Start with Golden Pavilion →</a>
 </div>
+

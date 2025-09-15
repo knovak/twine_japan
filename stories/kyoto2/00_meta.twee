@@ -1,0 +1,21 @@
+:: StoryTitle
+Kyoto Temple Guide
+
+:: StoryData
+{
+  "ifid": "D674C882-DFFE-4373-B838-BEB6E6750492",
+  "format": "Harlowe",
+  "format-version": "3.3.5",
+  "start": "Table of Contents",
+  "zoom": 1
+}
+
+:: StoryStylesheet [stylesheet]
+@import url("../../shared/styles/story.css");
+@import url("./assets/styles.css");
+
+:: Story JavaScript [script]
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);
+
