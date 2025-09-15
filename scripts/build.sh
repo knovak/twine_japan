@@ -4,7 +4,7 @@ BIN="${BIN:-.bin/tweego}"
 OUT="${OUT:-dist}"
 rm -rf "$OUT"; mkdir -p "$OUT"
 build(){ deck="$1"; src="stories/${deck}"; outdir="${OUT}/${deck}"; mkdir -p "$outdir";
-"$BIN" --log=info --config .tweego.yaml --head "shared/macros/widgets.js" --output "${outdir}/index.html" "${src}/00_meta.twee" "${src}/01_passages" shared/passages;
+"$BIN" --l --config .tweego.yaml --head "shared/macros/widgets.js" --output "${outdir}/index.html" "${src}/00_meta.twee" "${src}/01_passages" shared/passages;
 [ -d "${src}/assets" ] && rsync -a "${src}/assets/" "${outdir}/assets/" || true;
 python3 - "$outdir/index.html" <<'PY'
 import sys,re
