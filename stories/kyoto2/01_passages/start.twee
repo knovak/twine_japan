@@ -5,20 +5,20 @@
 Explore three of Kyoto's most magnificent temples through these interactive cards. Each temple offers a unique glimpse into Japan's rich spiritual and architectural heritage.
 
 <div class="toc-grid">
-<a class="toc-item" data-passage="Kinkaku-ji">
-<h3>🏯 Kinkaku-ji (Golden Pavilion)</h3>
+<div class="toc-item">
+<h3>[[🏯 Kinkaku-ji (Golden Pavilion)->Kinkaku-ji]]</h3>
 <p>The iconic golden temple reflected in its serene pond</p>
-</a>
+</div>
 
-<a class="toc-item" data-passage="Fushimi Inari Taisha">
-<h3>⛩️ Fushimi Inari Taisha</h3>
+<div class="toc-item">
+<h3>[[⛩️ Fushimi Inari Taisha->Fushimi Inari Taisha]]</h3>
 <p>Thousands of vermillion torii gates winding up the mountain</p>
-</a>
+</div>
 
-<a class="toc-item" data-passage="Kiyomizu-dera">
-<h3>🏛️ Kiyomizu-dera</h3>
+<div class="toc-item">
+<h3>[[🏛️ Kiyomizu-dera->Kiyomizu-dera]]</h3>
 <p>The wooden temple with the famous cliff-side stage</p>
-</a>
+</div>
 </div>
 
 <div class="highlight">
