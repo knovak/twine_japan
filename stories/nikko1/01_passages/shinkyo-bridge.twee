@@ -1,0 +1,49 @@
+:: Shinkyo Bridge
+<div class="card active" id="card1">
+<div class="card-number">1</div>
+<div class="card-header">
+<h1 class="card-title">神橋</h1>
+<h2 class="card-subtitle">Shinkyo Bridge</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Nikko_Shinkyo_Bridge_M3062.jpg/800px-Nikko_Shinkyo_Bridge_M3062.jpg" alt="Shinkyo Bridge" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location1')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon1">+</div>
+</div>
+<div class="location-content" id="location1">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1401 栃木県日光市上鉢石町</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Kamihatsushicho, Nikko, Tochigi 321-1401, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Shinkyo+Bridge+Nikko+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>The sacred vermillion Shinkyo Bridge spans the Daiya River and serves as the traditional entrance to Nikko's shrine and temple area. This iconic wooden bridge is considered one of Japan's three most beautiful bridges.</p>
+
+<div class="highlight">
+Originally built in 1636, the bridge was historically reserved for imperial messengers and Toshogu shrine priests only.
+</div>
+
+<p>The current bridge, rebuilt in 1907, stands 28 meters long and 7.4 meters wide. Its distinctive red lacquer finish and elegant arch design make it a symbol of Nikko itself. The bridge connects the secular and sacred worlds, marking your transition into the UNESCO World Heritage site.</p>
+
+<p>Legend says that the Buddhist monk Shodo Shonin was helped across the raging river here by two serpents, allowing him to establish temples in the area over 1,200 years ago.</p>
+
+<a href="https://en.wikipedia.org/wiki/Shinkyo" target="_blank" class="wikipedia-link">📖 Read more on Wikipedia</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Rinnoji Temple">Visit Rinnoji Temple →</a>
+<a class="nav-link" data-passage="Nikko Toshogu">Explore Toshogu →</a>
+</div>
+</div>

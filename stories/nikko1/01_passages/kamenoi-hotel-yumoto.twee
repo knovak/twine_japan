@@ -1,0 +1,51 @@
+:: Kamenoi Hotel Okunikko Yumoto
+<div class="card active" id="card8">
+<div class="card-number">8</div>
+<div class="card-header">
+<h1 class="card-title">亀の井ホテル奥日光湯元</h1>
+<h2 class="card-subtitle">Kamenoi Hotel Okunikko Yumoto</h2>
+</div>
+
+<div class="card-content">
+<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4a/86/d4/photo0jpg.jpg" alt="Kamenoi Hotel Okunikko Yumoto" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location8')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon8">+</div>
+</div>
+<div class="location-content" id="location8">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1662 栃木県日光市湯元温泉2549-7</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">2549-7 Yumoto Onsen, Nikko, Tochigi 321-1662, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Kamenoi+Hotel+Okunikko+Yumoto+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Kamenoi Hotel Okunikko Yumoto is a mountain retreat hotel nestled in the pristine natural environment of Okunikko, near the scenic Lake Yunoko. This peaceful resort offers an authentic onsen experience in one of Japan's most beautiful highland settings.</p>
+
+<div class="highlight">
+Located at an elevation of 1,270 meters, the hotel provides stunning views of the surrounding mountains and access to some of Nikko's most pristine hiking trails.
+</div>
+
+<p>The hotel's natural hot spring baths feature sulfur-rich waters sourced directly from the nearby Yumoto Onsen, one of Japan's oldest hot spring areas. The outdoor baths offer spectacular views of the changing seasons, from cherry blossoms in spring to brilliant autumn colors and snow-covered landscapes in winter.</p>
+
+<p>Accommodations blend traditional Japanese ryokan style with modern comfort, featuring tatami rooms, futon bedding, and many with beautiful lake or mountain views. The hotel's restaurant serves regional cuisine highlighting local ingredients like fresh mountain vegetables, river fish, and the famous Nikko yuba.</p>
+
+<p>The location makes it perfect for nature lovers and outdoor enthusiasts, with easy access to hiking trails leading to waterfalls, marshlands, and scenic viewpoints. In winter, guests can enjoy the hotel's proximity to ski slopes and snow activities, while summer offers cooling mountain breezes and escape from the heat.</p>
+
+<a href="https://www.kamenoi-hotel.com/okunikko/" target="_blank" class="wikipedia-link">🏨 Visit Official Hotel Site</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Nikko Onsen Nikko Senhime Monogatari">← Senhime Hotel</a>
+<a class="nav-link" data-passage="Nikko Station">Visit Nikko Station →</a>
+</div>
+</div>

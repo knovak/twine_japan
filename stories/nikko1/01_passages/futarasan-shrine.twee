@@ -1,0 +1,51 @@
+:: Futarasan Shrine
+<div class="card active" id="card4">
+<div class="card-number">4</div>
+<div class="card-header">
+<h1 class="card-title">二荒山神社</h1>
+<h2 class="card-subtitle">Futarasan Shrine</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Futarasan_Shrine_in_Nikko.jpg/800px-Futarasan_Shrine_in_Nikko.jpg" alt="Futarasan Shrine" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location4')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon4">+</div>
+</div>
+<div class="location-content" id="location4">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1431 栃木県日光市山内2307</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">2307 Sannai, Nikko, Tochigi 321-1431, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Futarasan+Shrine+Nikko+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Futarasan Shrine is the oldest religious site in Nikko, founded in 767 by the monk Shodo Shonin. This Shinto shrine is dedicated to the three mountain deities of Nikko: Mt. Nantai, Mt. Nyoho, and Mt. Taro, which are considered sacred.</p>
+
+<div class="highlight">
+The shrine's grounds encompass all of Nikko's sacred mountains and Lake Chuzenji, making it one of Japan's largest shrine precincts.
+</div>
+
+<p>Unlike the ornate Toshogu Shrine nearby, Futarasan maintains a more traditional Shinto aesthetic with simple, elegant wooden structures that harmonize with the natural forest setting. The shrine represents the ancient Japanese belief in the spiritual power of mountains and natural landscapes.</p>
+
+<p>The shrine complex includes several important structures: the main hall (honden), worship hall (haiden), and the sacred Shinkyo Bridge. Visitors come here to pray for good fortune in marriage, family harmony, and protection from natural disasters, as the mountain deities are believed to watch over the region.</p>
+
+<p>The shrine is particularly famous for its annual Yayoi Festival in April, one of the three great festivals of Nikko, featuring elaborate floats and traditional performances.</p>
+
+<a href="https://en.wikipedia.org/wiki/Futarasan_Shrine" target="_blank" class="wikipedia-link">📖 Read more on Wikipedia</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Nikko Toshogu">← Toshogu Shrine</a>
+<a class="nav-link" data-passage="Kanaya Hotel History Museum">Visit Museum →</a>
+</div>
+</div>

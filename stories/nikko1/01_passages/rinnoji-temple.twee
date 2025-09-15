@@ -1,0 +1,49 @@
+:: Rinnoji Temple
+<div class="card active" id="card2">
+<div class="card-number">2</div>
+<div class="card-header">
+<h1 class="card-title">輪王寺</h1>
+<h2 class="card-subtitle">Rinnoji Temple</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Rinnai-ji_Sanbutsudo.jpg/800px-Rinnai-ji_Sanbutsudo.jpg" alt="Rinnoji Temple Sanbutsudo Hall" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location2')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon2">+</div>
+</div>
+<div class="location-content" id="location2">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1494 栃木県日光市山内2300</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">2300 Sannai, Nikko, Tochigi 321-1494, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Rinnoji+Temple+Nikko+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Rinnoji Temple is the head temple of the Tendai sect in the Kanto region and the most important Buddhist temple in Nikko. Founded in 766 by the monk Shodo Shonin, it predates both Toshogu Shrine and Futarasan Shrine.</p>
+
+<div class="highlight">
+The massive Sanbutsudo Hall houses three golden Buddhist statues, each over 8 meters tall, representing the three mountain deities of Nikko.
+</div>
+
+<p>The temple's most impressive structure is the Sanbutsudo Hall, which contains three enormous golden Buddha statues: Amida Nyorai (representing Mt. Nantai), Senju-Kannon (Mt. Nyoho), and Bato-Kannon (Mt. Taro). These Buddhist manifestations of Shinto mountain deities demonstrate the syncretic religious traditions of Japan.</p>
+
+<p>The temple also features the beautiful Shoyo-en Garden, a traditional Japanese landscape garden perfect for contemplation, and houses many important cultural properties including Buddhist scriptures and artifacts.</p>
+
+<a href="https://en.wikipedia.org/wiki/Rinnai-ji" target="_blank" class="wikipedia-link">📖 Read more on Wikipedia</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Shinkyo Bridge">← Shinkyo Bridge</a>
+<a class="nav-link" data-passage="Nikko Toshogu">Visit Toshogu →</a>
+</div>
+</div>

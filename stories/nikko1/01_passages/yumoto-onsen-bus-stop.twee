@@ -1,0 +1,53 @@
+:: Yumoto Onsen Bus stop
+<div class="card active" id="card10">
+<div class="card-number">10</div>
+<div class="card-header">
+<h1 class="card-title">湯元温泉バス停</h1>
+<h2 class="card-subtitle">Yumoto Onsen Bus stop</h2>
+</div>
+
+<div class="card-content">
+<img src="https://live.staticflickr.com/65535/49049704942_c7b7e8d8b4_b.jpg" alt="Yumoto Onsen Bus Terminal" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location10')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon10">+</div>
+</div>
+<div class="location-content" id="location10">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒321-1662 栃木県日光市湯元温泉</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Yumoto Onsen, Nikko, Tochigi 321-1662, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Yumoto+Onsen+Bus+Stop+Nikko+Japan" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<p>Yumoto Onsen Bus stop serves as the main transportation hub for accessing the mountain hot spring area of Okunikko. This terminal connects visitors to one of Japan's oldest and most scenic onsen regions, situated at an elevation of 1,270 meters above sea level.</p>
+
+<div class="highlight">
+The bus stop is the gateway to pristine wilderness areas, including Lake Yunoko, sulfur springs, and hiking trails that showcase Nikko's natural beauty.
+</div>
+
+<p>Regular bus services operate from Nikko Station via Tobu Bus, taking approximately 80 minutes through winding mountain roads with spectacular scenery. The route passes through the famous Irohazaka winding road, Lake Chuzenji, and Kegon Falls before reaching the remote hot spring area.</p>
+
+<p>From this terminal, visitors can access numerous hiking trails, including paths to Yu-no-taki Falls, the source of the Yukawa River, and various marshland areas rich in alpine flora. The area is particularly beautiful during autumn when the surrounding mountains display brilliant fall colors.</p>
+
+<p>The bus stop area includes basic facilities such as restrooms, a small waiting area, and information boards with local hiking maps. During winter months, the area transforms into a snowy wonderland, and the bus terminal serves as the starting point for winter sports activities and snow hiking adventures.</p>
+
+<p>The terminal is surrounded by several traditional ryokan and onsen hotels, making it convenient for visitors to access accommodation while enjoying the therapeutic sulfur springs that have been used for over 1,200 years.</p>
+
+<a href="https://www.tobu-bus.com/en/" target="_blank" class="wikipedia-link">🚌 Tobu Bus Information</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Nikko Station">← Nikko Station</a>
+<a class="nav-link" data-passage="Shinkyo Bridge">Return to Start →</a>
+</div>
+</div>
