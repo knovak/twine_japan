@@ -40,6 +40,33 @@ document.head.appendChild(script);
             }
         });
         
+        // Fix main passage container - make text visible and add proper spacing
+        const passage = document.querySelector('#passages .passage');
+        if (passage) {
+            passage.style.setProperty('color', '#333', 'important');
+            passage.style.setProperty('padding', '15px', 'important');
+            passage.style.setProperty('margin', '0 auto', 'important');
+            passage.style.setProperty('max-width', '800px', 'important');
+            passage.style.setProperty('line-height', '1.6', 'important');
+            passage.style.setProperty('font-family', 'Georgia, serif', 'important');
+        }
+        
+        // Fix paragraph spacing
+        document.querySelectorAll('#passages p').forEach(p => {
+            p.style.setProperty('margin', '12px 0', 'important');
+            p.style.setProperty('line-height', '1.6', 'important');
+            p.style.setProperty('color', '#333', 'important');
+        });
+        
+        // Fix any invisible text in the main content
+        document.querySelectorAll('#passages *').forEach(el => {
+            if (el.textContent.includes('Discover the historic temples') || 
+                el.textContent.includes('From ancient sacred sites')) {
+                el.style.setProperty('color', '#333', 'important');
+                el.style.setProperty('display', 'block', 'important');
+            }
+        });
+        
         // Also target any elements that might contain the section titles
         const passages = document.querySelectorAll('[data-passage], .passage, tw-passage');
         passages.forEach(passage => {
@@ -63,6 +90,22 @@ document.head.appendChild(script);
                 el.style.setProperty('padding-bottom', '8px', 'important');
                 el.style.setProperty('margin', '20px 0 10px 0', 'important');
             }
+        });
+        
+        // Reduce spacing in grid items
+        document.querySelectorAll('.toc-grid').forEach(grid => {
+            grid.style.setProperty('gap', '15px', 'important');
+            grid.style.setProperty('margin', '20px 0', 'important');
+        });
+        
+        document.querySelectorAll('.toc-item').forEach(item => {
+            item.style.setProperty('padding', '15px', 'important');
+        });
+        
+        // Fix highlight box
+        document.querySelectorAll('.highlight').forEach(highlight => {
+            highlight.style.setProperty('margin', '15px 0', 'important');
+            highlight.style.setProperty('padding', '12px', 'important');
         });
     }
     
