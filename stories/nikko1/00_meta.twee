@@ -51,11 +51,19 @@ document.head.appendChild(script);
             passage.style.setProperty('font-family', 'Georgia, serif', 'important');
         }
         
-        // Fix paragraph spacing
+        // Fix paragraph spacing - reduce white space significantly
         document.querySelectorAll('#passages p').forEach(p => {
-            p.style.setProperty('margin', '12px 0', 'important');
-            p.style.setProperty('line-height', '1.6', 'important');
+            p.style.setProperty('margin', '8px 0', 'important');
+            p.style.setProperty('line-height', '1.5', 'important');
             p.style.setProperty('color', '#333', 'important');
+        });
+        
+        // Reduce spacing for all content elements
+        document.querySelectorAll('#passages div, #passages h1, #passages h2, #passages h3').forEach(el => {
+            const currentMargin = window.getComputedStyle(el).margin;
+            if (currentMargin !== '0px') {
+                el.style.setProperty('margin', '8px 0', 'important');
+            }
         });
         
         // Fix any invisible text in the main content
@@ -79,33 +87,60 @@ document.head.appendChild(script);
         
         // Target section headers (Attractions, Hotels, Transport) that might be in other elements
         document.querySelectorAll('*').forEach(el => {
-            if (el.children.length === 0 && 
-                (el.textContent === 'Attractions' || 
-                 el.textContent === 'Hotels' || 
-                 el.textContent === 'Transport')) {
-                el.style.setProperty('color', '#1e3a8a', 'important');
-                el.style.setProperty('font-size', '1.5em', 'important');
-                el.style.setProperty('font-weight', 'bold', 'important');
-                el.style.setProperty('border-bottom', '2px solid #1e3a8a', 'important');
-                el.style.setProperty('padding-bottom', '8px', 'important');
-                el.style.setProperty('margin', '20px 0 10px 0', 'important');
+            if (el.children.length === 0) {
+                const text = el.textContent.trim();
+                // Handle both direct text and numbered list format
+                if (text === 'Attractions' || text === '1. Attractions' ||
+                    text === 'Hotels' || text === '2. Hotels' ||
+                    text === 'Transport' || text === '3. Transport') {
+                    
+                    // Clean up the text (remove numbers)
+                    if (text.includes('1. ')) el.textContent = 'Attractions';
+                    if (text.includes('2. ')) el.textContent = 'Hotels';
+                    if (text.includes('3. ')) el.textContent = 'Transport';
+                    
+                    el.style.setProperty('color', '#1e3a8a', 'important');
+                    el.style.setProperty('font-size', '2em', 'important');
+                    el.style.setProperty('font-weight', 'bold', 'important');
+                    el.style.setProperty('border-bottom', '2px solid #1e3a8a', 'important');
+                    el.style.setProperty('border-top', '2px solid #1e3a8a', 'important');
+                    el.style.setProperty('padding-top', '20px', 'important');
+                    el.style.setProperty('padding-bottom', '10px', 'important');
+                    el.style.setProperty('margin', '30px 0 15px 0', 'important');
+                    el.style.setProperty('list-style', 'none', 'important');
+                }
             }
         });
         
         // Reduce spacing in grid items
         document.querySelectorAll('.toc-grid').forEach(grid => {
-            grid.style.setProperty('gap', '15px', 'important');
-            grid.style.setProperty('margin', '20px 0', 'important');
+            grid.style.setProperty('gap', '10px', 'important');
+            grid.style.setProperty('margin', '15px 0', 'important');
         });
         
         document.querySelectorAll('.toc-item').forEach(item => {
-            item.style.setProperty('padding', '15px', 'important');
+            item.style.setProperty('padding', '12px', 'important');
+            item.style.setProperty('margin', '8px 0', 'important');
         });
         
         // Fix highlight box
         document.querySelectorAll('.highlight').forEach(highlight => {
-            highlight.style.setProperty('margin', '15px 0', 'important');
-            highlight.style.setProperty('padding', '12px', 'important');
+            highlight.style.setProperty('margin', '10px 0', 'important');
+            highlight.style.setProperty('padding', '10px', 'important');
+        });
+        
+        // Fix double horizontal lines under card titles
+        document.querySelectorAll('.card-title, .card-subtitle').forEach(el => {
+            // Remove borders from title and subtitle to prevent double lines
+            el.style.setProperty('border-bottom', 'none', 'important');
+            el.style.setProperty('border-top', 'none', 'important');
+        });
+        
+        // Remove any duplicate borders in the card area
+        document.querySelectorAll('[class*="card"]').forEach(el => {
+            if (el.className !== 'card-header' && el.className !== 'card') {
+                el.style.setProperty('border-bottom', 'none', 'important');
+            }
         });
     }
     
