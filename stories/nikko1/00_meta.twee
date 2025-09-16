@@ -27,7 +27,20 @@ document.head.appendChild(script);
             header.style.setProperty('color', '#1e3a8a', 'important');
         });
         
-        // Also target any elements that might contain the titles
+        // Target the main titles that are rendered as LI elements
+        document.querySelectorAll('li').forEach(li => {
+            const text = li.textContent.trim();
+            if (text === '日光旅行ガイド' || text === 'Nikko Travel Guide') {
+                li.style.setProperty('color', '#1e3a8a', 'important');
+                li.style.setProperty('font-size', '2.5em', 'important');
+                li.style.setProperty('font-weight', 'bold', 'important');
+                li.style.setProperty('text-align', 'center', 'important');
+                li.style.setProperty('list-style', 'none', 'important');
+                li.style.setProperty('margin', '20px 0', 'important');
+            }
+        });
+        
+        // Also target any elements that might contain the section titles
         const passages = document.querySelectorAll('[data-passage], .passage, tw-passage');
         passages.forEach(passage => {
             const h1s = passage.querySelectorAll('h1');
@@ -35,6 +48,21 @@ document.head.appendChild(script);
             [...h1s, ...h2s].forEach(header => {
                 header.style.setProperty('color', '#1e3a8a', 'important');
             });
+        });
+        
+        // Target section headers (Attractions, Hotels, Transport) that might be in other elements
+        document.querySelectorAll('*').forEach(el => {
+            if (el.children.length === 0 && 
+                (el.textContent === 'Attractions' || 
+                 el.textContent === 'Hotels' || 
+                 el.textContent === 'Transport')) {
+                el.style.setProperty('color', '#1e3a8a', 'important');
+                el.style.setProperty('font-size', '1.5em', 'important');
+                el.style.setProperty('font-weight', 'bold', 'important');
+                el.style.setProperty('border-bottom', '2px solid #1e3a8a', 'important');
+                el.style.setProperty('padding-bottom', '8px', 'important');
+                el.style.setProperty('margin', '20px 0 10px 0', 'important');
+            }
         });
     }
     
