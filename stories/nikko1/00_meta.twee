@@ -17,3 +17,39 @@ Nikko Travel Guide
 var script = document.createElement('script');
 script.src = 'assets/scripts.js';
 document.head.appendChild(script);
+
+// Force header colors via JavaScript - should override any CSS
+(function() {
+    function forceHeaderColors() {
+        // Target all h1 and h2 elements
+        const headers = document.querySelectorAll('h1, h2');
+        headers.forEach(header => {
+            header.style.setProperty('color', '#1e3a8a', 'important');
+        });
+        
+        // Also target any elements that might contain the titles
+        const passages = document.querySelectorAll('[data-passage], .passage, tw-passage');
+        passages.forEach(passage => {
+            const h1s = passage.querySelectorAll('h1');
+            const h2s = passage.querySelectorAll('h2');
+            [...h1s, ...h2s].forEach(header => {
+                header.style.setProperty('color', '#1e3a8a', 'important');
+            });
+        });
+    }
+    
+    // Run immediately
+    forceHeaderColors();
+    
+    // Run after page loads
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', forceHeaderColors);
+    }
+    
+    // Run after any navigation (for Twine passage changes)
+    const observer = new MutationObserver(forceHeaderColors);
+    observer.observe(document.body, { childList: true, subtree: true });
+    
+    // Also run on a timer as backup
+    setInterval(forceHeaderColors, 1000);
+})();

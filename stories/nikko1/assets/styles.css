@@ -329,3 +329,41 @@ h3 {
 a {
     text-decoration: none;
 }
+
+/* FINAL OVERRIDE - Must be at the end to beat SugarCube defaults */
+/* Target specific SugarCube color variables and elements */
+:root {
+    --primary-color: #1e3a8a !important;
+    --header-color: #1e3a8a !important;
+}
+
+/* Override SugarCube's passage rendering */
+tw-passage h1,
+tw-passage h2,
+tw-story h1,
+tw-story h2,
+html tw-passage h1,
+html tw-passage h2 {
+    color: #1e3a8a !important;
+}
+
+/* Target the actual rendered passage content */
+[data-passage="Table of Contents"] h1,
+[data-passage="Table of Contents"] h2,
+.passage h1,
+.passage h2 {
+    color: #1e3a8a !important;
+}
+
+/* Force override any SugarCube theme colors */
+#story h1, #story h2, #story h3,
+#passages h1, #passages h2, #passages h3 {
+    color: #1e3a8a !important;
+}
+
+/* Specific override for "Nikko Travel Guide" title */
+h1:contains("Nikko Travel Guide"),
+h1:contains("日光旅行ガイド"),
+[data-passage="Table of Contents"] > h1:first-of-type {
+    color: #1e3a8a !important;
+}
