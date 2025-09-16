@@ -18,7 +18,7 @@ body {
     max-width: 800px !important;
     margin: 0 auto !important;
     background: white !important;
-    padding: 40px !important;
+    padding: 40px 50px !important;
     border-radius: 15px !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
 }
@@ -54,7 +54,7 @@ h3, #passages h3, tw-passage h3, .passage h3 {
 
 /* Paragraph spacing - CRITICAL FIX */
 p, #passages p, tw-passage p, .passage p {
-    margin: 12px 0 !important;
+    margin: 6px 0 !important;
     padding: 0 !important;
     line-height: 1.6 !important;
     text-indent: 0 !important;
@@ -92,7 +92,7 @@ ul, ol, li {
 @media (max-width: 768px) {
     .card, #passages {
         width: 95% !important;
-        padding: 20px !important;
+        padding: 20px 25px !important;
         margin: 10px auto !important;
         border-radius: 10px !important;
     }
@@ -146,7 +146,7 @@ ul, ol, li {
 }
 
 .card-content p {
-    margin: 12px 0 !important;
+    margin: 6px 0 !important;
     padding: 0 !important;
 }
 
@@ -446,7 +446,7 @@ h1:contains("日光旅行ガイド"),
 
 /* Ensure no automatic paragraph spacing */
 #passages p + p, tw-passage p + p, .passage p + p {
-    margin-top: 12px !important;
+    margin-top: 6px !important;
 }
 
 /* Override any default browser/SugarCube margins */
