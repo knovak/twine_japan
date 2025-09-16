@@ -36,7 +36,8 @@ document.head.appendChild(script);
                 li.style.setProperty('font-weight', 'bold', 'important');
                 li.style.setProperty('text-align', 'center', 'important');
                 li.style.setProperty('list-style', 'none', 'important');
-                li.style.setProperty('margin', '20px 0', 'important');
+                li.style.setProperty('margin', '10px 0', 'important');
+                li.style.setProperty('padding', '0', 'important');
             }
         });
         
@@ -44,17 +45,17 @@ document.head.appendChild(script);
         const passage = document.querySelector('#passages .passage');
         if (passage) {
             passage.style.setProperty('color', '#333', 'important');
-            passage.style.setProperty('padding', '15px', 'important');
+            passage.style.setProperty('padding', '10px', 'important');
             passage.style.setProperty('margin', '0 auto', 'important');
             passage.style.setProperty('max-width', '800px', 'important');
-            passage.style.setProperty('line-height', '1.6', 'important');
+            passage.style.setProperty('line-height', '1.4', 'important');
             passage.style.setProperty('font-family', 'Georgia, serif', 'important');
         }
         
         // Fix paragraph spacing - reduce white space significantly
         document.querySelectorAll('#passages p').forEach(p => {
-            p.style.setProperty('margin', '8px 0', 'important');
-            p.style.setProperty('line-height', '1.5', 'important');
+            p.style.setProperty('margin', '5px 0', 'important');
+            p.style.setProperty('line-height', '1.4', 'important');
             p.style.setProperty('color', '#333', 'important');
         });
         
@@ -62,7 +63,7 @@ document.head.appendChild(script);
         document.querySelectorAll('#passages div, #passages h1, #passages h2, #passages h3').forEach(el => {
             const currentMargin = window.getComputedStyle(el).margin;
             if (currentMargin !== '0px') {
-                el.style.setProperty('margin', '8px 0', 'important');
+                el.style.setProperty('margin', '5px 0', 'important');
             }
         });
         
@@ -104,9 +105,14 @@ document.head.appendChild(script);
                     el.style.setProperty('font-weight', 'bold', 'important');
                     el.style.setProperty('border-bottom', '2px solid #1e3a8a', 'important');
                     el.style.setProperty('border-top', '2px solid #1e3a8a', 'important');
-                    el.style.setProperty('padding-top', '20px', 'important');
-                    el.style.setProperty('padding-bottom', '10px', 'important');
-                    el.style.setProperty('margin', '30px 0 15px 0', 'important');
+                    el.style.setProperty('padding-top', '15px', 'important');
+                    el.style.setProperty('padding-bottom', '8px', 'important');
+                    el.style.setProperty('padding-left', '0', 'important');
+                    el.style.setProperty('padding-right', '0', 'important');
+                    el.style.setProperty('margin', '20px 0 10px 0', 'important');
+                    el.style.setProperty('margin-left', '0', 'important');
+                    el.style.setProperty('text-align', 'left', 'important');
+                    el.style.setProperty('text-indent', '0', 'important');
                     el.style.setProperty('list-style', 'none', 'important');
                 }
             }
@@ -114,19 +120,19 @@ document.head.appendChild(script);
         
         // Reduce spacing in grid items
         document.querySelectorAll('.toc-grid').forEach(grid => {
-            grid.style.setProperty('gap', '10px', 'important');
-            grid.style.setProperty('margin', '15px 0', 'important');
+            grid.style.setProperty('gap', '8px', 'important');
+            grid.style.setProperty('margin', '10px 0', 'important');
         });
         
         document.querySelectorAll('.toc-item').forEach(item => {
-            item.style.setProperty('padding', '12px', 'important');
-            item.style.setProperty('margin', '8px 0', 'important');
+            item.style.setProperty('padding', '10px', 'important');
+            item.style.setProperty('margin', '5px 0', 'important');
         });
         
         // Fix highlight box
         document.querySelectorAll('.highlight').forEach(highlight => {
-            highlight.style.setProperty('margin', '10px 0', 'important');
-            highlight.style.setProperty('padding', '10px', 'important');
+            highlight.style.setProperty('margin', '8px 0', 'important');
+            highlight.style.setProperty('padding', '8px', 'important');
         });
         
         // Fix double horizontal lines under card titles
@@ -140,6 +146,21 @@ document.head.appendChild(script);
         document.querySelectorAll('[class*="card"]').forEach(el => {
             if (el.className !== 'card-header' && el.className !== 'card') {
                 el.style.setProperty('border-bottom', 'none', 'important');
+            }
+        });
+        
+        // Global spacing override - ensure no element has excessive spacing
+        document.querySelectorAll('#passages *').forEach(el => {
+            const style = window.getComputedStyle(el);
+            const marginTop = parseInt(style.marginTop);
+            const marginBottom = parseInt(style.marginBottom);
+            
+            // If margins are larger than 15px, reduce them
+            if (marginTop > 15) {
+                el.style.setProperty('margin-top', '10px', 'important');
+            }
+            if (marginBottom > 15) {
+                el.style.setProperty('margin-bottom', '10px', 'important');
             }
         });
     }
