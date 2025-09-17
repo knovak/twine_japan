@@ -2,7 +2,7 @@ body {
     font-family: 'Georgia', serif !important;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
-    padding: 4px 10px 10px 10px;
+    padding: 15px;
     min-height: 100vh;
     line-height: 1.6 !important;
 }
@@ -18,7 +18,7 @@ body {
     max-width: 800px !important;
     margin: 0 auto !important;
     background: white !important;
-    padding: 24px 32px !important;
+    padding: 40px 50px !important;
     border-radius: 15px !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
 }
@@ -36,8 +36,8 @@ h1, #passages h1, tw-passage h1, .passage h1 {
 h2, #passages h2, tw-passage h2, .passage h2 {
     color: #1e3a8a !important;
     font-size: 1.5em !important;
-    margin: 12px 0 6px 0 !important;
-    padding: 0 0 6px 0 !important;
+    margin: 20px 0 10px 0 !important;
+    padding: 0 0 8px 0 !important;
     border-bottom: 2px solid #1e3a8a !important;
     border-top: none !important;
     text-indent: 0 !important;
@@ -46,7 +46,7 @@ h2, #passages h2, tw-passage h2, .passage h2 {
 
 h3, #passages h3, tw-passage h3, .passage h3 {
     color: #2E8B57 !important;
-    margin: 6px 0 6px 0 !important;
+    margin: 0 0 10px 0 !important;
     padding: 0 !important;
     font-size: 1.3em !important;
     text-indent: 0 !important;
@@ -54,17 +54,10 @@ h3, #passages h3, tw-passage h3, .passage h3 {
 
 /* Paragraph spacing - CRITICAL FIX */
 p, #passages p, tw-passage p, .passage p {
-    margin: 0 0 6px 0 !important;
+    margin: 3px 0 !important;
     padding: 0 !important;
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
     text-indent: 0 !important;
-}
-
-#passages > *:first-child,
-tw-passage > *:first-child,
-.passage > *:first-child,
-.card > *:first-child {
-    margin-top: 0 !important;
 }
 
 /* Remove any default list styling and indentation */
@@ -86,13 +79,13 @@ ul, ol, li {
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     max-width: 650px;
     width: 95%;
-    padding: 24px 32px;
+    padding: 40px 55px;
     display: none;
     position: relative;
     border: 3px solid #2E8B57;
     max-height: 90vh;
     overflow-y: auto;
-    margin: 12px auto;
+    margin: 20px auto;
     box-sizing: border-box;
 }
 
@@ -147,13 +140,13 @@ ul, ol, li {
 }
 
 .card-content {
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
     color: #333 !important;
-    margin-bottom: 16px !important;
+    margin-bottom: 20px !important;
 }
 
 .card-content p {
-    margin: 0 0 6px 0 !important;
+    margin: 3px 0 !important;
     padding: 0 !important;
 }
 
@@ -173,7 +166,7 @@ ul, ol, li {
     padding: 12px !important;
     border-radius: 8px !important;
     border-left: 4px solid #3b82f6 !important;
-    margin: 10px 0 !important;
+    margin: 15px 0 !important;
     font-style: italic !important;
     font-weight: 500 !important;
 }
@@ -183,12 +176,12 @@ ul, ol, li {
     background-color: #e8f4fd !important;
     border: 2px solid #bee5eb !important;
     border-radius: 10px !important;
-    margin: 12px 0 !important;
+    margin: 15px 0 !important;
     padding: 0 !important;
 }
 
 .location-toggle {
-    padding: 6px 12px !important;
+    padding: 10px 15px !important;
     margin: 0 !important;
     cursor: pointer;
     display: flex;
@@ -207,7 +200,7 @@ ul, ol, li {
     color: #0c5460 !important;
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 1.05em !important;
+    font-size: 1.2em !important;
     font-weight: bold !important;
     display: flex;
     align-items: center;
@@ -216,7 +209,7 @@ ul, ol, li {
 
 .toggle-icon {
     color: #0c5460 !important;
-    font-size: 1.2em !important;
+    font-size: 1.4em !important;
     font-weight: bold !important;
     transition: transform 0.3s ease;
 }
@@ -228,14 +221,14 @@ ul, ol, li {
 }
 
 .location-content.expanded {
-    max-height: 260px;
-    padding: 0 12px 10px !important;
+    max-height: 300px;
+    padding: 0 15px 15px !important;
 }
 
 .address {
-    margin-bottom: 8px !important;
+    margin-bottom: 12px !important;
     padding: 0 !important;
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
 }
 
 .address-label {
@@ -449,6 +442,7 @@ h1:contains("日光旅行ガイド"),
     text-indent: 0 !important;
     margin-left: 0 !important;
     padding-left: 0 !important;
+    color: #1e3a8a !important;
 }
 
 /* Ensure no automatic paragraph spacing */
