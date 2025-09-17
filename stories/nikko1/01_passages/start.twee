@@ -1,10 +1,10 @@
 :: Table of Contents
-# 日光旅行ガイド
-## Nikko Travel Guide
+! 日光旅行ガイド
+!! Nikko Travel Guide
 
-Discover the historic temples, beautiful shrines, and modern comforts of Nikko through these interactive cards. From ancient sacred sites to luxurious accommodations, explore everything this UNESCO World Heritage area has to offer.
+<p>Discover the historic temples, beautiful shrines, and modern comforts of Nikko through these interactive cards. From ancient sacred sites to luxurious accommodations, explore everything this UNESCO World Heritage area has to offer.</p>
 
-## Attractions
+!! Attractions
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -38,7 +38,7 @@ Discover the historic temples, beautiful shrines, and modern comforts of Nikko t
 </div>
 </div>
 
-## Hotels
+!! Hotels
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -52,7 +52,7 @@ Discover the historic temples, beautiful shrines, and modern comforts of Nikko t
 </div>
 </div>
 
-## Transport
+!! Transport
 
 <div class="toc-grid">
 <div class="toc-item">
