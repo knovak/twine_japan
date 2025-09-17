@@ -14,6 +14,39 @@ Nikko Travel Guide
 @import url("./assets/styles.css");
 
 :: Story JavaScript [script]
+// IMMEDIATE SPACING OVERRIDE - Runs before anything else
+(function() {
+    // Create and inject critical spacing CSS immediately
+    var criticalCSS = `
+        body { padding: 2px !important; line-height: 1.1 !important; }
+        #passages { padding: 0 20px 10px 20px !important; }
+        #passages p, .passage p, div p { 
+            margin: 0 0 1px 0 !important; 
+            padding: 0 !important; 
+            line-height: 1.05 !important; 
+        }
+        .location-section { margin: 2px 0 !important; }
+        .location-toggle { 
+            padding: 1px 8px !important; 
+            height: 20px !important;
+            line-height: 18px !important;
+        }
+        .highlight { 
+            margin: 2px 0 !important; 
+            padding: 2px 4px !important; 
+        }
+        h1 { margin: 0 0 2px 0 !important; line-height: 0.9 !important; }
+        h2 { margin: 2px 0 1px 0 !important; line-height: 0.9 !important; }
+        .toc-grid { gap: 2px !important; margin: 2px 0 !important; }
+        .toc-item { padding: 3px !important; }
+        p + p { margin-top: 0 !important; }
+    `;
+    
+    var style = document.createElement('style');
+    style.innerHTML = criticalCSS;
+    document.head.insertBefore(style, document.head.firstChild);
+})();
+
 var script = document.createElement('script');
 script.src = 'assets/scripts.js';
 document.head.appendChild(script);
@@ -36,7 +69,7 @@ document.head.appendChild(script);
                 li.style.setProperty('font-weight', 'bold', 'important');
                 li.style.setProperty('text-align', 'center', 'important');
                 li.style.setProperty('list-style', 'none', 'important');
-                li.style.setProperty('margin', '10px 0', 'important');
+                li.style.setProperty('margin', '2px 0', 'important');
                 li.style.setProperty('padding', '0', 'important');
             }
         });
@@ -45,25 +78,45 @@ document.head.appendChild(script);
         const passage = document.querySelector('#passages .passage');
         if (passage) {
             passage.style.setProperty('color', '#333', 'important');
-            passage.style.setProperty('padding', '5px', 'important'); /* Reduced from 10px to 5px */
+            passage.style.setProperty('padding', '0px', 'important'); /* No padding */
             passage.style.setProperty('margin', '0 auto', 'important');
             passage.style.setProperty('max-width', '800px', 'important');
-            passage.style.setProperty('line-height', '1.3', 'important'); /* Reduced from 1.4 to 1.3 */
+            passage.style.setProperty('line-height', '1.1', 'important'); /* Very tight spacing */
             passage.style.setProperty('font-family', 'Georgia, serif', 'important');
         }
         
-        // Fix paragraph spacing - reduce white space significantly
-        document.querySelectorAll('#passages p').forEach(p => {
-            p.style.setProperty('margin', '2px 0', 'important'); /* Reduced from 5px to 2px */
-            p.style.setProperty('line-height', '1.3', 'important'); /* Reduced from 1.4 to 1.3 */
+        // Override the main passages container padding
+        const passagesMain = document.querySelector('#passages');
+        if (passagesMain) {
+            passagesMain.style.setProperty('padding', '0px 20px 10px 20px', 'important');
+        }
+        
+        // Fix paragraph spacing - AGGRESSIVE reduction
+        document.querySelectorAll('#passages p, .passage p, div p').forEach(p => {
+            p.style.setProperty('margin', '0', 'important');
+            p.style.setProperty('margin-bottom', '2px', 'important'); /* Tiny gap only */
+            p.style.setProperty('line-height', '1.15', 'important'); /* Very tight */
+            p.style.setProperty('padding', '0', 'important');
             p.style.setProperty('color', '#333', 'important');
         });
         
-        // Reduce spacing for all content elements
+        // Reduce spacing for all content elements - AGGRESSIVE
         document.querySelectorAll('#passages div, #passages h1, #passages h2, #passages h3').forEach(el => {
-            const currentMargin = window.getComputedStyle(el).margin;
-            if (currentMargin !== '0px') {
-                el.style.setProperty('margin', '3px 0', 'important'); /* Reduced from 5px to 3px */
+            // Force minimal margins on everything
+            el.style.setProperty('margin', '0', 'important');
+            el.style.setProperty('padding', '0', 'important');
+            
+            // Add tiny margins only where needed
+            if (el.tagName === 'H1') {
+                el.style.setProperty('margin-bottom', '4px', 'important');
+                el.style.setProperty('line-height', '1.0', 'important');
+            } else if (el.tagName === 'H2') {
+                el.style.setProperty('margin', '3px 0 2px 0', 'important');
+                el.style.setProperty('padding-bottom', '2px', 'important');
+                el.style.setProperty('line-height', '1.0', 'important');
+            } else if (el.tagName === 'H3') {
+                el.style.setProperty('margin-bottom', '2px', 'important');
+                el.style.setProperty('line-height', '1.1', 'important');
             }
         });
         
@@ -105,11 +158,11 @@ document.head.appendChild(script);
                     el.style.setProperty('font-weight', 'bold', 'important');
                     el.style.setProperty('border-bottom', '2px solid #1e3a8a', 'important');
                     el.style.setProperty('border-top', '2px solid #1e3a8a', 'important');
-                    el.style.setProperty('padding-top', '15px', 'important');
-                    el.style.setProperty('padding-bottom', '8px', 'important');
+                    el.style.setProperty('padding-top', '4px', 'important');
+                    el.style.setProperty('padding-bottom', '2px', 'important');
                     el.style.setProperty('padding-left', '0', 'important');
                     el.style.setProperty('padding-right', '0', 'important');
-                    el.style.setProperty('margin', '20px 0 10px 0', 'important');
+                    el.style.setProperty('margin', '5px 0 3px 0', 'important');
                     el.style.setProperty('margin-left', '0', 'important');
                     el.style.setProperty('text-align', 'left', 'important');
                     el.style.setProperty('text-indent', '0', 'important');
@@ -118,21 +171,39 @@ document.head.appendChild(script);
             }
         });
         
-        // Reduce spacing in grid items
+        // Reduce spacing in grid items - AGGRESSIVE
         document.querySelectorAll('.toc-grid').forEach(grid => {
-            grid.style.setProperty('gap', '6px', 'important'); /* Reduced from 8px to 6px */
-            grid.style.setProperty('margin', '6px 0', 'important'); /* Reduced from 10px to 6px */
+            grid.style.setProperty('gap', '4px', 'important');
+            grid.style.setProperty('margin', '4px 0', 'important');
+            grid.style.setProperty('padding', '0', 'important');
         });
         
         document.querySelectorAll('.toc-item').forEach(item => {
-            item.style.setProperty('padding', '8px', 'important'); /* Reduced from 10px to 8px */
-            item.style.setProperty('margin', '3px 0', 'important'); /* Reduced from 5px to 3px */
+            item.style.setProperty('padding', '5px', 'important');
+            item.style.setProperty('margin', '0', 'important');
+        });
+        
+        document.querySelectorAll('.toc-item h3').forEach(h3 => {
+            h3.style.setProperty('margin', '0 0 2px 0', 'important');
+            h3.style.setProperty('line-height', '1.1', 'important');
         });
         
         // Fix highlight box
         document.querySelectorAll('.highlight').forEach(highlight => {
-            highlight.style.setProperty('margin', '5px 0', 'important'); /* Reduced from 8px to 5px */
-            highlight.style.setProperty('padding', '6px', 'important'); /* Reduced from 8px to 6px */
+            highlight.style.setProperty('margin', '3px 0', 'important');
+            highlight.style.setProperty('padding', '4px 6px', 'important');
+            highlight.style.setProperty('line-height', '1.2', 'important');
+        });
+        
+        // Fix location section
+        document.querySelectorAll('.location-section').forEach(section => {
+            section.style.setProperty('margin', '3px 0', 'important');
+        });
+        
+        document.querySelectorAll('.location-toggle').forEach(toggle => {
+            toggle.style.setProperty('padding', '2px 10px', 'important');
+            toggle.style.setProperty('min-height', '20px', 'important');
+            toggle.style.setProperty('max-height', '25px', 'important');
         });
         
         // Fix double horizontal lines under card titles
@@ -155,12 +226,12 @@ document.head.appendChild(script);
             const marginTop = parseInt(style.marginTop);
             const marginBottom = parseInt(style.marginBottom);
             
-            // If margins are larger than 8px, reduce them more aggressively
-            if (marginTop > 8) {
-                el.style.setProperty('margin-top', '5px', 'important'); /* Reduced from 10px to 5px */
+            // Force minimal margins on everything
+            if (marginTop > 4) {
+                el.style.setProperty('margin-top', '2px', 'important');
             }
-            if (marginBottom > 8) {
-                el.style.setProperty('margin-bottom', '5px', 'important'); /* Reduced from 10px to 5px */
+            if (marginBottom > 4) {
+                el.style.setProperty('margin-bottom', '2px', 'important');
             }
         });
     }
@@ -177,6 +248,6 @@ document.head.appendChild(script);
     const observer = new MutationObserver(forceHeaderColors);
     observer.observe(document.body, { childList: true, subtree: true });
     
-    // Also run on a timer as backup
-    setInterval(forceHeaderColors, 1000);
+    // Also run on a timer as backup - more frequently to ensure changes stick
+    setInterval(forceHeaderColors, 500);
 })();
