@@ -60,6 +60,13 @@ p, #passages p, tw-passage p, .passage p {
     text-indent: 0 !important;
 }
 
+#passages > *:first-child,
+tw-passage > *:first-child,
+.passage > *:first-child,
+.card > *:first-child {
+    margin-top: 0 !important;
+}
+
 /* Remove any default list styling and indentation */
 ul, ol, li {
     list-style: none !important;
