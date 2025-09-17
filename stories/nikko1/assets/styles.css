@@ -2,7 +2,7 @@ body {
     font-family: 'Georgia', serif !important;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
-    padding: 15px;
+    padding: 4px 10px 10px 10px;
     min-height: 100vh;
     line-height: 1.6 !important;
 }
@@ -54,9 +54,9 @@ h3, #passages h3, tw-passage h3, .passage h3 {
 
 /* Paragraph spacing - CRITICAL FIX */
 p, #passages p, tw-passage p, .passage p {
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 6px 0 !important;
     padding: 0 !important;
-    line-height: 1.6 !important;
+    line-height: 1.5 !important;
     text-indent: 0 !important;
 }
 
@@ -147,13 +147,13 @@ ul, ol, li {
 }
 
 .card-content {
-    line-height: 1.6 !important;
+    line-height: 1.5 !important;
     color: #333 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 16px !important;
 }
 
 .card-content p {
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 6px 0 !important;
     padding: 0 !important;
 }
 
@@ -173,7 +173,7 @@ ul, ol, li {
     padding: 12px !important;
     border-radius: 8px !important;
     border-left: 4px solid #3b82f6 !important;
-    margin: 15px 0 !important;
+    margin: 10px 0 !important;
     font-style: italic !important;
     font-weight: 500 !important;
 }
@@ -183,12 +183,12 @@ ul, ol, li {
     background-color: #e8f4fd !important;
     border: 2px solid #bee5eb !important;
     border-radius: 10px !important;
-    margin: 15px 0 !important;
+    margin: 12px 0 !important;
     padding: 0 !important;
 }
 
 .location-toggle {
-    padding: 10px 15px !important;
+    padding: 6px 12px !important;
     margin: 0 !important;
     cursor: pointer;
     display: flex;
@@ -207,7 +207,7 @@ ul, ol, li {
     color: #0c5460 !important;
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 1.2em !important;
+    font-size: 1.05em !important;
     font-weight: bold !important;
     display: flex;
     align-items: center;
@@ -216,7 +216,7 @@ ul, ol, li {
 
 .toggle-icon {
     color: #0c5460 !important;
-    font-size: 1.4em !important;
+    font-size: 1.2em !important;
     font-weight: bold !important;
     transition: transform 0.3s ease;
 }
@@ -228,14 +228,14 @@ ul, ol, li {
 }
 
 .location-content.expanded {
-    max-height: 300px;
-    padding: 0 15px 15px !important;
+    max-height: 260px;
+    padding: 0 12px 10px !important;
 }
 
 .address {
-    margin-bottom: 12px !important;
+    margin-bottom: 8px !important;
     padding: 0 !important;
-    line-height: 1.6 !important;
+    line-height: 1.5 !important;
 }
 
 .address-label {
