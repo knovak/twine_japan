@@ -2,7 +2,7 @@ body {
     font-family: 'Georgia', serif !important;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
-    padding: 4px 10px 10px 10px;
+    padding: 15px;
     min-height: 100vh;
     line-height: 1.6 !important;
 }
@@ -18,7 +18,7 @@ body {
     max-width: 800px !important;
     margin: 0 auto !important;
     background: white !important;
-    padding: 24px 32px !important;
+    padding: 1px 32px 24px 32px !important; /* Reduced top padding from 2px to 1px (1/10 size) */
     border-radius: 15px !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
 }
@@ -36,8 +36,8 @@ h1, #passages h1, tw-passage h1, .passage h1 {
 h2, #passages h2, tw-passage h2, .passage h2 {
     color: #1e3a8a !important;
     font-size: 1.5em !important;
-    margin: 12px 0 6px 0 !important;
-    padding: 0 0 6px 0 !important;
+    margin: 8px 0 4px 0 !important; /* Reduced margins */
+    padding: 0 0 4px 0 !important; /* Reduced padding */
     border-bottom: 2px solid #1e3a8a !important;
     border-top: none !important;
     text-indent: 0 !important;
@@ -54,17 +54,10 @@ h3, #passages h3, tw-passage h3, .passage h3 {
 
 /* Paragraph spacing - CRITICAL FIX */
 p, #passages p, tw-passage p, .passage p {
-    margin: 0 0 6px 0 !important;
+    margin: 0 0 3px 0 !important; /* Reduced bottom margin from 5px to 3px */
     padding: 0 !important;
-    line-height: 1.5 !important;
+    line-height: 1.4 !important; /* Reduced line-height from 1.6 to 1.4 */
     text-indent: 0 !important;
-}
-
-#passages > *:first-child,
-tw-passage > *:first-child,
-.passage > *:first-child,
-.card > *:first-child {
-    margin-top: 0 !important;
 }
 
 /* Remove any default list styling and indentation */
@@ -147,13 +140,13 @@ ul, ol, li {
 }
 
 .card-content {
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
     color: #333 !important;
-    margin-bottom: 16px !important;
+    margin-bottom: 20px !important;
 }
 
 .card-content p {
-    margin: 0 0 6px 0 !important;
+    margin: 0 0 5px 0 !important;
     padding: 0 !important;
 }
 
@@ -170,10 +163,10 @@ ul, ol, li {
 .highlight {
     background-color: #1e3a8a !important;
     color: white !important;
-    padding: 12px !important;
+    padding: 8px !important; /* Reduced padding from 12px to 8px */
     border-radius: 8px !important;
     border-left: 4px solid #3b82f6 !important;
-    margin: 10px 0 !important;
+    margin: 8px 0 !important; /* Reduced margin from 15px to 8px */
     font-style: italic !important;
     font-weight: 500 !important;
 }
@@ -183,12 +176,12 @@ ul, ol, li {
     background-color: #e8f4fd !important;
     border: 2px solid #bee5eb !important;
     border-radius: 10px !important;
-    margin: 12px 0 !important;
+    margin: 8px 0 !important; /* Reduced vertical margin from 15px to 8px */
     padding: 0 !important;
 }
 
 .location-toggle {
-    padding: 6px 12px !important;
+    padding: 5px 15px !important; /* Reduced vertical padding from 10px to 5px (half size) */
     margin: 0 !important;
     cursor: pointer;
     display: flex;
@@ -207,7 +200,7 @@ ul, ol, li {
     color: #0c5460 !important;
     margin: 0 !important;
     padding: 0 !important;
-    font-size: 1.05em !important;
+    font-size: 1.2em !important;
     font-weight: bold !important;
     display: flex;
     align-items: center;
@@ -216,7 +209,7 @@ ul, ol, li {
 
 .toggle-icon {
     color: #0c5460 !important;
-    font-size: 1.2em !important;
+    font-size: 1.4em !important;
     font-weight: bold !important;
     transition: transform 0.3s ease;
 }
@@ -228,14 +221,14 @@ ul, ol, li {
 }
 
 .location-content.expanded {
-    max-height: 260px;
-    padding: 0 12px 10px !important;
+    max-height: 150px;
+    padding: 0 15px 8px !important; /* Reduced bottom padding from 15px to 8px */
 }
 
 .address {
-    margin-bottom: 8px !important;
+    margin-bottom: 12px !important;
     padding: 0 !important;
-    line-height: 1.5 !important;
+    line-height: 1.6 !important;
 }
 
 .address-label {
@@ -345,15 +338,15 @@ ul, ol, li {
 
 .toc-grid {
     display: grid !important;
-    gap: 15px !important;
-    margin: 20px 0 !important;
+    gap: 10px !important; /* Reduced gap from 15px to 10px */
+    margin: 12px 0 !important; /* Reduced margin from 20px to 12px */
     padding: 0 !important;
 }
 
 .toc-item {
     border: 2px solid #2E8B57 !important;
     border-radius: 10px !important;
-    padding: 15px !important;
+    padding: 10px !important; /* Reduced padding from 15px to 10px */
     margin: 0 !important;
     transition: all 0.3s ease;
     background: white !important;
@@ -453,7 +446,7 @@ h1:contains("日光旅行ガイド"),
 
 /* Ensure no automatic paragraph spacing */
 #passages p + p, tw-passage p + p, .passage p + p {
-    margin-top: 3px !important;
+    margin-top: 0px !important; /* Reduced from 1px to 0px to minimize spacing between consecutive paragraphs */
 }
 
 /* Override any default browser/SugarCube margins */
