@@ -91,4 +91,5 @@ jobs:
         uses: actions/deploy-pages@v4
       - name: Display deployment URL
         if: github.event_name == 'push'
-        run: echo "GitHub Pages URL: ${{ steps.deploy.outputs.page_url }}"
+        run: |
+          echo "GitHub Pages URL: ${{ steps.deploy.outputs.page_url }}"
