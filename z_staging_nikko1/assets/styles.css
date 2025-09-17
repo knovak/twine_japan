@@ -2,15 +2,16 @@ body {
     font-family: 'Georgia', serif !important;
     background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
     margin: 0;
-    padding: 15px;
+    padding: 2px !important; /* Drastically reduced from 15px */
     min-height: 100vh;
-    line-height: 1.6 !important;
+    line-height: 1.2 !important; /* Reduced from 1.6 */
 }
 
 /* AGGRESSIVE RESET - Override SugarCube defaults */
-#passages, #passages *, tw-passage, tw-passage * {
+#passages, #passages *, tw-passage, tw-passage *, .passage, .passage * {
     margin: 0 !important;
     padding: 0 !important;
+    line-height: 1.1 !important; /* Force tight line spacing */
 }
 
 /* Main passage container */
@@ -18,7 +19,7 @@ body {
     max-width: 800px !important;
     margin: 0 auto !important;
     background: white !important;
-    padding: 1px 32px 24px 32px !important; /* Reduced top padding from 2px to 1px (1/10 size) */
+    padding: 0px 20px 10px 20px !important; /* Drastically reduced all padding */
     border-radius: 15px !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
 }
@@ -28,20 +29,22 @@ h1, #passages h1, tw-passage h1, .passage h1 {
     color: #1e3a8a !important;
     font-size: 2.5em !important;
     text-align: center !important;
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 4px 0 !important; /* Reduced from 10px to 4px */
     padding: 0 !important;
     text-indent: 0 !important;
+    line-height: 1.0 !important;
 }
 
 h2, #passages h2, tw-passage h2, .passage h2 {
     color: #1e3a8a !important;
     font-size: 1.5em !important;
-    margin: 8px 0 4px 0 !important; /* Reduced margins */
-    padding: 0 0 4px 0 !important; /* Reduced padding */
+    margin: 3px 0 2px 0 !important; /* Drastically reduced */
+    padding: 0 0 2px 0 !important; /* Minimal padding */
     border-bottom: 2px solid #1e3a8a !important;
     border-top: none !important;
     text-indent: 0 !important;
     text-align: left !important;
+    line-height: 1.0 !important;
 }
 
 h3, #passages h3, tw-passage h3, .passage h3 {
@@ -53,10 +56,11 @@ h3, #passages h3, tw-passage h3, .passage h3 {
 }
 
 /* Paragraph spacing - CRITICAL FIX */
-p, #passages p, tw-passage p, .passage p {
-    margin: 0 0 3px 0 !important; /* Reduced bottom margin from 5px to 3px */
+p, #passages p, tw-passage p, .passage p, div p {
+    margin: 0 !important; /* No margins at all */
+    margin-bottom: 2px !important; /* Tiny gap between paragraphs */
     padding: 0 !important;
-    line-height: 1.4 !important; /* Reduced line-height from 1.6 to 1.4 */
+    line-height: 1.15 !important; /* Very tight line spacing */
     text-indent: 0 !important;
 }
 
@@ -163,25 +167,26 @@ ul, ol, li {
 .highlight {
     background-color: #1e3a8a !important;
     color: white !important;
-    padding: 8px !important; /* Reduced padding from 12px to 8px */
+    padding: 4px 6px !important; /* Much smaller padding */
     border-radius: 8px !important;
     border-left: 4px solid #3b82f6 !important;
-    margin: 8px 0 !important; /* Reduced margin from 15px to 8px */
+    margin: 3px 0 !important; /* Tiny margins */
     font-style: italic !important;
     font-weight: 500 !important;
+    line-height: 1.2 !important;
 }
 
 /* Collapsible Location Styles */
 .location-section {
     background-color: #e8f4fd !important;
-    border: 2px solid #bee5eb !important;
+    border: 1px solid #bee5eb !important; /* Thinner border */
     border-radius: 10px !important;
-    margin: 8px 0 !important; /* Reduced vertical margin from 15px to 8px */
+    margin: 3px 0 !important; /* Much smaller margin */
     padding: 0 !important;
 }
 
 .location-toggle {
-    padding: 5px 15px !important; /* Reduced vertical padding from 10px to 5px (half size) */
+    padding: 2px 10px !important; /* Minimal padding */
     margin: 0 !important;
     cursor: pointer;
     display: flex;
@@ -189,6 +194,8 @@ ul, ol, li {
     align-items: center;
     transition: all 0.3s ease;
     user-select: none;
+    min-height: 20px !important; /* Force smaller height */
+    max-height: 25px !important;
 }
 
 .location-toggle:hover {
@@ -221,8 +228,8 @@ ul, ol, li {
 }
 
 .location-content.expanded {
-    max-height: 150px;
-    padding: 0 15px 8px !important; /* Reduced bottom padding from 15px to 8px */
+    max-height: 100px !important; /* Smaller max height */
+    padding: 2px 10px 4px !important; /* Minimal padding */
 }
 
 .address {
@@ -338,15 +345,15 @@ ul, ol, li {
 
 .toc-grid {
     display: grid !important;
-    gap: 10px !important; /* Reduced gap from 15px to 10px */
-    margin: 12px 0 !important; /* Reduced margin from 20px to 12px */
+    gap: 4px !important; /* Minimal gap */
+    margin: 4px 0 !important; /* Tiny margin */
     padding: 0 !important;
 }
 
 .toc-item {
-    border: 2px solid #2E8B57 !important;
+    border: 1px solid #2E8B57 !important;
     border-radius: 10px !important;
-    padding: 10px !important; /* Reduced padding from 15px to 10px */
+    padding: 5px !important; /* Minimal padding */
     margin: 0 !important;
     transition: all 0.3s ease;
     background: white !important;
@@ -361,9 +368,10 @@ ul, ol, li {
 
 .toc-item h3 {
     color: #2E8B57 !important;
-    margin: 0 0 10px 0 !important;
+    margin: 0 0 2px 0 !important; /* Tiny margin */
     padding: 0 !important;
-    font-size: 1.3em !important;
+    font-size: 1.2em !important;
+    line-height: 1.1 !important;
 }
 
 .toc-item h3 a {
@@ -458,4 +466,141 @@ body, html {
 /* Force consistent spacing throughout */
 #passages * {
     box-sizing: border-box !important;
+}
+
+/* NUCLEAR OPTION - ULTRA HIGH SPECIFICITY OVERRIDES */
+/* These should override EVERYTHING including SugarCube defaults */
+html body #passages,
+html body tw-story #passages,
+html body #story #passages {
+    padding-top: 0 !important;
+    padding-bottom: 10px !important;
+    margin-top: 0 !important;
+}
+
+html body #passages > *:first-child,
+html body tw-story #passages > *:first-child {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+html body #passages p,
+html body tw-story #passages p,
+html body #story #passages p,
+html body .passage p,
+html body div p {
+    margin: 0 0 1px 0 !important;
+    padding: 0 !important;
+    line-height: 1.05 !important;
+}
+
+html body #passages br,
+html body tw-story #passages br {
+    line-height: 0.5 !important;
+    height: 2px !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html body .location-section,
+html body #passages .location-section {
+    margin: 2px 0 !important;
+    padding: 0 !important;
+}
+
+html body .location-toggle,
+html body #passages .location-toggle {
+    padding: 1px 8px !important;
+    height: 20px !important;
+    min-height: 18px !important;
+    max-height: 22px !important;
+    line-height: 18px !important;
+}
+
+html body .highlight,
+html body #passages .highlight {
+    margin: 2px 0 !important;
+    padding: 2px 4px !important;
+    line-height: 1.0 !important;
+}
+
+html body h1,
+html body #passages h1,
+html body .passage h1 {
+    margin: 0 0 2px 0 !important;
+    padding: 0 !important;
+    line-height: 0.9 !important;
+}
+
+html body h2,
+html body #passages h2,
+html body .passage h2 {
+    margin: 2px 0 1px 0 !important;
+    padding: 0 0 1px 0 !important;
+    line-height: 0.9 !important;
+}
+
+/* Remove ALL spacing before paragraphs */
+html body p:before,
+html body #passages p:before {
+    content: none !important;
+    display: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Force minimal spacing between consecutive paragraphs */
+html body p + p,
+html body #passages p + p {
+    margin-top: 0 !important;
+}
+
+/* Override any ::before or ::after pseudo-elements that add spacing */
+html body #passages *::before,
+html body #passages *::after {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+/* Target specific SugarCube elements */
+html body .passage-content,
+html body #passage-content,
+html body #passages .passage-content {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Remove spacing from any wrapper divs */
+html body #passages > div,
+html body .passage > div {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+/* Specific overrides for the Table of Contents items */
+html body .toc-grid,
+html body #passages .toc-grid {
+    gap: 2px !important;
+    margin: 2px 0 !important;
+}
+
+html body .toc-item,
+html body #passages .toc-item {
+    padding: 3px !important;
+    margin: 0 !important;
+}
+
+html body .toc-item h3,
+html body #passages .toc-item h3 {
+    margin: 0 0 1px 0 !important;
+    line-height: 1.0 !important;
+}
+
+html body .toc-item p,
+html body #passages .toc-item p {
+    margin: 0 !important;
+    line-height: 1.1 !important;
 }
