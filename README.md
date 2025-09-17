@@ -21,6 +21,31 @@ compiled into static HTML decks. The local build script performs the following:
 3. The output under `dist/` can be opened locally or published as the static
    site.
 
+## CSS layering and overrides
+
+Tweego assembles each story's HTML with three tiers of styling, which layer in a
+predictable order:
+
+1. **SugarCube base theme.** Every story declares the SugarCube 2.36.1 format in
+   its story metadata, and the build script points Tweego at the vendored
+   `formats/` directory. SugarCube's bundled stylesheet is, therefore, the first
+   set of rules applied to the passages.
+2. **Shared typography tweaks.** Stories that want a common baseline import the
+   repository-level stylesheet via `StoryStylesheet`. The shared file tightens up
+   fonts and default spacing for Twine's `<tw-story>` element, providing a light
+   layer of overrides on top of SugarCube.
+3. **Story-specific presentation.** Additional `@import` rules bring in a deck's
+   own `assets/styles.css`, which the build step copies next to the compiled
+   story. These files introduce the heavy customizations—backgrounds, cards, and
+   resets—with liberal use of `!important` where the layout needs to trump the
+   upstream defaults.
+
+Because Tweego injects the `StoryStylesheet` content as-is, the order of the
+`@import` statements decides which layer wins in the cascade. Kyoto's stories
+load the shared tweaks before their own file, while the Nikko deck imports only
+its aggressive reset stylesheet, so it completely replaces SugarCube's look and
+feel.
+
 ## Continuous integration & deployment
 
 GitHub Actions automate the build and release flow:
