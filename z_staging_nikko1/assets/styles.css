@@ -18,7 +18,7 @@ body {
     max-width: 800px !important;
     margin: 0 auto !important;
     background: white !important;
-    padding: 24px 36px !important;
+    padding: 24px 32px !important;
     border-radius: 15px !important;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2) !important;
 }
@@ -36,7 +36,7 @@ h1, #passages h1, tw-passage h1, .passage h1 {
 h2, #passages h2, tw-passage h2, .passage h2 {
     color: #1e3a8a !important;
     font-size: 1.5em !important;
-    margin: 16px 0 8px 0 !important;
+    margin: 12px 0 6px 0 !important;
     padding: 0 0 6px 0 !important;
     border-bottom: 2px solid #1e3a8a !important;
     border-top: none !important;
@@ -46,7 +46,7 @@ h2, #passages h2, tw-passage h2, .passage h2 {
 
 h3, #passages h3, tw-passage h3, .passage h3 {
     color: #2E8B57 !important;
-    margin: 8px 0 6px 0 !important;
+    margin: 6px 0 6px 0 !important;
     padding: 0 !important;
     font-size: 1.3em !important;
     text-indent: 0 !important;
@@ -86,13 +86,13 @@ ul, ol, li {
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     max-width: 650px;
     width: 95%;
-    padding: 24px 36px;
+    padding: 24px 32px;
     display: none;
     position: relative;
     border: 3px solid #2E8B57;
     max-height: 90vh;
     overflow-y: auto;
-    margin: 20px auto;
+    margin: 12px auto;
     box-sizing: border-box;
 }
 
@@ -153,7 +153,7 @@ ul, ol, li {
 }
 
 .card-content p {
-    margin: 3px 0 !important;
+    margin: 0 0 10px 0 !important;
     padding: 0 !important;
 }
 
