@@ -1,4 +1,4 @@
-name: Build & Deploy Pages (Tweego + PWA)
+name: Build Pages (Tweego + PWA)
 
 on:
   pull_request:
@@ -13,15 +13,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - name: Determine story prefix
         run: |
           if [ "${GITHUB_REF_NAME}" != "main" ]; then
-            echo "STORY_PREFIX=latest_" >> "$GITHUB_ENV"
+            echo "STORY_PREFIX=z_staging_" >> "$GITHUB_ENV"
           fi
       - name: Cache Tweego
         uses: actions/cache@v4
@@ -74,21 +71,3 @@ jobs:
           else
             echo "No changes to commit"
           fi
-      - name: Prepare deployment artifact
-        if: github.event_name == 'push'
-        run: |
-          rm -rf gh-pages-public
-          mkdir -p gh-pages-public
-          rsync -a --delete --exclude '.git' gh-pages/ gh-pages-public/
-      - name: Upload GitHub Pages artifact
-        if: github.event_name == 'push'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: gh-pages-public
-      - name: Deploy to GitHub Pages
-        if: github.event_name == 'push'
-        id: deploy
-        uses: actions/deploy-pages@v4
-      - name: Display deployment URL
-        if: github.event_name == 'push'
-        run: echo "GitHub Pages URL: ${{ steps.deploy.outputs.page_url }}"
