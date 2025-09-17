@@ -99,8 +99,172 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://A892D347-8BFC-4A21-9E5A-3F7B9E8C1024// --><tw-storydata name="Nikko Travel Guide" startnode="9" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="A892D347-8BFC-4A21-9E5A-3F7B9E8C1024" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("./assets/styles.css");</style><script role="script" id="twine-user-script" type="text/twine-javascript">// Pure CSS approach - no dynamic styling
-// Only functional JavaScript, no CSS modifications</script><tw-passagedata pid="1" name="Futarasan Shrine" tags="" position="100,100" size="100,100">&lt;div class=&quot;card active&quot; id=&quot;card4&quot;&gt;
+	<!-- UUID://A892D347-8BFC-4A21-9E5A-3F7B9E8C1024// --><tw-storydata name="Nikko Travel Guide" startnode="9" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="A892D347-8BFC-4A21-9E5A-3F7B9E8C1024" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("./assets/styles.css");</style><script role="script" id="twine-user-script" type="text/twine-javascript">var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);
+
+// Force header colors via JavaScript - should override any CSS
+(function() {
+    function forceHeaderColors() {
+        // Target all h1 and h2 elements
+        const headers = document.querySelectorAll('h1, h2');
+        headers.forEach(header => {
+            header.style.setProperty('color', '#1e3a8a', 'important');
+        });
+        
+        // Target the main titles that are rendered as LI elements
+        document.querySelectorAll('li').forEach(li => {
+            const text = li.textContent.trim();
+            if (text === '日光旅行ガイド' || text === 'Nikko Travel Guide') {
+                li.style.setProperty('color', '#1e3a8a', 'important');
+                li.style.setProperty('font-size', '2.5em', 'important');
+                li.style.setProperty('font-weight', 'bold', 'important');
+                li.style.setProperty('text-align', 'center', 'important');
+                li.style.setProperty('list-style', 'none', 'important');
+                li.style.setProperty('margin', '10px 0', 'important');
+                li.style.setProperty('padding', '0', 'important');
+            }
+        });
+        
+        // Fix main passage container - make text visible and add proper spacing
+        const passage = document.querySelector('#passages .passage');
+        if (passage) {
+            passage.style.setProperty('color', '#333', 'important');
+            passage.style.setProperty('padding', '10px', 'important');
+            passage.style.setProperty('margin', '0 auto', 'important');
+            passage.style.setProperty('max-width', '800px', 'important');
+            passage.style.setProperty('line-height', '1.4', 'important');
+            passage.style.setProperty('font-family', 'Georgia, serif', 'important');
+        }
+        
+        // Fix paragraph spacing - reduce white space significantly
+        document.querySelectorAll('#passages p').forEach(p => {
+            p.style.setProperty('margin', '5px 0', 'important');
+            p.style.setProperty('line-height', '1.4', 'important');
+            p.style.setProperty('color', '#333', 'important');
+        });
+        
+        // Reduce spacing for all content elements
+        document.querySelectorAll('#passages div, #passages h1, #passages h2, #passages h3').forEach(el => {
+            const currentMargin = window.getComputedStyle(el).margin;
+            if (currentMargin !== '0px') {
+                el.style.setProperty('margin', '5px 0', 'important');
+            }
+        });
+        
+        // Fix any invisible text in the main content
+        document.querySelectorAll('#passages *').forEach(el => {
+            if (el.textContent.includes('Discover the historic temples') || 
+                el.textContent.includes('From ancient sacred sites')) {
+                el.style.setProperty('color', '#333', 'important');
+                el.style.setProperty('display', 'block', 'important');
+            }
+        });
+        
+        // Also target any elements that might contain the section titles
+        const passages = document.querySelectorAll('[data-passage], .passage, tw-passage');
+        passages.forEach(passage => {
+            const h1s = passage.querySelectorAll('h1');
+            const h2s = passage.querySelectorAll('h2');
+            [...h1s, ...h2s].forEach(header => {
+                header.style.setProperty('color', '#1e3a8a', 'important');
+            });
+        });
+        
+        // Target section headers (Attractions, Hotels, Transport) that might be in other elements
+        document.querySelectorAll('*').forEach(el => {
+            if (el.children.length === 0) {
+                const text = el.textContent.trim();
+                // Handle both direct text and numbered list format
+                if (text === 'Attractions' || text === '1. Attractions' ||
+                    text === 'Hotels' || text === '2. Hotels' ||
+                    text === 'Transport' || text === '3. Transport') {
+                    
+                    // Clean up the text (remove numbers)
+                    if (text.includes('1. ')) el.textContent = 'Attractions';
+                    if (text.includes('2. ')) el.textContent = 'Hotels';
+                    if (text.includes('3. ')) el.textContent = 'Transport';
+                    
+                    el.style.setProperty('color', '#1e3a8a', 'important');
+                    el.style.setProperty('font-size', '2em', 'important');
+                    el.style.setProperty('font-weight', 'bold', 'important');
+                    el.style.setProperty('border-bottom', '2px solid #1e3a8a', 'important');
+                    el.style.setProperty('border-top', '2px solid #1e3a8a', 'important');
+                    el.style.setProperty('padding-top', '15px', 'important');
+                    el.style.setProperty('padding-bottom', '8px', 'important');
+                    el.style.setProperty('padding-left', '0', 'important');
+                    el.style.setProperty('padding-right', '0', 'important');
+                    el.style.setProperty('margin', '20px 0 10px 0', 'important');
+                    el.style.setProperty('margin-left', '0', 'important');
+                    el.style.setProperty('text-align', 'left', 'important');
+                    el.style.setProperty('text-indent', '0', 'important');
+                    el.style.setProperty('list-style', 'none', 'important');
+                }
+            }
+        });
+        
+        // Reduce spacing in grid items
+        document.querySelectorAll('.toc-grid').forEach(grid => {
+            grid.style.setProperty('gap', '8px', 'important');
+            grid.style.setProperty('margin', '10px 0', 'important');
+        });
+        
+        document.querySelectorAll('.toc-item').forEach(item => {
+            item.style.setProperty('padding', '10px', 'important');
+            item.style.setProperty('margin', '5px 0', 'important');
+        });
+        
+        // Fix highlight box
+        document.querySelectorAll('.highlight').forEach(highlight => {
+            highlight.style.setProperty('margin', '8px 0', 'important');
+            highlight.style.setProperty('padding', '8px', 'important');
+        });
+        
+        // Fix double horizontal lines under card titles
+        document.querySelectorAll('.card-title, .card-subtitle').forEach(el => {
+            // Remove borders from title and subtitle to prevent double lines
+            el.style.setProperty('border-bottom', 'none', 'important');
+            el.style.setProperty('border-top', 'none', 'important');
+        });
+        
+        // Remove any duplicate borders in the card area
+        document.querySelectorAll('[class*="card"]').forEach(el => {
+            if (el.className !== 'card-header' && el.className !== 'card') {
+                el.style.setProperty('border-bottom', 'none', 'important');
+            }
+        });
+        
+        // Global spacing override - ensure no element has excessive spacing
+        document.querySelectorAll('#passages *').forEach(el => {
+            const style = window.getComputedStyle(el);
+            const marginTop = parseInt(style.marginTop);
+            const marginBottom = parseInt(style.marginBottom);
+            
+            // If margins are larger than 15px, reduce them
+            if (marginTop > 15) {
+                el.style.setProperty('margin-top', '10px', 'important');
+            }
+            if (marginBottom > 15) {
+                el.style.setProperty('margin-bottom', '10px', 'important');
+            }
+        });
+    }
+    
+    // Run immediately
+    forceHeaderColors();
+    
+    // Run after page loads
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', forceHeaderColors);
+    }
+    
+    // Run after any navigation (for Twine passage changes)
+    const observer = new MutationObserver(forceHeaderColors);
+    observer.observe(document.body, { childList: true, subtree: true });
+    
+    // Also run on a timer as backup
+    setInterval(forceHeaderColors, 1000);
+})();</script><tw-passagedata pid="1" name="Futarasan Shrine" tags="" position="100,100" size="100,100">&lt;div class=&quot;card active&quot; id=&quot;card4&quot;&gt;
 &lt;div class=&quot;card-number&quot;&gt;4&lt;/div&gt;
 &lt;div class=&quot;card-header&quot;&gt;
 &lt;h1 class=&quot;card-title&quot;&gt;二荒山神社&lt;/h1&gt;
@@ -110,10 +274,13 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Nikko_Futarasan_Honden_M3325.jpg&quot; alt=&quot;Futarasan Shrine&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location4&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon4&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location4&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1431 栃木県日光市山内2307&lt;/span&gt;
@@ -163,10 +330,13 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://trvis.r10s.com/d/strg/ctrl/26/0456787c565d171f679e923d88b80853f95bbffc.47.9.26.3.jpg&quot; alt=&quot;Kamenoi Hotel Okunikko Yumoto&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location8&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon8&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location8&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1662 栃木県日光市湯元温泉2549-7&lt;/span&gt;
@@ -211,10 +381,13 @@ Located at an elevation of 1,270 meters, the hotel provides stunning views of th
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://nikko-kanaya-history.jp/images/home/pict_rekishikan.jpg&quot; alt=&quot;Kanaya Hotel History Museum&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location5&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon5&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location5&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1401 栃木県日光市上鉢石町1300&lt;/span&gt;
@@ -264,10 +437,13 @@ Located at an elevation of 1,270 meters, the hotel provides stunning views of th
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://lh3.googleusercontent.com/proxy/KxeQm9LXoRBFoBMyw1Q5b_OBsTctgmkOrLLYvrdo7QyBNpB792ecnO2JxmLjwMM2qyhMqh60kpwyGbSsuZCBNZLj6MQIFQLbq9Ric4PHv3NaqA&quot; alt=&quot;Nikko Onsen Nikko Senhime Monogatari&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location7&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon7&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location7&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1662 栃木県日光市湯波1390&lt;/span&gt;
@@ -312,10 +488,13 @@ The resort features multiple natural hot spring baths, including outdoor rotenbu
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/JR_Nikko_Station_West_Entrance_1.jpg/800px-JR_Nikko_Station_West_Entrance_1.jpg&quot; alt=&quot;Nikko Station&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location9&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon9&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location9&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1434 栃木県日光市相生町115&lt;/span&gt;
@@ -360,10 +539,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/26/200801_Nikko_Tosho-gu_Nikko_Japan03s3.jpg&quot; alt=&quot;Nikko Toshogu Yomeimon Gate&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location3&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon3&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location3&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1431 栃木県日光市山内2301&lt;/span&gt;
@@ -411,10 +593,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/dd/NikkoRinnoji5390.jpg&quot; alt=&quot;Rinnoji Temple Sanbutsudo Hall&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location2&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon2&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location2&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1494 栃木県日光市山内2300&lt;/span&gt;
@@ -462,10 +647,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/13/Shinky%C5%8D_October_2008.JPG&quot; alt=&quot;Shinkyo Bridge&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location1&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon1&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location1&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1401 栃木県日光市上鉢石町&lt;/span&gt;
@@ -588,10 +776,13 @@ Click on any location above to begin your virtual journey through Nikko&#39;s cu
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/34/Tamozawa_Imperial_Villa_2018_%28008%29.jpg&quot; alt=&quot;Tamozawa Imperial Villa&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location6&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon6&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location6&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1434 栃木県日光市本町8-27&lt;/span&gt;
@@ -641,10 +832,13 @@ Click on any location above to begin your virtual journey through Nikko&#39;s cu
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://live.staticflickr.com/65535/49049704942_c7b7e8d8b4_b.jpg&quot; alt=&quot;Yumoto Onsen Bus Terminal&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location10&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon10&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location10&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1662 栃木県日光市湯元温泉&lt;/span&gt;
