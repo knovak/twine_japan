@@ -9,13 +9,10 @@
 <div class="card-content">
 <img src="https://live.staticflickr.com/65535/49049704942_c7b7e8d8b4_b.jpg" alt="Yumoto Onsen Bus Terminal" class="temple-image">
 
-<!-- Collapsible Location Section -->
+<!-- Location Section -->
 <div class="location-section">
-<div class="location-toggle" onclick="toggleLocation('location10')">
 <div class="location-label">📍 Location</div>
-<div class="toggle-icon" id="icon10">+</div>
-</div>
-<div class="location-content" id="location10">
+<div class="location-content">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1662 栃木県日光市湯元温泉</span>

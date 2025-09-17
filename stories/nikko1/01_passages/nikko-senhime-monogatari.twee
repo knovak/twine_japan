@@ -9,13 +9,10 @@
 <div class="card-content">
 <img src="https://lh3.googleusercontent.com/proxy/KxeQm9LXoRBFoBMyw1Q5b_OBsTctgmkOrLLYvrdo7QyBNpB792ecnO2JxmLjwMM2qyhMqh60kpwyGbSsuZCBNZLj6MQIFQLbq9Ric4PHv3NaqA" alt="Nikko Onsen Nikko Senhime Monogatari" class="temple-image">
 
-<!-- Collapsible Location Section -->
+<!-- Location Section -->
 <div class="location-section">
-<div class="location-toggle" onclick="toggleLocation('location7')">
 <div class="location-label">📍 Location</div>
-<div class="toggle-icon" id="icon7">+</div>
-</div>
-<div class="location-content" id="location7">
+<div class="location-content">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1662 栃木県日光市湯波1390</span>

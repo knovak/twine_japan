@@ -9,13 +9,10 @@
 <div class="card-content">
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Shinky%C5%8D_October_2008.JPG" alt="Shinkyo Bridge" class="temple-image">
 
-<!-- Collapsible Location Section -->
+<!-- Location Section -->
 <div class="location-section">
-<div class="location-toggle" onclick="toggleLocation('location1')">
 <div class="location-label">📍 Location</div>
-<div class="toggle-icon" id="icon1">+</div>
-</div>
-<div class="location-content" id="location1">
+<div class="location-content">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1401 栃木県日光市上鉢石町</span>
