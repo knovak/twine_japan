@@ -2,6 +2,7 @@
 set -euo pipefail
 BIN="${BIN:-.bin/tweego}"
 OUT="${OUT:-dist}"
+PREFIX="${STORY_PREFIX:-}"
 export TWEEGO_PATH="${TWEEGO_PATH:-formats}"
 rm -rf "$OUT"; mkdir -p "$OUT"
 build(){ deck="$1"; src="stories/${deck}";
@@ -9,7 +10,7 @@ if [[ ! -f "${src}/00_meta.twee" ]] || [[ ! -d "${src}/01_passages" ]]; then
   echo "Skipping ${deck}: missing story sources" >&2
   return
 fi
-outdir="${OUT}/${deck}"; mkdir -p "$outdir";
+outdir="${OUT}/${PREFIX}${deck}"; mkdir -p "$outdir";
 "$BIN" -l --head "shared/macros/widgets.js" --output "${outdir}/index.html" "${src}/00_meta.twee" "${src}/01_passages" shared/passages;
 [ -d "${src}/assets" ] && rsync -a "${src}/assets/" "${outdir}/assets/" || true;
 python3 - "$outdir/index.html" <<'PY'
