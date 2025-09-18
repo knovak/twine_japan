@@ -99,8 +99,10 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<!-- UUID://A892D347-8BFC-4A21-9E5A-3F7B9E8C1024// --><tw-storydata name="Nikko Travel Guide" startnode="9" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="A892D347-8BFC-4A21-9E5A-3F7B9E8C1024" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("./assets/styles.css");</style><script role="script" id="twine-user-script" type="text/twine-javascript">// Pure CSS approach - no dynamic styling
-// Only functional JavaScript, no CSS modifications</script><tw-passagedata pid="1" name="Futarasan Shrine" tags="" position="100,100" size="100,100">&lt;div class=&quot;card active&quot; id=&quot;card4&quot;&gt;
+	<!-- UUID://A892D347-8BFC-4A21-9E5A-3F7B9E8C1024// --><tw-storydata name="Nikko Travel Guide" startnode="9" creator="Tweego" creator-version="2.1.1+81d1d71" ifid="A892D347-8BFC-4A21-9E5A-3F7B9E8C1024" zoom="1" format="SugarCube" format-version="2.36.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url("./assets/styles.css");</style><script role="script" id="twine-user-script" type="text/twine-javascript">// Load functional JavaScript for location toggle
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);</script><tw-passagedata pid="1" name="Futarasan Shrine" tags="" position="100,100" size="100,100">&lt;div class=&quot;card active&quot; id=&quot;card4&quot;&gt;
 &lt;div class=&quot;card-number&quot;&gt;4&lt;/div&gt;
 &lt;div class=&quot;card-header&quot;&gt;
 &lt;h1 class=&quot;card-title&quot;&gt;二荒山神社&lt;/h1&gt;
@@ -110,10 +112,13 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e4/Nikko_Futarasan_Honden_M3325.jpg&quot; alt=&quot;Futarasan Shrine&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location4&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon4&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location4&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1431 栃木県日光市山内2307&lt;/span&gt;
@@ -163,10 +168,13 @@ var LZString={_keyStr:"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://trvis.r10s.com/d/strg/ctrl/26/0456787c565d171f679e923d88b80853f95bbffc.47.9.26.3.jpg&quot; alt=&quot;Kamenoi Hotel Okunikko Yumoto&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location8&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon8&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location8&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1662 栃木県日光市湯元温泉2549-7&lt;/span&gt;
@@ -211,10 +219,13 @@ Located at an elevation of 1,270 meters, the hotel provides stunning views of th
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://nikko-kanaya-history.jp/images/home/pict_rekishikan.jpg&quot; alt=&quot;Kanaya Hotel History Museum&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location5&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon5&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location5&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1401 栃木県日光市上鉢石町1300&lt;/span&gt;
@@ -264,10 +275,13 @@ Located at an elevation of 1,270 meters, the hotel provides stunning views of th
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://lh3.googleusercontent.com/proxy/KxeQm9LXoRBFoBMyw1Q5b_OBsTctgmkOrLLYvrdo7QyBNpB792ecnO2JxmLjwMM2qyhMqh60kpwyGbSsuZCBNZLj6MQIFQLbq9Ric4PHv3NaqA&quot; alt=&quot;Nikko Onsen Nikko Senhime Monogatari&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location7&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon7&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location7&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1662 栃木県日光市湯波1390&lt;/span&gt;
@@ -312,10 +326,13 @@ The resort features multiple natural hot spring baths, including outdoor rotenbu
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/JR_Nikko_Station_West_Entrance_1.jpg/800px-JR_Nikko_Station_West_Entrance_1.jpg&quot; alt=&quot;Nikko Station&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location9&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon9&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location9&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1434 栃木県日光市相生町115&lt;/span&gt;
@@ -360,10 +377,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/2/26/200801_Nikko_Tosho-gu_Nikko_Japan03s3.jpg&quot; alt=&quot;Nikko Toshogu Yomeimon Gate&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location3&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon3&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location3&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1431 栃木県日光市山内2301&lt;/span&gt;
@@ -411,10 +431,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/d/dd/NikkoRinnoji5390.jpg&quot; alt=&quot;Rinnoji Temple Sanbutsudo Hall&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location2&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon2&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location2&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1494 栃木県日光市山内2300&lt;/span&gt;
@@ -462,10 +485,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/1/13/Shinky%C5%8D_October_2008.JPG&quot; alt=&quot;Shinkyo Bridge&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location1&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon1&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location1&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1401 栃木県日光市上鉢石町&lt;/span&gt;
@@ -576,9 +602,9 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;/div&gt;
 
 &lt;p&gt;Ken Novak, 2025-09-16&lt;/p&gt;
-&lt;p&gt;./p&gt;
-&lt;p&gt;./p&gt;
-&lt;p&gt;./p&gt;</tw-passagedata><tw-passagedata pid="10" name="Tamozawa Imperial Villa" tags="" position="1225,100" size="100,100">&lt;div class=&quot;card active&quot; id=&quot;card6&quot;&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;
+&lt;p&gt;.&lt;/p&gt;</tw-passagedata><tw-passagedata pid="10" name="Tamozawa Imperial Villa" tags="" position="1225,100" size="100,100">&lt;div class=&quot;card active&quot; id=&quot;card6&quot;&gt;
 &lt;div class=&quot;card-number&quot;&gt;6&lt;/div&gt;
 &lt;div class=&quot;card-header&quot;&gt;
 &lt;h1 class=&quot;card-title&quot;&gt;田母沢御用邸&lt;/h1&gt;
@@ -588,10 +614,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/3/34/Tamozawa_Imperial_Villa_2018_%28008%29.jpg&quot; alt=&quot;Tamozawa Imperial Villa&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location6&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon6&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location6&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1434 栃木県日光市本町8-27&lt;/span&gt;
@@ -641,10 +670,13 @@ The station&#39;s traditional architecture with its distinctive roof design refl
 &lt;div class=&quot;card-content&quot;&gt;
 &lt;img src=&quot;https://live.staticflickr.com/65535/49049704942_c7b7e8d8b4_b.jpg&quot; alt=&quot;Yumoto Onsen Bus Terminal&quot; class=&quot;temple-image&quot;&gt;
 
-&lt;!-- Location Section --&gt;
+&lt;!-- Collapsible Location Section --&gt;
 &lt;div class=&quot;location-section&quot;&gt;
+&lt;div class=&quot;location-toggle&quot; onclick=&quot;toggleLocation(&#39;location10&#39;)&quot;&gt;
 &lt;div class=&quot;location-label&quot;&gt;📍 Location&lt;/div&gt;
-&lt;div class=&quot;location-content&quot;&gt;
+&lt;div class=&quot;toggle-icon&quot; id=&quot;icon10&quot;&gt;+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;location-content&quot; id=&quot;location10&quot;&gt;
 &lt;div class=&quot;address&quot;&gt;
 &lt;span class=&quot;address-label&quot;&gt;Japanese:&lt;/span&gt;
 &lt;span class=&quot;address-text&quot;&gt;〒321-1662 栃木県日光市湯元温泉&lt;/span&gt;
