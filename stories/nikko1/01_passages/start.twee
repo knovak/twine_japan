@@ -1,3 +1,6 @@
+:: StoryConfig [init]
+<<run Config.passages.nobr = true>>
+
 :: Table of Contents
 ! 日光旅行ガイド
 ! Nikko Guide
