@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 15px;
     min-height: 100vh;
-    line-height: 1.1 !important;
+    line-height: 1.2 !important;
 }
 
 /* AGGRESSIVE RESET - Override SugarCube defaults */
@@ -56,7 +56,7 @@ h3, #passages h3, tw-passage h3, .passage h3 {
 p, #passages p, tw-passage p, .passage p {
     margin: 3px 0 !important;
     padding: 0 !important;
-    line-height: 1.1 !important;
+    line-height: 1.2 !important;
     text-indent: 0 !important;
 }
 
@@ -142,7 +142,7 @@ ul, ol, li {
 }
 
 .card-content {
-    line-height: 1.1 !important;
+    line-height: 1.2 !important;
     color: #333 !important;
     margin-bottom: 20px !important;
 }
@@ -235,7 +235,7 @@ ul, ol, li {
 .address {
     margin-bottom: 12px !important;
     padding: 0 !important;
-    line-height: 1.1 !important;
+    line-height: 1.2 !important;
 }
 
 .address-label {
@@ -250,7 +250,7 @@ ul, ol, li {
     background: white !important;
     padding: 4px 8px !important;
     border-radius: 4px !important;
-    margin-left: 10px !important;
+    margin-left: 8px !important;
 }
 
 .maps-link {
@@ -259,7 +259,7 @@ ul, ol, li {
     color: white !important;
     text-decoration: none !important;
     padding: 10px 16px !important;
-    border-radius: 20px !important;
+    border-radius: 25px !important;
     font-weight: bold !important;
     font-size: 0.9em !important;
     transition: all 0.3s ease;
@@ -278,7 +278,7 @@ ul, ol, li {
     color: white !important;
     text-decoration: none !important;
     padding: 10px 16px !important;
-    border-radius: 20px !important;
+    border-radius: 25px !important;
     font-weight: bold !important;
     font-size: 0.9em !important;
     transition: all 0.3s ease;
