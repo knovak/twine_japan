@@ -1,8 +1,12 @@
 :: StoryConfig [init]
 <<run Config.passages.nobr = true>>
 :: Table of Contents
-! 日光旅行ガイド
-! Nikko Guide
+<div class="card active" id="card1">
+<div class="card-number">0</div>
+<div class="card-header">
+<h1 class="card-title">Nikko Guide</h1>
+</div>
+
 
 <p>Discover the historic temples, beautiful shrines, and modern comforts of Nikko through these interactive cards. From ancient sacred sites to luxurious accommodations, explore everything this UNESCO World Heritage area has to offer.</p>
 
