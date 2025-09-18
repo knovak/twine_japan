@@ -1,10 +1,15 @@
+:: StoryConfig [init]
+<<run Config.passages.nobr = true>>
 :: Table of Contents
-# 日光旅行ガイド
-## Nikko Travel Guide
+<div class="card active" id="card1">
+<div class="card-number">0</div>
+<div class="card-header">
+<h1 class="card-title">日光 - Nikko Guide</h1>
+</div>
 
-Discover the historic temples, beautiful shrines, and modern comforts of Nikko through these interactive cards. From ancient sacred sites to luxurious accommodations, explore everything this UNESCO World Heritage area has to offer.
+<p>The Kanji for Nikko consists of two characters: 日 (hi) meaning "sun" or "day," and 光 (kō) meaning "light". Therefore, 日光 translates to "sunlight" or "daylight".  It refers to the popular tourist city and UNESCO World Heritage area in Tochigi Prefecture, Japan. </p>
 
-## Attractions
+<h3>Attractions</h3>
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -38,7 +43,7 @@ Discover the historic temples, beautiful shrines, and modern comforts of Nikko t
 </div>
 </div>
 
-## Hotels
+<h3>Hotels</h3>
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -52,7 +57,7 @@ Discover the historic temples, beautiful shrines, and modern comforts of Nikko t
 </div>
 </div>
 
-## Transport
+<h3>Transport</h3>
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -66,12 +71,10 @@ Discover the historic temples, beautiful shrines, and modern comforts of Nikko t
 </div>
 </div>
 
-<div class="highlight">
-Click on any location above to begin your virtual journey through Nikko's cultural treasures and natural beauty.
-</div>
 
 <div class="navigation">
 <a class="nav-link" data-passage="Shinkyo Bridge">Start with Shinkyo Bridge →</a>
 </div>
 
-<p>Ken Novak, 2025-09-16</p>
+:: PassageFooter
+<p>.</p><p>.</p><p class="footer">2025-09-17 Ken Novak</p><p>.</p>
