@@ -177,9 +177,9 @@ ul, ol, li {
 .location-section {
     background-color: #e8f4fd !important;
     border: 2px solid #bee5eb !important;
-    border-radius: 10px !important;
+    border-radius: 30px !important;
     margin: 3px 0 !important;
-    padding: 0 !important;
+    padding: 10px 10px !important;
 }
 
 .location-toggle {
@@ -253,18 +253,6 @@ ul, ol, li {
     margin-left: 8px !important;
 }
 
-.maps-link {
-    display: inline-block !important;
-    background: #4285f4 !important;
-    color: white !important;
-    text-decoration: none !important;
-    padding: 10px 16px !important;
-    border-radius: 25px !important;
-    font-weight: bold !important;
-    font-size: 0.9em !important;
-    transition: all 0.3s ease;
-    margin-top: 10px !important;
-}
 
 .maps-link:hover {
     background: #3367d6 !important;
@@ -295,12 +283,12 @@ ul, ol, li {
     }
 }
 
-.nav-link, .wikipedia-link {
+.nav-link, .wikipedia-link, .maps-link  {
     background: #2E8B57 !important;
     color: white !important;
     text-decoration: none !important;
-    padding: 12px 20px !important;
-    border-radius: 25px !important;
+    padding: 20px 40px !important;
+    border-radius: 35px !important;
     font-weight: bold !important;
     transition: all 0.3s ease;
     text-align: center !important;
