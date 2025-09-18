@@ -150,7 +150,7 @@ ul, ol, li {
 .card-content {
     line-height: 1.4 !important;
     color: #333 !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 30px !important;
     padding: 0 !important;
 }
 
@@ -274,6 +274,7 @@ ul, ol, li {
     justify-content: space-around !important;
     flex-wrap: wrap !important;
     gap: 10px !important;
+    border: 20px 0 !important;
     margin-top: 20px !important;
     padding-top: 15px !important;
     border-top: 1px solid #ddd !important;

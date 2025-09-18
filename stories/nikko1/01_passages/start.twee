@@ -4,12 +4,13 @@
 <div class="card active" id="card1">
 <div class="card-number">0</div>
 <div class="card-header">
-<h1 class="card-title">日光 - Nikko Guide</h1>
+<h1 class="card-title">日光</h1>
+<h1 class="card-title">Nikko Guide</h1>
 </div>
 
 <p>The Kanji for Nikko consists of two characters: 日 (hi) meaning "sun" or "day," and 光 (kō) meaning "light". Therefore, 日光 translates to "sunlight" or "daylight".  It refers to the popular tourist city and UNESCO World Heritage area in Tochigi Prefecture, Japan. </p>
 
-<h3>Attractions</h3>
+<h2>Attractions</h2>
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -43,7 +44,7 @@
 </div>
 </div>
 
-<h3>Hotels</h3>
+<h2>Hotels</h2>
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -57,7 +58,7 @@
 </div>
 </div>
 
-<h3>Transport</h3>
+<h2>Transport</h2>
 
 <div class="toc-grid">
 <div class="toc-item">
@@ -77,4 +78,4 @@
 </div>
 
 :: PassageFooter
-<p>.</p><p>.</p><p class="footer">2025-09-17 Ken Novak</p><p>.</p>
+<p class="footer">2025-09-18 Ken Novak</p>
