@@ -38,7 +38,7 @@ h2, #passages h2, tw-passage h2, .passage h2 {
     font-size: 1.5em !important;
     margin: 20px 0 10px 0 !important;
     padding: 0 0 8px 0 !important;
-    border-bottom: 2px solid #1e3a8a !important;
+    border-bottom: none solid #1e3a8a !important;
     border-top: none !important;
     text-indent: 0 !important;
     text-align: left !important;
@@ -144,11 +144,11 @@ ul, ol, li {
 .card-content {
     line-height: 1.2 !important;
     color: #333 !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 5px !important;
 }
 
 .card-content p {
-    margin: 3px 0 !important;
+    margin: 5px 0 !important;
     padding: 0 !important;
 }
 
