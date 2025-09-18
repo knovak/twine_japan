@@ -9,10 +9,13 @@
 <div class="card-content">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/JR_Nikko_Station_West_Entrance_1.jpg/800px-JR_Nikko_Station_West_Entrance_1.jpg" alt="Nikko Station" class="temple-image">
 
-<!-- Location Section -->
+<!-- Collapsible Location Section -->
 <div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location9')">
 <div class="location-label">📍 Location</div>
-<div class="location-content">
+<div class="toggle-icon" id="icon9">+</div>
+</div>
+<div class="location-content" id="location9">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1434 栃木県日光市相生町115</span>

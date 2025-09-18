@@ -9,10 +9,13 @@
 <div class="card-content">
 <img src="https://nikko-kanaya-history.jp/images/home/pict_rekishikan.jpg" alt="Kanaya Hotel History Museum" class="temple-image">
 
-<!-- Location Section -->
+<!-- Collapsible Location Section -->
 <div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location5')">
 <div class="location-label">📍 Location</div>
-<div class="location-content">
+<div class="toggle-icon" id="icon5">+</div>
+</div>
+<div class="location-content" id="location5">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1401 栃木県日光市上鉢石町1300</span>

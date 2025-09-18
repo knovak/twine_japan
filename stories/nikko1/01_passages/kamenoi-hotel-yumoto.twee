@@ -9,10 +9,13 @@
 <div class="card-content">
 <img src="https://trvis.r10s.com/d/strg/ctrl/26/0456787c565d171f679e923d88b80853f95bbffc.47.9.26.3.jpg" alt="Kamenoi Hotel Okunikko Yumoto" class="temple-image">
 
-<!-- Location Section -->
+<!-- Collapsible Location Section -->
 <div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location8')">
 <div class="location-label">📍 Location</div>
-<div class="location-content">
+<div class="toggle-icon" id="icon8">+</div>
+</div>
+<div class="location-content" id="location8">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1662 栃木県日光市湯元温泉2549-7</span>

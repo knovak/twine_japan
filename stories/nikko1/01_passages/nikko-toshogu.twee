@@ -9,10 +9,13 @@
 <div class="card-content">
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/200801_Nikko_Tosho-gu_Nikko_Japan03s3.jpg" alt="Nikko Toshogu Yomeimon Gate" class="temple-image">
 
-<!-- Location Section -->
+<!-- Collapsible Location Section -->
 <div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location3')">
 <div class="location-label">📍 Location</div>
-<div class="location-content">
+<div class="toggle-icon" id="icon3">+</div>
+</div>
+<div class="location-content" id="location3">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1431 栃木県日光市山内2301</span>

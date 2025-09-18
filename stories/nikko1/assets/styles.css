@@ -128,6 +128,7 @@ ul, ol, li {
     margin: 0 0 5px 0 !important;
     padding: 0 !important;
     text-align: center !important;
+    border: none !important;
 }
 
 .card-subtitle {
@@ -137,6 +138,7 @@ ul, ol, li {
     font-style: italic !important;
     margin: 0 !important;
     padding: 0 !important;
+    border: none !important;
 }
 
 .card-content {
@@ -212,6 +214,11 @@ ul, ol, li {
     font-size: 1.4em !important;
     font-weight: bold !important;
     transition: transform 0.3s ease;
+    min-width: 20px !important;
+    text-align: center !important;
+    display: block !important;
+    visibility: visible !important;
+    flex-shrink: 0 !important;
 }
 
 .location-content {
@@ -221,7 +228,7 @@ ul, ol, li {
 }
 
 .location-content.expanded {
-    max-height: 300px;
+    max-height: 150px;
     padding: 0 15px 15px !important;
 }
 
@@ -442,7 +449,11 @@ h1:contains("日光旅行ガイド"),
     text-indent: 0 !important;
     margin-left: 0 !important;
     padding-left: 0 !important;
-    color: #1e3a8a !important;
+}
+
+/* Exception: Don't override location toggle colors */
+.location-toggle *, .location-label *, .toggle-icon {
+    color: inherit !important;
 }
 
 /* Ensure no automatic paragraph spacing */

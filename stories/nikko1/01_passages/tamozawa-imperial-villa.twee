@@ -9,10 +9,13 @@
 <div class="card-content">
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Tamozawa_Imperial_Villa_2018_%28008%29.jpg" alt="Tamozawa Imperial Villa" class="temple-image">
 
-<!-- Location Section -->
+<!-- Collapsible Location Section -->
 <div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location6')">
 <div class="location-label">📍 Location</div>
-<div class="location-content">
+<div class="toggle-icon" id="icon6">+</div>
+</div>
+<div class="location-content" id="location6">
 <div class="address">
 <span class="address-label">Japanese:</span>
 <span class="address-text">〒321-1434 栃木県日光市本町8-27</span>

@@ -14,5 +14,7 @@ Nikko Travel Guide
 @import url("./assets/styles.css");
 
 :: Story JavaScript [script]
-// Pure CSS approach - no dynamic styling
-// Only functional JavaScript, no CSS modifications
+// Load functional JavaScript for location toggle
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);
