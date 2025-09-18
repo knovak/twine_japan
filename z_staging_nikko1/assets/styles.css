@@ -52,12 +52,12 @@ h3, #passages h3, tw-passage h3, .passage h3 {
     text-indent: 0 !important;
 }
 
-/* Paragraph spacing - CRITICAL FIX */
 p, #passages p, tw-passage p, .passage p {
     margin: 3px 0 !important;
     padding: 0 !important;
     line-height: 1.4 !important;
     text-indent: 0 !important;
+    color: #110d2b;
 }
 
 /* Remove any default list styling and indentation */
