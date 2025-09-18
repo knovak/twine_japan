@@ -17,3 +17,5 @@ function toggleLocation(locationId) {
         }
     }
 }
+
+Config.passages.nobr = true;
