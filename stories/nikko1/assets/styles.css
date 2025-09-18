@@ -228,7 +228,7 @@ ul, ol, li {
 }
 
 .location-content.expanded {
-    max-height: 150px;
+    max-height: 250px;
     padding: 0 15px 15px !important;
 }
 
