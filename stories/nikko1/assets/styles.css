@@ -77,13 +77,12 @@ ul, ol, li {
     background: white;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    max-width: 650px;
+    max-width: 750px;
     width: 95%;
     padding: 40px 55px;
     display: none;
     position: relative;
     border: 3px solid #2E8B57;
-    max-height: 90vh;
     overflow-y: auto;
     margin: 20px auto;
     box-sizing: border-box;
