@@ -1,0 +1,44 @@
+:: Nikko World Heritage Hike
+<div class="card active" id="card11">
+<div class="card-number">11</div>
+<div class="card-header">
+<h1 class="card-title">日光 世界遺産 神社と寺院散策</h1>
+<h2 class="card-subtitle">Nikko World Heritage Shrines and Temples Hike</h2>
+</div>
+
+<div class="card-content">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.7575,139.5985&zoom=14&size=600x400&markers=36.7575,139.5985,red-pushpin" alt="Map of the Nikko World Heritage shrines and temples walking loop" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location11')">
+<div class="location-label">📍 Trailhead</div>
+<div class="toggle-icon" id="icon11">+</div>
+</div>
+<div class="location-content" id="location11">
+<div class="address">
+<span class="address-label">Address:</span>
+<span class="address-text">2301 Sannai, Nikko, Tochigi 321-1431, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nikko+Toshogu+Shrine" target="_blank" class="maps-link">🗺️ Open trailhead in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 4.3 km loop<br>
+<strong>Time:</strong> ~1 h 35 min<br>
+<strong>Elevation gain:</strong> 230 m
+</div>
+
+<p>This cultural walk strings together Nikko&apos;s trio of UNESCO-recognized sites—Rinnō-ji, Futarasan Shrine, and the lavish Nikkō Tōshō-gū—along with the atmospheric cedar-lined approach between them. Gentle forest paths and stone stairways weave between ornate shrine gates, pagodas, and moss-covered lanterns.</p>
+
+<p>The AllTrails route begins near Shinkyō Bridge before climbing toward the mausoleum complex. Expect gradual steps, occasional steep flights, and plenty of opportunities to pause for carvings like the famous Three Wise Monkeys. Autumn foliage adds fiery color to the cedar groves, while winter visits reveal the temples under a dusting of snow.</p>
+
+<a href="https://www.alltrails.com/trail/japan/tochigi/nikko-world-heritage-shrines-and-temples" target="_blank" class="wikipedia-link">🥾 View the trail details on AllTrails</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Ryuzu to Yudaki Falls Hike">Next: Ryuzu to Yudaki Falls →</a>
+</div>
+
+</div>

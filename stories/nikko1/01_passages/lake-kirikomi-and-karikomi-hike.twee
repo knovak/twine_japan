@@ -1,0 +1,44 @@
+:: Lake Kirikomi and Karikomi Hike
+<div class="card active" id="card13">
+<div class="card-number">13</div>
+<div class="card-header">
+<h1 class="card-title">切込湖・刈込湖周回</h1>
+<h2 class="card-subtitle">Lake Kirikomi &amp; Lake Karikomi Circuit</h2>
+</div>
+
+<div class="card-content">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.7789,139.3895&zoom=13&size=600x400&markers=36.7789,139.3895,red-pushpin" alt="Map of the Lake Kirikomi and Lake Karikomi hiking loop" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location13')">
+<div class="location-label">📍 Trailhead</div>
+<div class="toggle-icon" id="icon13">+</div>
+</div>
+<div class="location-content" id="location13">
+<div class="address">
+<span class="address-label">Address:</span>
+<span class="address-text">2525 Yumoto, Nikko, Tochigi 321-1662, Japan (Lake Yunoko north shore)</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Lake+Yunoko+Trailhead+Nikko" target="_blank" class="maps-link">🗺️ Open trailhead in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 12.0 km loop<br>
+<strong>Time:</strong> ~4 h 30 min<br>
+<strong>Elevation gain:</strong> 640 m
+</div>
+
+<p>This backcountry circuit climbs from the Yumoto Onsen area through quiet conifer forest to a pair of pristine crater lakes tucked high in the mountains. Lake Kirikomi dazzles with cobalt water framed by volcanic ridgelines, while Lake Karikomi sits in a peaceful basin ringed by marsh grasses and alpine flowers.</p>
+
+<p>Boardwalks protect the fragile wetlands around the lakes, and the trail often rewards hikers with sightings of native deer and migratory birds. The descent loops past bubbling hot spring vents before returning to Lake Yunoko&apos;s shoreline.</p>
+
+<a href="https://www.alltrails.com/trail/japan/tochigi/lake-kirikomi-lake-karikomi" target="_blank" class="wikipedia-link">🥾 View the trail details on AllTrails</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Kotoku to Yumoto Traverse">Next: Kotoku to Yumoto Traverse →</a>
+</div>
+
+</div>

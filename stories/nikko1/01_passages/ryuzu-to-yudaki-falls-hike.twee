@@ -1,0 +1,44 @@
+:: Ryuzu to Yudaki Falls Hike
+<div class="card active" id="card12">
+<div class="card-number">12</div>
+<div class="card-header">
+<h1 class="card-title">竜頭ノ滝〜湯滝ハイキング</h1>
+<h2 class="card-subtitle">Ryuzu Falls to Yudaki Falls</h2>
+</div>
+
+<div class="card-content">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.7818,139.4462&zoom=13&size=600x400&markers=36.7818,139.4462,red-pushpin" alt="Trail map following the Yukawa River between Ryuzu and Yudaki Falls" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location12')">
+<div class="location-label">📍 Trailhead</div>
+<div class="toggle-icon" id="icon12">+</div>
+</div>
+<div class="location-content" id="location12">
+<div class="address">
+<span class="address-label">Address:</span>
+<span class="address-text">2573 Chugushi, Nikko, Tochigi 321-1661, Japan (Ryuzu Falls parking)</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Ryuzu+Falls+Parking+Nikko" target="_blank" class="maps-link">🗺️ Open trailhead in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 8.7 km out &amp; back<br>
+<strong>Time:</strong> ~3 h 0 min<br>
+<strong>Elevation gain:</strong> 405 m
+</div>
+
+<p>This Okunikko favorite traces the Yukawa River upstream from the twin cascades of Ryūzu Falls to the thunderous curtain of Yudaki. Wooden boardwalks, riverside paths, and forest staircases keep you close to the water the entire way, with seasonal views of azaleas in spring and brilliant larch colors in autumn.</p>
+
+<p>The middle section passes Lake Chuzenji&apos;s north shore before climbing into marshland around Senjōgahara. The final approach to Yudaki follows a stairway alongside the roaring drop, rewarding hikers with mist-filled viewpoints and the option to continue on to Lake Yunoko.</p>
+
+<a href="https://www.alltrails.com/trail/japan/tochigi/ryuzu-falls-yudaki-falls" target="_blank" class="wikipedia-link">🥾 View the trail details on AllTrails</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Lake Kirikomi and Karikomi Hike">Next: Lake Kirikomi &amp; Karikomi →</a>
+</div>
+
+</div>
