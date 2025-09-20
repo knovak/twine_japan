@@ -1,0 +1,50 @@
+:: Kotoku Onsen to Yumoto Onsen Forest Hike
+<div class="card active" id="card14">
+<div class="card-number">14</div>
+<div class="card-header">
+<h1 class="card-title">古徳温泉〜湯元温泉トレイル</h1>
+<h2 class="card-subtitle">Kotoku Onsen to Yumoto Onsen Forest Hike</h2>
+</div>
+
+<div class="card-content">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.82,139.44&zoom=13&size=600x360&markers=36.82,139.44,lightblue1" alt="Map of the Kotoku Onsen to Yumoto Onsen hiking route" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location14')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon14">+</div>
+</div>
+<div class="location-content" id="location14">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">栃木県日光市 奥日光 古徳温泉・湯元温泉</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Kotoku and Yumoto Onsen villages, Okunikko, Nikko City</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Kotoku+Onsen+Yudaki+Falls+Yumoto+Onsen+Trail" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 7.0 km point-to-point &nbsp;|&nbsp; <strong>Time:</strong> ~2 h 35 min &nbsp;|&nbsp; <strong>Elevation Gain:</strong> 312 m
+</div>
+
+<p>This connecting trail strings together three classic Okunikko stops: the rustic Kotoku Onsen, the cascading Yudaki Falls, and the high-elevation hot spring town of Yumoto Onsen. AllTrails describes a moderately rated forest climb that follows the Yukawa River upstream, mixing mossy conifers, wooden bridges, and viewpoints of the turquoise Yuno Lake.</p>
+
+<p>Hikers often combine the route with a soak at either end of the journey. Keep an eye out for geothermal vents steaming beside the boardwalks near Yumoto and enjoy the quiet, uncrowded segments that reveal the park’s volcanic origins.</p>
+
+<div class="highlight">
+<a href="https://www.alltrails.com/trail/japan/tochigi/kotoku-onsen-yudaki-falls-yumoto-onsen" target="_blank">🔗 View on AllTrails</a>
+</div>
+
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Lake Kirikomi &amp; Lake Karikomi Loop">Return to Lake Kirikomi &amp; Lake Karikomi →</a>
+</div>
+
+</div>

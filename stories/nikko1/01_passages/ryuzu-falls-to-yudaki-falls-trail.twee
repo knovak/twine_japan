@@ -1,0 +1,50 @@
+:: Ryuzu Falls to Yudaki Falls Trail
+<div class="card active" id="card12">
+<div class="card-number">12</div>
+<div class="card-header">
+<h1 class="card-title">竜頭ノ滝〜湯滝トレイル</h1>
+<h2 class="card-subtitle">Ryuzu Falls to Yudaki Falls Trail</h2>
+</div>
+
+<div class="card-content">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.778,139.453&zoom=13&size=600x360&markers=36.778,139.453,lightblue1" alt="Map of the Ryuzu Falls to Yudaki Falls trail in Okunikko" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location12')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon12">+</div>
+</div>
+<div class="location-content" id="location12">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">栃木県日光市中宮祠 湯川沿い</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Along the Yukawa River, Chuzenji &amp; Okunikko, Nikko City</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Ryuzu+Falls+to+Yudaki+Falls+Trail" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 8.7 km out &amp; back &nbsp;|&nbsp; <strong>Time:</strong> ~3 h 05 min &nbsp;|&nbsp; <strong>Elevation Gain:</strong> 421 m
+</div>
+
+<p>This AllTrails favorite follows the scenic Yukawa River corridor between two of Nikko National Park’s most photogenic waterfalls. Starting near the tea houses beside Ryuzu Falls, the path alternates between cedar forest boardwalks and gently climbing dirt tracks that parallel the cascading river toward Lake Yunoko.</p>
+
+<p>Expect misty viewpoints, seasonal foliage color, and the thunder of water as you crest the final stairs beside Yudaki Falls. The moderate ascent rewards you with panoramic views over the marshlands of Senjogahara and easy access to the Yumoto Onsen village for a restorative soak after the hike.</p>
+
+<div class="highlight">
+<a href="https://www.alltrails.com/trail/japan/tochigi/ryuzu-falls-yudaki-falls" target="_blank">🔗 View on AllTrails</a>
+</div>
+
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Lake Kirikomi &amp; Lake Karikomi Loop">Continue to Lake Kirikomi &amp; Lake Karikomi →</a>
+</div>
+
+</div>

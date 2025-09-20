@@ -1,0 +1,50 @@
+:: Lake Kirikomi & Lake Karikomi Loop
+<div class="card active" id="card13">
+<div class="card-number">13</div>
+<div class="card-header">
+<h1 class="card-title">切込湖・刈込湖周回</h1>
+<h2 class="card-subtitle">Lake Kirikomi &amp; Lake Karikomi Loop</h2>
+</div>
+
+<div class="card-content">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.827,139.44&zoom=13&size=600x360&markers=36.827,139.44,lightblue1" alt="Map of the Lake Kirikomi and Lake Karikomi alpine loop" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location13')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon13">+</div>
+</div>
+<div class="location-content" id="location13">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">栃木県日光市 奥日光 切込湖・刈込湖</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Okunikko highlands, Nikko National Park</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Lake+Kirikomi+Lake+Karikomi+Hike" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 9.2 km loop &nbsp;|&nbsp; <strong>Time:</strong> ~3 h 40 min &nbsp;|&nbsp; <strong>Elevation Gain:</strong> 487 m
+</div>
+
+<p>Climb through Okunikko’s old-growth larch and beech forest to reach the twin volcanic lakes of Kirikomi and Karikomi, perched more than 1,400 meters above sea level. The AllTrails description notes a steady ascent on rooty singletrack before opening to crystal-clear alpine waters ringed by rugged lava domes.</p>
+
+<p>The loop circles both lakes, offering quiet picnic spots, shoreline reflections, and glimpses of seasonal alpine blooms. A final descent passes bubbling streams and wetlands as the path returns to the trailhead near Kotoku Onsen, making this a rewarding half-day adventure for hikers seeking solitude.</p>
+
+<div class="highlight">
+<a href="https://www.alltrails.com/trail/japan/tochigi/lake-kirikomi-lake-karikomi" target="_blank">🔗 View on AllTrails</a>
+</div>
+
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Kotoku Onsen to Yumoto Onsen Forest Hike">Continue to Kotoku Onsen to Yumoto Onsen →</a>
+</div>
+
+</div>
