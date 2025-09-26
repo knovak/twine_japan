@@ -8,7 +8,6 @@
 
 <div class="card-content">
 <img src="assets/images/nikko-heritage-walk-trail-map.png" alt="Trail map showing the Nikko World Heritage shrines and temples walking routes" class="temple-image">
-<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.755,139.599&zoom=14&size=600x360&markers=36.755,139.599,lightblue1" alt="OpenStreetMap overview of the Nikko World Heritage area" class="temple-image" style="margin-top: 10px;">
 
 <!-- Collapsible Location Section -->
 <div class="location-section">
