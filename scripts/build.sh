@@ -12,7 +12,22 @@ if [[ ! -f "${src}/00_meta.twee" ]] || [[ ! -d "${src}/01_passages" ]]; then
 fi
 outdir="${OUT}/${PREFIX}${deck}"; mkdir -p "$outdir";
 "$BIN" -l --head "shared/macros/widgets.js" --output "${outdir}/index.html" "${src}/00_meta.twee" "${src}/01_passages" shared/passages;
-[ -d "${src}/assets" ] && rsync -a "${src}/assets/" "${outdir}/assets/" || true;
+if [ -d "${src}/assets" ]; then
+  python3 - "$src/assets" "$outdir/assets" <<'PY'
+import os
+import shutil
+import sys
+
+src, dest = sys.argv[1:3]
+
+for root, dirs, files in os.walk(src):
+    rel = os.path.relpath(root, src)
+    target = os.path.join(dest, rel) if rel != '.' else dest
+    os.makedirs(target, exist_ok=True)
+    for name in files:
+        shutil.copy2(os.path.join(root, name), os.path.join(target, name))
+PY
+fi
 python3 - "$outdir/index.html" <<'PY'
 import sys,re
 p=sys.argv[1]
