@@ -1,0 +1,50 @@
+:: Nikko World Heritage Shrines and Temples Walk
+<div class="card active" id="card11">
+<div class="card-number">11</div>
+<div class="card-header">
+<h1 class="card-title">日光世界遺産社寺巡り</h1>
+<h2 class="card-subtitle">Nikko World Heritage Shrines and Temples Walk</h2>
+</div>
+
+<div class="card-content">
+<img src="assets/images/nikko-heritage-walk-trail-map.png" alt="Trail map showing the Nikko World Heritage shrines and temples walking routes" class="temple-image">
+
+<!-- Collapsible Location Section -->
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location11')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon11">+</div>
+</div>
+<div class="location-content" id="location11">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">栃木県日光市山内・石屋町周辺</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Sannai &amp; Ishiya districts, Nikko, Tochigi Prefecture</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nikko+World+Heritage+Shrines+and+Temples" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Distance:</strong> 5.8 km loop &nbsp;|&nbsp; <strong>Time:</strong> ~1 h 55 min &nbsp;|&nbsp; <strong>Elevation Gain:</strong> 236 m
+</div>
+
+<p>Follow the classic UNESCO circuit that threads past Shinkyo Bridge before weaving through the cedar-lined approach to Rinnoji Temple, Toshogu Shrine, and Futarasan Shrine. The route combines stone-paved avenues, mossy stairways, and wooded paths, giving you a full sweep of Nikko’s sacred architecture and serene forest scenery.</p>
+
+<p>AllTrails highlights the blend of cultural treasures and gentle inclines that make this walk approachable for most visitors while still offering glimpses of Nikko’s mountainous backdrop. Expect occasional crowds near the shrine precincts, but quieter stretches emerge as you loop through Tamozawa Imperial Villa Park and the residential lanes back toward downtown.</p>
+
+<div class="nav-link">
+<a href="https://www.alltrails.com/trail/japan/tochigi/nikko-world-heritage-shrines-and-temples" target="_blank">🔗 View on AllTrails</a>
+</div>
+
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Ryuzu Falls to Yudaki Falls Trail">Continue to Ryuzu Falls to Yudaki Falls →</a>
+</div>
+
+</div>
