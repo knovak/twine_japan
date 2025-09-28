@@ -1,0 +1,65 @@
+:: KIX to OMO Kansai Airport Hotel
+<div class="card active" id="card1">
+<div class="card-number">5</div>
+<div class="card-header">
+<h1 class="card-title">関西空港からOMO関西空港</h1>
+<h2 class="card-subtitle">Getting to OMO Kansai Airport by Hoshino Resorts</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Kansai_Airport_Station_2018.jpg" alt="Kansai Airport station platforms" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location5')">
+<div class="location-label">📍 Hotel Contact</div>
+<div class="toggle-icon" id="icon5">+</div>
+</div>
+<div class="location-content" id="location5">
+<div class="address">
+<span class="address-label">Name:</span>
+<span class="address-text">OMO Kansai Airport by Hoshino Resorts</span>
+</div>
+<div class="address">
+<span class="address-label">Phone:</span>
+<span class="address-text">+81-50-3786-1144</span>
+</div>
+<div class="address">
+<span class="address-label">Email:</span>
+<span class="address-text"><a href="mailto:kansaiairport@omo-hotels.com">kansaiairport@omo-hotels.com</a></span>
+</div>
+<a href="https://hoshinoresorts.com/en/hotels/omokansaiairport/" target="_blank" class="maps-link">🌐 Official hotel website</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Hotel location:</strong> Within Aeroplaza, the commercial complex opposite Terminal 1 at KIX<br>
+<strong>Check-in:</strong> 15:00 / <strong>Check-out:</strong> 11:00
+</div>
+
+<p>OMO Kansai Airport occupies several floors of the Aeroplaza, the mixed-use building connected to Kansai International Airport's Terminals 1 and 2 via free shuttle buses and an enclosed pedestrian bridge. Once you arrive at KIX, you do not need to leave the island to reach the hotel.</p>
+
+<h3>Fastest daytime route (Haruka or Limited Express)</h3>
+<p>Ride the JR Kansai-Airport Rapid or Limited Express Haruka one stop from Kansai Airport Station to <strong>Rinku Town Station</strong> (5 minutes) if you want to pick up supplies at the Rinku Premium Outlets before checking in. Otherwise remain on the train: the very next stop back at Kansai Airport Station deposits you directly beneath Aeroplaza. Follow signs for Aeroplaza / Hotels and take the escalator to level 2 for the lobby.</p>
+
+<div class="highlight">
+<strong>Tip:</strong> ICOCA and other IC cards work on all JR and Nankai trains at KIX. Scan out at Kansai Airport Station to exit toward the hotel.
+</div>
+
+<h3>Late-night arrival (Nankai Line)</h3>
+<p>If you land after the JR services finish (~23:30), the Nankai Line's final <strong>Rapi:t</strong> limited express from Namba still returns to Kansai Airport around 23:40. The station concourse remains open, and the covered walkway to Aeroplaza is lit 24 hours, allowing a smooth transfer even past midnight.</p>
+
+<h3>Luggage-friendly shuttle</h3>
+<p>Free <strong>Aeroplaza Shuttle</strong> buses loop between Terminal 1 (outside Arrival Hall 1F), Terminal 2 (bus stop 1), and Aeroplaza every 5–10 minutes from early morning until late night. Tell the driver "OMO hotel" and alight at the Aeroplaza stop. Elevators just inside the entrance lead to the hotel reception.</p>
+
+<h3>Driving or taxi</h3>
+<p>The hotel does not operate a private car park. Use KIX's <strong>P1</strong> or <strong>P2</strong> short-term parking connected to Aeroplaza; guests receive discounted rates by validating tickets at reception. A taxi from the Terminal 1 curb to Aeroplaza costs around ¥680 and takes under five minutes.</p>
+
+<a href="https://www.kansai-airport.or.jp/en/access/bus" target="_blank" class="wikipedia-link">🚌 Kansai International Airport ground transport details</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Dotonbori &amp; Shinsaibashi Arcade">Back to Neighborhoods →</a>
+</div>
+
+</div>

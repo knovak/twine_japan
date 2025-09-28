@@ -1,0 +1,51 @@
+:: StoryConfig [init]
+<<run Config.passages.nobr = true>>
+:: Table of Contents
+<div class="card active" id="card1">
+<div class="card-number">0</div>
+<div class="card-header">
+<h1 class="card-title">大阪</h1>
+<h1 class="card-title">Osaka City Guide</h1>
+</div>
+
+<p>Osaka blends mercantile grit with Kansai warmth. Compact neighborhoods brim with neon canals, retro arcades, riverfront museums, and laid-back café culture. This deck spotlights four districts that are easy to explore on foot plus essential airport transfer tips.</p>
+
+<h2>Neighborhoods</h2>
+
+<div class="toc-grid">
+<div class="toc-item">
+<h3>[[🌃 Dotonbori &amp; Shinsaibashi Arcade->Dotonbori &amp; Shinsaibashi Arcade]]</h3>
+<p>Follow the canal from Ebisu Bridge through Osaka's most famous nightlife promenade.</p>
+</div>
+
+<div class="toc-item">
+<h3>[[🎭 Shinsekai &amp; Tsutenkaku Loop->Shinsekai &amp; Tsutenkaku Loop]]</h3>
+<p>Retro Osaka icons, kushikatsu eateries, and Showa-era charm beneath the tower lights.</p>
+</div>
+
+<div class="toc-item">
+<h3>[[☕ Nakazakicho Retro Lanes->Nakazakicho Retro Lanes]]</h3>
+<p>Converted machiya houses, indie galleries, and kissaten cafés north of Umeda.</p>
+</div>
+
+<div class="toc-item">
+<h3>[[🏞️ Nakanoshima Culture Walk->Nakanoshima Culture Walk]]</h3>
+<p>Art museums and riverside greenways between Osaka's two major rivers.</p>
+</div>
+</div>
+
+<h2>Transport</h2>
+
+<div class="toc-grid">
+<div class="toc-item">
+<h3>[[✈️ KIX to OMO Kansai Airport Hotel->KIX to OMO Kansai Airport Hotel]]</h3>
+<p>Compare trains, shuttle buses, and late-night options to reach the on-airport stay.</p>
+</div>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Dotonbori &amp; Shinsaibashi Arcade">Start with Dotonbori →</a>
+</div>
+
+:: PassageFooter
+<p class="footer">2025-09-18 Ken Novak</p>

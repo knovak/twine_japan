@@ -1,0 +1,52 @@
+:: Dotonbori & Shinsaibashi Arcade
+<div class="card active" id="card1">
+<div class="card-number">1</div>
+<div class="card-header">
+<h1 class="card-title">道頓堀と心斎橋筋商店街</h1>
+<h2 class="card-subtitle">Dotonbori &amp; Shinsaibashi Arcade</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Dotonbori_at_night.jpg" alt="Dotonbori canal at night" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location1')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon1">+</div>
+</div>
+<div class="location-content" id="location1">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒542-0085 大阪府大阪市中央区道頓堀・心斎橋筋</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Dotonbori &amp; Shinsaibashi-suji, Chuo Ward, Osaka 542-0085, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Dotonbori+Osaka" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Walk length:</strong> 1.6 km canal-to-arcade loop<br>
+<strong>Nearest station:</strong> Namba Station (Midosuji, Yotsubashi, Sennichimae lines) or Shinsaibashi Station
+</div>
+
+<p>Start at Ebisu Bridge for the iconic view of the Glico neon runner reflecting on the Dotonbori canal. Street performers, takoyaki vendors, and river cruise announcers set the tone for Osaka's exuberant entertainment district.</p>
+
+<p>Follow the boardwalk east to Hozenji Yokocho, a lantern-lit alley anchored by the moss-covered Hozenji Fudo statue. Slip a coin in the basin, splash the deity with ladles of water like locals do, then step into one of the udon or okonomiyaki counters lining the stone-paved lane.</p>
+
+<div class="highlight">
+<strong>Food crawl tip:</strong> Alternate sweet and savory bites—charcoal-grilled crab legs, melonpan ice cream, kushi-katsu skewers, and fluffy ricotta pancakes are all within a five-minute walk.</div>
+
+<p>Continue north via Midosuji's ginkgo-lined boulevard to the covered Shinsaibashi-suji arcade. This 600-meter shopping tunnel blends global flagships, long-running kimono drapers, sneaker boutiques, and character goods stores. Side streets westward spill into Amerikamura's murals and vintage shops if you crave more youth culture.</p>
+
+<a href="https://osaka-info.jp/en/areas/minami/dotonbori/" target="_blank" class="wikipedia-link">🌐 Osaka Convention &amp; Tourism Bureau neighborhood guide</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Shinsekai &amp; Tsutenkaku Loop">Next: Shinsekai &amp; Tsutenkaku →</a>
+</div>
+
+</div>
