@@ -1,0 +1,52 @@
+:: Nakazakicho Retro Lanes
+<div class="card active" id="card1">
+<div class="card-number">3</div>
+<div class="card-header">
+<h1 class="card-title">中崎町レトロ路地</h1>
+<h2 class="card-subtitle">Nakazakicho Retro Lanes</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Nakazakicho_osaka.jpg" alt="Nakazakicho alley with cafes" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location3')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon3">+</div>
+</div>
+<div class="location-content" id="location3">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒530-0015 大阪府大阪市北区中崎西・中崎</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Nakazaki, Kita Ward, Osaka 530-0015, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nakazakicho+Osaka" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Walk length:</strong> 1 km meander through backstreets<br>
+<strong>Nearest station:</strong> Nakazakicho Station (Tanimachi Line) or Umeda Station (10-minute walk)
+</div>
+
+<p>Nakazakicho survived wartime air raids, leaving clusters of pre-war wooden nagaya row houses intact. In the 2000s creatives began converting them into ateliers, select shops, and photogenic cafés, creating a gentle alternative to the skyscrapers of nearby Umeda.</p>
+
+<p>Start at Nakazakicho Station and wander north to Café Arabiq for siphon coffee, then browse used books and zines at Salon de Amanto—a pioneering art space. Many shops open around 11:00, so aim for a late-morning visit when shutters roll up and the scent of fresh-baked taiyaki fills the alleys.</p>
+
+<div class="highlight">
+<strong>Heritage insight:</strong> Spot the city-designated "Nagaya Terraces" plaques explaining how the row houses were raised in the Taisho era for textile mill workers.</div>
+
+<p>Head west toward the Nakazakicho "Mori no Ichi" mini market, held on select weekends with handmade accessories, kimono remakes, and small-batch pastries. Finish at the elevated Hankyu Railway viaduct, where murals and pop-up bars animate the arches by sunset.</p>
+
+<a href="https://osaka-info.jp/en/areas/kita/nakazakicho/" target="_blank" class="wikipedia-link">🌐 Osaka Info overview of Nakazakicho</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Nakanoshima Culture Walk">Stroll Nakanoshima →</a>
+</div>
+
+</div>

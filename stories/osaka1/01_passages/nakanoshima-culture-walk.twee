@@ -1,0 +1,52 @@
+:: Nakanoshima Culture Walk
+<div class="card active" id="card1">
+<div class="card-number">4</div>
+<div class="card-header">
+<h1 class="card-title">中之島カルチャー散策</h1>
+<h2 class="card-subtitle">Nakanoshima Culture Walk</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Nakanoshima_Park_Rose_Garden.jpg" alt="Nakanoshima riverside park" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location4')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon4">+</div>
+</div>
+<div class="location-content" id="location4">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒530-0005 大阪府大阪市北区中之島</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Nakanoshima, Kita Ward, Osaka 530-0005, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Nakanoshima+Park+Osaka" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Walk length:</strong> 2 km riverfront promenade<br>
+<strong>Nearest station:</strong> Yodoyabashi Station (Midosuji Line), Naniwabashi Station (Keihan Nakanoshima Line)
+</div>
+
+<p>Nakanoshima is a slender island sandwiched between the Dojima and Tosabori Rivers. Civic landmarks and manicured parks make it ideal for a cultural stroll that balances architecture, art, and river breezes.</p>
+
+<p>Begin at the Osaka City Central Public Hall, a 1918 Neo-Renaissance masterpiece built during the Kansai industrial boom. Free exhibits explain how stockbroker donations funded the grand auditorium. Cross the plaza to the Osaka Prefectural Nakanoshima Library to admire its Corinthian columns and quiet reading room.</p>
+
+<div class="highlight">
+<strong>Art stop:</strong> The Nakanoshima Museum of Art showcases mid-century Gutai works, Yayoi Kusama pieces, and rotating design exhibits. Book timed tickets online on busy weekends.</div>
+
+<p>Continue west through Nakanoshima Park's rose garden, especially fragrant in May and October. Picnic on the lawns while river cruises glide past, then cap the walk at the renovated Festival Tower, where you can catch an evening performance at the Festival Hall or sip cocktails at the observation lounge overlooking the lights of Umeda.</p>
+
+<a href="https://osaka-info.jp/en/areas/kita/nakanoshima/" target="_blank" class="wikipedia-link">🌐 Osaka Info: Nakanoshima highlights</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="KIX to OMO Kansai Airport Hotel">Transport: KIX to OMO →</a>
+</div>
+
+</div>
