@@ -15,7 +15,8 @@ This repository houses multiple travel-guide microsites built with **Twine** (vi
 
 ## Pattern for creating new sites in parallel
 - Treat `stories/nikko1` as the canonical example. When adding a new destination, copy its layout (meta file, passage folder, assets folder) into a new directory like `stories/<new-site>/` and update the metadata, CSS, and passages accordingly.
-- Keep filenames descriptive and kebab-cased (`lake-kirikomi-and-lake-karikomi-loop.twee`). Each passage title should match the in-game link text for clarity.
+- Keep filenames descriptive and kebab-cased (`lake-kirikomi-loop.twee`). Each passage title should match the link text for clarity.
+- Do not use ampersand character in the file names or the card titles.
 - Reuse shared conventions:
   - Create a “Table of Contents” passage that acts as the starting entry, categorizing content (e.g., Attractions, Hotels, Transport, Hikes) into grid cards that link to individual passages.
   - Within passages, wrap the main content in `.card` markup with `card-number`, `card-header`, `card-content`, and `.navigation` links, mirroring the Nikko site.
