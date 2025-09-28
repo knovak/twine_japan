@@ -7,7 +7,8 @@
 </div>
 
 <div class="card-content">
-<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.778,139.453&zoom=13&size=600x360&markers=36.778,139.453,lightblue1" alt="Map of the Ryuzu Falls to Yudaki Falls trail in Okunikko" class="temple-image">
+<img src="assets/images/ryuzu-yudaki-falls-trail-map.png" alt="Trail map showing the route from Ryuzu Falls to Yudaki Falls with elevation markers" class="temple-image">
+<img src="https://staticmap.openstreetmap.de/staticmap.php?center=36.778,139.453&zoom=13&size=600x360&markers=36.778,139.453,lightblue1" alt="OpenStreetMap overview of the Ryuzu Falls to Yudaki Falls area" class="temple-image" style="margin-top: 10px;">
 
 <!-- Collapsible Location Section -->
 <div class="location-section">
@@ -44,7 +45,7 @@
 
 <div class="navigation">
 <a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
-<a class="nav-link" data-passage="Lake Kirikomi &amp; Lake Karikomi Loop">Continue to Lake Kirikomi &amp; Lake Karikomi →</a>
+<a class="nav-link" data-passage="Lake Kirikomi">Continue to Lake Kirikomi →</a>
 </div>
 
 </div>

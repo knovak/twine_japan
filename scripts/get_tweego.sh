@@ -12,9 +12,10 @@ case "$OS" in
   *) echo "Unsupported OS: $OS"; exit 1 ;;
 esac
 
+# Note: As of v2.1.1, Tweego doesn't have native ARM64 builds yet
+# Apple Silicon Macs can run the x64 version through Rosetta 2
 case "$ARCH" in
-  x86_64|amd64) CPU="x64" ;;
-  arm64|aarch64) CPU="arm64" ;;
+  x86_64|amd64|arm64|aarch64) CPU="x64" ;;  # Use x64 for both Intel and Apple Silicon
   *) echo "Unsupported arch: $ARCH"; exit 1 ;;
 esac
 
@@ -32,4 +33,12 @@ echo "Unzipping..."
 cd .bin
 unzip -q -o tweego.zip
 chmod +x tweego
-echo "Tweego installed at $(pwd)/tweego"
+
+# Check if we're on Apple Silicon and suggest Rosetta 2 if needed
+if [[ "$OS" == "darwin" && ("$ARCH" == "arm64" || "$ARCH" == "aarch64") ]]; then
+  echo "Tweego installed at $(pwd)/tweego"
+  echo "Note: You're on Apple Silicon. If you get 'Bad CPU type' errors,"
+  echo "install Rosetta 2 with: softwareupdate --install-rosetta"
+else
+  echo "Tweego installed at $(pwd)/tweego"
+fi
