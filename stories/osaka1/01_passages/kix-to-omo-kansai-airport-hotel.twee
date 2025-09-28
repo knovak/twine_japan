@@ -7,7 +7,7 @@
 </div>
 
 <div class="card-content">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Kansai_Airport_Station_2018.jpg" alt="Kansai Airport station platforms" class="temple-image">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Aeroplaza_Izumisano_Osaka_pref_Japan01s5.jpg?width=800" alt="Aeroplaza building at Kansai Airport" class="temple-image">
 
 <div class="location-section">
 <div class="location-toggle" onclick="toggleLocation('location5')">

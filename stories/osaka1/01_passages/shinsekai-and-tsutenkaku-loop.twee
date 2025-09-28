@@ -7,7 +7,7 @@
 </div>
 
 <div class="card-content">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tsutenkaku_Tower_2014.jpg" alt="Tsutenkaku tower at dusk" class="temple-image">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/New_Tsutenkaku_in_201409_003.JPG?width=800" alt="Tsutenkaku tower at dusk" class="temple-image">
 
 <div class="location-section">
 <div class="location-toggle" onclick="toggleLocation('location2')">

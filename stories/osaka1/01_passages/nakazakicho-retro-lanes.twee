@@ -7,7 +7,7 @@
 </div>
 
 <div class="card-content">
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Nakazakicho_osaka.jpg" alt="Nakazakicho alley with cafes" class="temple-image">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Japanese_sidewalk.jpg?width=800" alt="Nakazakicho alley with cafes" class="temple-image">
 
 <div class="location-section">
 <div class="location-toggle" onclick="toggleLocation('location3')">

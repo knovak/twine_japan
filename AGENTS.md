@@ -22,11 +22,43 @@ This repository houses multiple travel-guide microsites built with **Twine** (vi
   - Within passages, wrap the main content in `.card` markup with `card-number`, `card-header`, `card-content`, and `.navigation` links, mirroring the Nikko site.
   - Use `.highlight` blocks for key callouts (hours, fees, fun facts) and the collapsible `.location-section` for address/mapping information. These styles and behaviors are defined in `assets/styles.css` and `assets/scripts.js` respectively.
   - Provide navigation links back to the Table of Contents and onward to related cards to maintain traversal flow.
-- Store deck-specific imagery under `assets/images/` and reference them using relative paths inside passages. When practical, prefer checked-in assets over hotlinking external images.
+- Store deck-specific imagery under `assets/images/` and reference them using relative paths inside passages. When using external images, avoid `upload.wikimedia.org` URLs and convert them to reliable Wikimedia Commons alternatives using the conversion script below.
 
 ## Styling and scripting conventions
 - `stories/nikko1/assets/styles.css` demonstrates the expected layering: it aggressively resets SugarCube defaults, defines the card layout, grid-based table of contents, highlight callouts, and location toggles. New sites should either reuse this stylesheet or adapt it thoughtfully; keep overrides near the end to win against SugarCube’s cascade.
 - `stories/nikko1/assets/scripts.js` exposes `toggleLocation()` for collapsing and expanding location details. If you add new interactive helpers, place them in `assets/scripts.js` and ensure `00_meta.twee` appends the script tag using the same pattern (`Story JavaScript` passage injecting `assets/scripts.js`).
+
+## Image hosting and Wikimedia URLs
+- **Avoid upload.wikimedia.org URLs**: Do not use direct `https://upload.wikimedia.org/` URLs as they often become unreliable or break over time.
+- **Use Wikimedia Commons alternatives**: When sourcing images from Wikimedia, always convert upload URLs to reliable alternatives using either:
+  - **Special:FilePath URL** (recommended): `https://commons.wikimedia.org/wiki/Special:FilePath/filename.jpg?width=800`
+  - **Commons file page URL**: `https://commons.wikimedia.org/wiki/File:filename.jpg`
+- **URL conversion script**: Use this JavaScript function to convert problematic upload.wikimedia.org URLs:
+
+```javascript
+function wikimediaToCommons(url, width) {
+  const u = new URL(url);
+  const parts = u.pathname.split("/");
+  let filename;
+  if (parts.includes("thumb")) {
+    // filename is after thumb/hash1/hash2
+    filename = parts[parts.indexOf("thumb") + 3];
+  } else {
+    filename = parts[parts.length - 1];
+  }
+  // Don't decode the filename to preserve any necessary URL encoding
+  // decodeURIComponent(filename) can break URLs with special characters
+  const commonsPage = `https://commons.wikimedia.org/wiki/File:${filename}`;
+  let filepath = `https://commons.wikimedia.org/wiki/Special:FilePath/${filename}`;
+  if (width) filepath += `?width=${width}`;
+  return { commonsPage, filepath };
+}
+```
+
+**Important Note:** This script extracts the filename from upload.wikimedia.org URLs, but the actual file on Wikimedia Commons may have a different name. Always verify the generated URL works by testing it in a browser. If it doesn't work, search Wikimedia Commons manually for the correct filename.
+
+- **Standard width**: Use `?width=800` for temple/location images to ensure consistent sizing and optimal loading performance.
+- **Local assets preferred**: When practical, prefer checked-in assets under `assets/images/` over external image hotlinking for better reliability.
 
 ## Content structure expectations (based on `nikko1`)
 - Group cards into logical sections (Attractions, Hotels, Transport, Hikes, etc.) on the Table of Contents. Each section’s cards should provide a short description beneath the link to encourage exploration.
