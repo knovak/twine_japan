@@ -7,7 +7,7 @@
 </div>
 
 <div class="card-content">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Nakanoshima_Park_Rose_Garden.jpg" alt="Nakanoshima riverside park" class="temple-image">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pink_roses%2C_Nakanoshima_Park%2C_Osaka.jpg?width=800" alt="Nakanoshima riverside park" class="temple-image">
 
 <div class="location-section">
 <div class="location-toggle" onclick="toggleLocation('location4')">
