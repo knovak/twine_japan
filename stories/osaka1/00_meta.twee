@@ -1,0 +1,20 @@
+:: StoryTitle
+Osaka Travel Guide
+
+:: StoryData
+{
+  "ifid": "968DD69B-8F2D-4795-B245-4A175B662155",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Table of Contents",
+  "zoom": 1
+}
+
+:: StoryStylesheet [stylesheet]
+@import url("./assets/styles.css");
+
+:: Story JavaScript [script]
+// Load functional JavaScript for location toggle
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);

@@ -1,0 +1,52 @@
+:: Shinsekai and Tsutenkaku Loop
+<div class="card active" id="card1">
+<div class="card-number">2</div>
+<div class="card-header">
+<h1 class="card-title">新世界と通天閣散策</h1>
+<h2 class="card-subtitle">Shinsekai and Tsutenkaku Loop</h2>
+</div>
+
+<div class="card-content">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Tsutenkaku_Tower_2014.jpg" alt="Tsutenkaku tower at dusk" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location2')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon2">+</div>
+</div>
+<div class="location-content" id="location2">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒556-0002 大阪府大阪市浪速区恵美須東・新世界</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Shinsekai, Ebisuhigashi, Naniwa Ward, Osaka 556-0002, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Shinsekai+Tsutenkaku" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Walk length:</strong> 1.2 km retro circuit<br>
+<strong>Nearest station:</strong> Ebisucho Station (Sakaisuji Line) or Dobutsuen-mae Station
+</div>
+
+<p>Shinsekai debuted in 1912 as a futuristic entertainment quarter inspired by Paris and Coney Island. Today its neon signboards, paper lanterns, and Showa-era arcades make it one of Osaka's most atmospheric evening walks.</p>
+
+<p>Start beneath the 103-meter Tsutenkaku tower—nicknamed the "Tower Reaching Heaven." Ride the retro elevator to the observation deck to spot Abeno Harukas to the south and Osaka Bay to the west. Inside the tower, rub the foot of Billiken, the quirky good-luck deity adopted by locals.</p>
+
+<div class="highlight">
+<strong>Snack like a local:</strong> Kushikatsu Daruma and Yaekatsu each fry golden skewers of beef, lotus root, and quail eggs. Remember the house rule—no double-dipping into the communal sauce vats.</div>
+
+<p>Continue along Jan-Jan Yokocho, a narrow lane lined with pinball parlors, ticket shops, and izakaya grilling doteyaki beef tendon. Loop south to Tennoji Zoo's Art Deco gates, then detour into Spa World if you want a themed super sento soak. As night deepens, Tsutenkaku's LED panels change colors to forecast the next day's weather.</p>
+
+<a href="https://osaka-info.jp/en/spot/tsutenkaku-tower/" target="_blank" class="wikipedia-link">🌐 Official Tsutenkaku visitor information</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Nakazakicho Retro Lanes">Explore Nakazakicho →</a>
+</div>
+
+</div>
