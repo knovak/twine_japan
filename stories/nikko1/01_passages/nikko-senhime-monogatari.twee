@@ -7,7 +7,13 @@
 </div>
 
 <div class="card-content">
-<img src="https://lh3.googleusercontent.com/proxy/KxeQm9LXoRBFoBMyw1Q5b_OBsTctgmkOrLLYvrdo7QyBNpB792ecnO2JxmLjwMM2qyhMqh60kpwyGbSsuZCBNZLj6MQIFQLbq9Ric4PHv3NaqA" alt="Nikko Onsen Nikko Senhime Monogatari" class="temple-image">
+<!-- TODO: Replace with Creative Commons licensed image -->
+<!-- Recommended search terms for Creative Commons images:
+     - "Japanese ryokan mountain view" 
+     - "Traditional Japanese hotel onsen"
+     - "Nikko area scenic view"
+     Sources: Openverse.org, Flickr CC, Wikimedia Commons -->
+<img src="assets/images/monogatari_front.png" alt="Nikko Senhime Monogatari" class="temple-image">
 
 <!-- Collapsible Location Section -->
 <div class="location-section">
