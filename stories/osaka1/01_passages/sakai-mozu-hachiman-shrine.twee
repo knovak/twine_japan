@@ -1,0 +1,333 @@
+:: Sakai Mozu Hachiman Shrine
+<div class="card active" id="card-mozu">
+<div class="card-number">N3</div>
+<div class="card-header">
+<h1 class="card-title">百舌鳥八幡宮</h1>
+<h1 class="card-title">Sakai Mozu Hachiman Shrine</h1>
+</div>
+
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Mozuhachimangu_Shrine_2022-08-01_002.jpg?width=800" alt="Mozu Hachiman Shrine main hall" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location-mozu')">
+<div class="location-label">📍 Location and Access</div>
+<div class="toggle-icon" id="icon-mozu">+</div>
+</div>
+<div class="location-content" id="location-mozu">
+<div class="address">
+<span class="address-label">Address:</span>
+<span class="address-text">5-706 Mozuakahata-cho, Kita-ku, Sakai City (百舌鳥赤畑町5-706, 北区, 堺市)</span>
+</div>
+<div class="address">
+<span class="address-label">Multiple Access Options:</span>
+<span class="address-text">
+- JR Hanwa Line: Mozu Station (10-minute walk)<br>
+- Osaka Metro Midosuji Line: Nakamozu Station (15-minute walk)<br>
+- Nankai Koya Line: Mozuhachiman Station (10-minute walk)
+</span>
+</div>
+<div class="address">
+<span class="address-label">From Sakai Station:</span>
+<span class="address-text">Take Nankai Koya Line to Mozuhachiman Station (approximately 15 minutes)</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=百舌鳥八幡宮+堺市" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Saturday, October 4, 2025 - Moon-Viewing Festival (Tsukimi Matsuri)!</strong><br>
+You're visiting during the spectacular Mozu Hachiman Shrine Autumn Festival—one of the largest and most impressive Futon Daiko festivals in all of Japan! Eighteen massive portable shrines (nine towns contribute two each) will process into the shrine from 11:00 AM to 10:30 PM. This festival attracts over 100,000 visitors and features the distinctive chant "Bēra, Bēra, Berashosshoi!" echoing through the streets.
+</div>
+
+<h2>October 4 Festival Schedule - Futon Daiko Procession</h2>
+
+<table class="info-table">
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+<th>What to Experience</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>11:00 AM</td>
+<td>Festival Begins - Miyairi (Shrine Entry)</td>
+<td>First Futon Daiko arrive at shrine; procession continues throughout day and into night</td>
+</tr>
+<tr>
+<td>11:00 AM - 4:00 PM</td>
+<td>Daytime Processions</td>
+<td>Eighteen Futon Daiko parade through Mozu district neighborhoods; best time for photos in natural light</td>
+</tr>
+<tr>
+<td>4:00 PM - 7:00 PM</td>
+<td>Peak Activity Period</td>
+<td>Multiple Futon Daiko arrive at shrine simultaneously; most crowded but most energetic atmosphere</td>
+</tr>
+<tr>
+<td>7:00 PM - 10:30 PM</td>
+<td>Evening Processions</td>
+<td>Lantern-lit Futon Daiko create magical atmosphere; traditional music amplified in darkness; final entries dramatically illuminated</td>
+</tr>
+<tr>
+<td>Throughout Day</td>
+<td>Special Children's Ritual</td>
+<td>Children release fish into shrine pond (symbol of life and prosperity); reflects ancient harvest prayer traditions</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Note:</strong> The festival continues on Sunday, October 5, with the Miyade (shrine departure) from 9:00 AM to 10:00 PM as all eighteen Futon Daiko process out of the shrine grounds back to their home neighborhoods.</p>
+
+<h2>What is Futon Daiko?</h2>
+
+<p>Futon Daiko is a unique type of festival float found only in the Kawachi and Senshu regions of Osaka Prefecture, as well as parts of Hyogo Prefecture. Unlike the rolling danjiri carts, Futon Daiko are massive portable shrines carried on the shoulders of dozens of men—creating a spectacular display of synchronized strength and community spirit.</p>
+
+<p><strong>The distinctive features of Futon Daiko:</strong></p>
+<ul>
+<li><strong>Massive size:</strong> Each float stands approximately 4 meters (13 feet) tall and weighs nearly 3 tons</li>
+<li><strong>Unique pyramid design:</strong> Five crimson zabuton (cushion mats) are piled atop the platform in a distinctive inverted pyramid shape</li>
+<li><strong>Drum platform:</strong> Large taiko drums are inset into the platform, beaten rhythmically during processions</li>
+<li><strong>Bearing team:</strong> Requires around 70 people to carry each Futon Daiko on their shoulders</li>
+<li><strong>Signature chant:</strong> Bearers shout "Bēra, Bēra, Berashosshoi!" in perfect synchronization</li>
+<li><strong>Musical accompaniment:</strong> Traditional drums, flutes, and gongs played throughout the procession</li>
+</ul>
+
+<div class="highlight">
+<strong>Iyase - The Dramatic Lifting</strong><br>
+The absolute highlight of Futon Daiko occurs during "Miyairi" (shrine entry) when the final bearing team synchronizes their breathing and performs "Iyase"—hoisting the 3-ton Futon Daiko high into the air by extending their arms upward in perfect unison. This moment demonstrates the spiritual power of collective effort and requires months of practice to achieve perfect coordination.
+</div>
+
+<h2>The Legend Behind the Festival</h2>
+
+<h3>Origin of the Futon Tradition</h3>
+
+<p>The distinctive futon pyramids have fascinating origins dating to the Edo period (1603-1867). According to tradition, cotton-filled futons were rare luxuries for common people. When carrying the palanquin of the shrine deity between waypoints, parishioners would bring their precious futons as comfortable seating for the god to rest upon.</p>
+
+<p><strong>Multiple interpretations exist:</strong></p>
+<ul>
+<li><strong>Divine seating:</strong> The cushions provide a throne where the god sits during the journey</li>
+<li><strong>Street purification:</strong> Like danjiri, the Futon Daiko purify the streets the god will pass along</li>
+<li><strong>Wealth display:</strong> The tower of futons demonstrated community prosperity and devotion</li>
+<li><strong>Protective symbolism:</strong> The pyramid shape may represent sacred mountains or divine protection</li>
+</ul>
+
+<p><strong>Regional variations:</strong> While called "Futon Daiko" in Sakai, similar floats have different names across Japan—"Yatai" in Hyogo Prefecture, "Danjiri" in Awaji City, and "Kokkodesho" in Nagasaki Prefecture.</p>
+
+<h3>Moon-Viewing Festival (Tsukimi Matsuri)</h3>
+
+<p>The Mozu Hachiman festival is held on the 15th day of the 8th lunar month—the traditional date for moon-viewing festivals throughout Japan. This timing combines:</p>
+<ul>
+<li><strong>Harvest prayers:</strong> Thanksgiving for abundant autumn harvest</li>
+<li><strong>Moon celebration:</strong> Honoring the full autumn moon (considered the most beautiful of the year)</li>
+<li><strong>Animal liberation:</strong> Ancient Hachimangu custom of releasing captive animals (symbolized today by children releasing fish)</li>
+<li><strong>Community renewal:</strong> Bringing neighborhoods together to honor the shrine deity</li>
+</ul>
+
+<h2>About Mozu Hachiman Shrine</h2>
+
+<p>Mozu Hachimangu Shrine has an ancient and distinguished history dating back over 1,400 years.</p>
+
+<div class="highlight">
+<strong>Ancient Foundation</strong><br>
+Records indicate the shrine was built during the reign of Emperor Kinmei (532-571 CE), making it one of the oldest Shinto shrines in the Osaka region. The shrine grounds radiate centuries of accumulated spiritual energy and historical significance.
+</div>
+
+<h3>The Sacred Camphor Tree</h3>
+
+<p>Standing to the right of the main shrine is one of Osaka Prefecture's designated Natural Monuments—a magnificent camphor tree with extraordinary dimensions:</p>
+<ul>
+<li><strong>Trunk circumference:</strong> 5.2 meters (17 feet)</li>
+<li><strong>Height:</strong> 25 meters (82 feet)</li>
+<li><strong>Age:</strong> 700-800 years old</li>
+<li><strong>Spiritual significance:</strong> Considered a dwelling place for kami (Shinto deities)</li>
+<li><strong>Photogenic beauty:</strong> Stunning in all seasons, especially during autumn colors</li>
+</ul>
+
+<p>This ancient tree has witnessed centuries of festivals, prayers, and community gatherings—a living connection to the shrine's medieval past.</p>
+
+<h3>Architectural Features</h3>
+
+<p>The shrine complex showcases traditional Shinto architecture with elements that reflect its ancient origins:</p>
+<ul>
+<li><strong>Main sanctuary (honden):</strong> Houses the shrine deity, rebuilt multiple times over centuries</li>
+<li><strong>Worship hall (haiden):</strong> Where visitors offer prayers and make offerings</li>
+<li><strong>Sacred forest:</strong> The shrine sits within protected woodland preserving the natural sanctuary</li>
+<li><strong>Pond:</strong> Where children release fish during the autumn festival</li>
+<li><strong>Festival grounds:</strong> Large open space accommodating eighteen massive Futon Daiko simultaneously</li>
+</ul>
+
+<h2>What to Experience on October 4</h2>
+
+<h3>The Futon Daiko Spectacle</h3>
+
+<p>With eighteen Futon Daiko (nine towns contributing two each—one large, one small), this is one of the largest Futon Daiko festivals in the entire Senshu region. The scale and energy are extraordinary.</p>
+
+<p><strong>Recommended viewing strategy:</strong></p>
+<ul>
+<li><strong>Morning arrival (11:00 AM-1:00 PM):</strong> Watch early processions in daylight; easier to see intricate details and take photos</li>
+<li><strong>Afternoon exploration (1:00-4:00 PM):</strong> Explore shrine grounds, ancient camphor tree, and surrounding Mozu area</li>
+<li><strong>Peak evening (5:00-8:00 PM):</strong> Most dramatic period with multiple Futon Daiko arriving simultaneously; lantern-lit floats against twilight sky</li>
+<li><strong>Late evening (8:00-10:30 PM):</strong> Final entries have special intensity; fewer crowds for dedicated observers</li>
+</ul>
+
+<h3>The Bearing Team Experience</h3>
+
+<p>Watching the bearing teams reveals the profound cooperation required to carry a 3-ton shrine:</p>
+
+<p><strong>What makes a successful team:</strong></p>
+<ul>
+<li><strong>Synchronized breathing:</strong> All 70 bearers must breathe together</li>
+<li><strong>Matching steps:</strong> Footfalls must be perfectly coordinated</li>
+<li><strong>Unified spirit:</strong> When the team achieves perfect harmony, bearers report the Futon Daiko feels light to lift</li>
+<li><strong>Community pride:</strong> Each neighborhood's reputation depends on their team's performance</li>
+<li><strong>Generational tradition:</strong> Veteran bearers mentor young participants, passing down techniques and team spirit</li>
+</ul>
+
+<div class="highlight">
+<strong>A Bearer's Insight</strong><br>
+Long-time participants describe the Futon Daiko as feeling like "a living creature"—light when the team moves in perfect synchronization, but impossibly heavy when participants fall out of rhythm. This metaphysical aspect elevates the festival beyond mere physical feat to spiritual practice.
+</div>
+
+<h3>The Chant: "Bēra, Bēra, Berashosshoi!"</h3>
+
+<p>The distinctive rhythmic chant creates an auditory experience unlike any other Japanese festival. Listen for:</p>
+<ul>
+<li><strong>Call and response:</strong> Leaders initiate phrases, teams respond in thunderous unison</li>
+<li><strong>Timing variations:</strong> Chant speeds up during difficult passages, slows for dramatic moments</li>
+<li><strong>Collective power:</strong> Hundreds of male voices creating wall of sound</li>
+<li><strong>Musical accompaniment:</strong> Taiko drums, flutes (fue), and bells (kane) punctuating the chants</li>
+</ul>
+
+<h3>Children's Fish Release Ceremony</h3>
+
+<p>Throughout the festival day, children participate in releasing fish into the shrine's pond—a ritual representing:</p>
+<ul>
+<li><strong>Life and prosperity:</strong> Fish symbolize abundance and vitality</li>
+<li><strong>Buddhist influence:</strong> Releasing captive animals as act of compassion</li>
+<li><strong>Harvest gratitude:</strong> Thanking nature for providing sustenance</li>
+<li><strong>Next generation:</strong> Introducing children to festival traditions and spiritual values</li>
+</ul>
+
+<h2>Festival Food and Atmosphere</h2>
+
+<p>Like all major Japanese festivals, the Mozu Hachiman event features numerous food stalls (yatai) selling festival favorites:</p>
+
+<ul>
+<li><strong>Takoyaki:</strong> Osaka's signature octopus balls (essential festival experience)</li>
+<li><strong>Yakisoba:</strong> Stir-fried noodles</li>
+<li><strong>Okonomiyaki:</strong> Savory pancakes (Osaka specialty)</li>
+<li><strong>Grilled items:</strong> Yakitori (chicken skewers), corn, squid</li>
+<li><strong>Sweets:</strong> Cotton candy, candied apples, traditional wagashi</li>
+<li><strong>Festival beer and sake:</strong> For adult visitors</li>
+</ul>
+
+<div class="highlight">
+<strong>Festival Atmosphere</strong><br>
+Expect a lively, energetic environment with over 100,000 visitors throughout the day. The combination of thunderous drums, powerful chanting, delicious food smells, lantern light, and community celebration creates an unforgettable sensory experience. This is Japanese festival culture at its most authentic and vibrant.
+</div>
+
+<h2>Practical Festival Information</h2>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+- <strong>Date:</strong> Saturday, October 4, 2025 (continues Sunday, October 5)<br>
+- <strong>Festival Hours:</strong> 11:00 AM - 10:30 PM (Saturday); 9:00 AM - 10:00 PM (Sunday)<br>
+- <strong>Admission:</strong> Free<br>
+- <strong>Expected Attendance:</strong> Over 100,000 visitors across both days<br>
+- <strong>Time needed:</strong> 2-4 hours depending on desired experience<br>
+- <strong>Best for photos:</strong> Late afternoon/early evening (4:00-7:00 PM)
+</div>
+
+<p><strong>What to bring:</strong></p>
+<ul>
+<li><strong>Cash:</strong> Food stalls and festival items are cash-only</li>
+<li><strong>Camera/phone:</strong> Incredible photo opportunities with dramatic lighting</li>
+<li><strong>Comfortable shoes:</strong> Extensive standing and walking on shrine grounds</li>
+<li><strong>Light jacket:</strong> October evenings can be cool, especially after sunset</li>
+<li><strong>Patience:</strong> Popular viewing areas fill quickly; arrive early for optimal positions</li>
+<li><strong>Openness to crowds:</strong> This is a major event with dense crowds during peak hours</li>
+</ul>
+
+<p><strong>Safety and etiquette:</strong></p>
+<ul>
+<li><strong>Respect the bearers:</strong> Do not obstruct procession routes; stay in designated viewing areas</li>
+<li><strong>Mind the weight:</strong> These are 3-ton shrines carried by exhausted men—give them wide berth</li>
+<li><strong>Watch children carefully:</strong> Keep young kids close in dense crowds</li>
+<li><strong>Shrine respect:</strong> While festive, this remains a religious event; maintain appropriate behavior</li>
+<li><strong>Photography courtesy:</strong> Avoid flash photography during religious ceremonies</li>
+<li><strong>Trash disposal:</strong> Use provided bins; Japanese festivals maintain remarkably clean grounds</li>
+</ul>
+
+<h2>Combining with Daisen Kofun (UNESCO Site)</h2>
+
+<p>Mozu Hachiman Shrine is located in the Mozu district, home to Japan's largest ancient burial mound—the UNESCO World Heritage Daisen Kofun. This proximity allows an excellent combination itinerary:</p>
+
+<p><strong>Suggested schedule for October 4:</strong></p>
+<ul>
+<li><strong>9:00 AM:</strong> Visit Daisen Kofun and Sakai City Museum</li>
+<li><strong>11:00 AM:</strong> Walk or bike to Mozu Hachiman Shrine for festival start</li>
+<li><strong>12:00 PM:</strong> Lunch at festival food stalls</li>
+<li><strong>1:00 PM:</strong> Explore shrine grounds and ancient camphor tree</li>
+<li><strong>3:00 PM:</strong> Position for peak Futon Daiko processions</li>
+<li><strong>5:00 PM:</strong> Experience evening atmosphere with lantern-lit floats</li>
+<li><strong>7:00 PM:</strong> Dinner at festival or return to Sakai Station area</li>
+</ul>
+
+<p>This combination allows you to experience both ancient history (1,600-year-old burial mounds) and living tradition (300-year-old festival) in a single memorable day.</p>
+
+<h2>Regular Shrine Visits (Non-Festival Days)</h2>
+
+<p>If visiting Mozu Hachiman outside festival periods, expect a peaceful spiritual sanctuary:</p>
+
+<ul>
+<li><strong>Quiet contemplation:</strong> The ancient grounds offer serene atmosphere for reflection</li>
+<li><strong>Natural beauty:</strong> The sacred camphor tree and forested setting are beautiful year-round</li>
+<li><strong>Historical appreciation:</strong> Imagine 1,400+ years of continuous worship at this site</li>
+<li><strong>Local neighborhood shrine:</strong> Observe daily Shinto practices of local residents</li>
+<li><strong>Photography:</strong> Without crowds, capture architectural details and natural elements</li>
+</ul>
+
+<h2>Cultural Significance</h2>
+
+<p>The Mozu Hachiman Futon Daiko Festival represents several important aspects of Japanese culture:</p>
+
+<ul>
+<li><strong>Community cohesion:</strong> Each of nine neighborhoods maintains their Futon Daiko year-round, with teams practicing coordination for months before the festival</li>
+<li><strong>Generational continuity:</strong> Grandfathers, fathers, and sons often bear together, passing down techniques and team spirit</li>
+<li><strong>Physical devotion:</strong> The extreme physical demands of carrying 3-ton shrines demonstrates sincerity of religious offering</li>
+<li><strong>Artistic preservation:</strong> Traditional music, chants, and choreography maintained across centuries</li>
+<li><strong>Agricultural roots:</strong> Despite modern urbanization, the harvest prayer traditions remain meaningful</li>
+</ul>
+
+<div class="highlight">
+<strong>Transformation Through Time</strong><br>
+Interestingly, Futon Daiko evolved from Danjiri-style rolling carts during the Meiji and Taisho periods (1868-1926). This transformation reflects how Japanese traditions adapt while maintaining core spiritual purposes. What began as wheeled carts became shoulder-borne shrines, changing the physical experience while preserving the community devotion.
+</div>
+
+<h2>Why This Festival Matters</h2>
+
+<p>For first-time visitors to Japan, the Mozu Hachiman Futon Daiko Festival offers an authentic window into Japanese community life, religious practice, and cultural continuity. Unlike commercialized tourist attractions, this is a genuine local celebration where participants are neighborhood residents continuing their ancestors' traditions.</p>
+
+<p>The festival demonstrates several core Japanese values:</p>
+<ul>
+<li><strong>Ganbari (perseverance):</strong> Bearing a 3-ton shrine requires extraordinary endurance</li>
+<li><strong>Wa (harmony):</strong> Success depends on perfect team coordination</li>
+<li><strong>Tradition preservation:</strong> Despite modernization, communities maintain these ancient practices</li>
+<li><strong>Collective identity:</strong> Individual achievement matters less than team success</li>
+<li><strong>Spiritual sincerity:</strong> Physical suffering as genuine religious offering</li>
+</ul>
+
+<p>The combination of ancient shrine history (1,400+ years), natural monuments (800-year-old camphor tree), and living tradition (300+ year festival) creates a rich cultural experience that goes far beyond typical sightseeing.</p>
+
+<div class="wikipedia-link">
+<a href="https://www.sakai-tcb.or.jp/en/spot/detail/155" target="_blank">Official Mozu Hachimangu information →</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Sakai Otori Taisha">Otori Taisha Danjiri Festival →</a>
+<a class="nav-link" data-passage="Town of Sakai">Back to Sakai Guide</a>
+<a class="nav-link" data-passage="Table of Contents">Back to Table of Contents</a>
+</div>
+</div>

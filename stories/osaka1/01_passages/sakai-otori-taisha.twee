@@ -1,0 +1,246 @@
+:: Sakai Otori Taisha
+<div class="card active" id="card-otori">
+<div class="card-number">N2</div>
+<div class="card-header">
+<h1 class="card-title">大鳥大社</h1>
+<h1 class="card-title">Sakai Otori Taisha</h1>
+</div>
+
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Otori-taisha,_haiden.jpg?width=800" alt="Otori Taisha shrine main hall" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location-otori')">
+<div class="location-label">📍 Location and Access</div>
+<div class="toggle-icon" id="icon-otori">+</div>
+</div>
+<div class="location-content" id="location-otori">
+<div class="address">
+<span class="address-label">Address:</span>
+<span class="address-text">1-1-2 Otorikita-machi, Nishi-ku, Sakai City (大鳥北町1-1-2, 西区, 堺市)</span>
+</div>
+<div class="address">
+<span class="address-label">From Sakai Station:</span>
+<span class="address-text">15 minutes by Nankai train to Otori Station, then 5-minute walk</span>
+</div>
+<div class="address">
+<span class="address-label">Alternative Access:</span>
+<span class="address-text">JR Hanwa Line to Otori Station (5-minute walk) or Nankai bus to Otori-Jinja Shrine bus stop</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=大鳥大社+堺市" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Saturday, October 4, 2025 - Danjiri Festival Day!</strong><br>
+You're visiting during the spectacular Otori Taisha Danjiri Festival! Ten elaborately carved wooden floats (danjiri) will enter the shrine grounds throughout the morning, then depart later in the day. This is one of Sakai's most exciting autumn festivals featuring thunderous drums, energetic chanting, and the incredible sight of 4-ton festival carts racing through the streets.
+</div>
+
+<h2>October 4 Festival Schedule</h2>
+
+<table class="info-table">
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+<th>What to Expect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Morning</td>
+<td>Miyairi (Shrine Entry)</td>
+<td>Ten danjiri floats enter the shrine grounds one by one; prime photo opportunities as each neighborhood's float is blessed</td>
+</tr>
+<tr>
+<td>Daytime</td>
+<td>Shrine Ceremonies</td>
+<td>Traditional Shinto rituals performed; danjiri rest within shrine grounds; explore the historic shrine buildings</td>
+</tr>
+<tr>
+<td>Late Afternoon/Evening</td>
+<td>Miyade (Shrine Departure)</td>
+<td>Danjiri exit the shrine and race through surrounding streets; most dramatic moment with fastest turns (yarimawashi)</td>
+</tr>
+<tr>
+<td>Evening (continues into night)</td>
+<td>Street Processions</td>
+<td>Floats parade through Otori district neighborhoods with lanterns lit; accompanied by traditional music (taiko drums, flutes, gongs)</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Note:</strong> The festival continues on Sunday, October 5, with a special Nishi Ward Danjiri Parade around noon featuring coordinated performances by multiple neighborhoods.</p>
+
+<h2>What is a Danjiri Festival?</h2>
+
+<p>Danjiri festivals are high-energy autumn celebrations featuring massive wooden carts carved to resemble miniature shrines or temples. These festivals are unique to the Kinki region around Osaka Bay and are famous for being thrilling, dangerous, and spectacular.</p>
+
+<p><strong>The Danjiri floats at Otori Taisha:</strong></p>
+<ul>
+<li><strong>Construction:</strong> Made from zelkova wood with intricate carvings depicting historical scenes, mythological figures, flowers, and sacred animals</li>
+<li><strong>Size and Weight:</strong> Approximately 4 meters tall and weighing over 4 tons each</li>
+<li><strong>Pulling Teams:</strong> 400-1,000 men per float pull thick ropes while chanting "Sorya, sorya!"</li>
+<li><strong>Roof Performers:</strong> The daiku-gata (carpenter) stands on top performing elegant fan dances while controlling direction</li>
+<li><strong>Musicians:</strong> Taiko drummers, flute players, and bell ringers ride inside the cart creating the distinctive danjiri rhythm</li>
+</ul>
+
+<div class="highlight">
+<strong>Yarimawashi - The Thrilling Turn</strong><br>
+The highlight of any danjiri festival is the yarimawashi—a maneuver where the massive 4-ton cart negotiates a 90-degree turn at full speed without slowing down. This requires perfect teamwork, timing, and considerable courage. It's both spectacular and one of Japan's most dangerous festivals, with participants risking injury from the unpredictable movements of these heavy floats.
+</div>
+
+<h2>About Otori Taisha Shrine</h2>
+
+<p>Otori Taisha holds the prestigious position as the highest-ranked shrine of the former Izumi Province, making it one of the most important Shinto sites in southwestern Osaka. The shrine has a legendary history dating back approximately 1,900 years.</p>
+
+<h3>The Legend of the White Bird</h3>
+
+<p>According to ancient Japanese chronicles (the Kojiki and Nihon Shoki), the legendary hero Yamato Takeru no Mikoto died after offending the deity of Mount Ibuki during his conquests in eastern Japan. After his burial in Ise Province, his spirit transformed into a white heron (or bird) that flew westward. The place where this sacred white bird finally descended is said to be where Otori Taisha was founded. Legend claims that to prevent the bird from flying away again, trees grew thick overnight—which is why the shrine remains surrounded by an ancient forest today.</p>
+
+<h3>Architectural Heritage</h3>
+
+<p>The current shrine buildings were reconstructed between 1905 and 1909 after the original main hall was destroyed by fire. In March 2025, the main hall and worship hall were designated as Tangible Cultural Properties of Sakai City—recognition of their architectural and historical significance.</p>
+
+<p><strong>Notable architectural features:</strong></p>
+<ul>
+<li><strong>Unique blend of styles:</strong> Combines ancient Shinto shrine architecture with Meiji-era (1868-1912) innovation, reflecting Japan's modernization period</li>
+<li><strong>Rare octagonal torii gate:</strong> An unusual feature standing before the worship hall</li>
+<li><strong>600-year-old camphor tree:</strong> Located east of the main hall, a living witness to centuries of history</li>
+<li><strong>Forested grounds:</strong> The shrine is enveloped by a lush, ancient forest creating a peaceful sanctuary</li>
+</ul>
+
+<h3>Historical Significance</h3>
+
+<p>Otori Taisha weathered many storms throughout Japanese history:</p>
+<ul>
+<li><strong>Sengoku Period (1467-1615):</strong> The shrine's estates (valued at 1,300 koku) were confiscated by warlord Oda Nobunaga in 1575 and the shrine was burned down</li>
+<li><strong>1602 Reconstruction:</strong> Rebuilt by order of Toyotomi Hideyori, son of the great unifier Toyotomi Hideyoshi</li>
+<li><strong>1615 Siege of Osaka:</strong> Destroyed again during the final battle between the Toyotomi and Tokugawa clans</li>
+<li><strong>1662 Restoration:</strong> Reconstructed by the Tokugawa shogunate through the Sakai magistrate</li>
+<li><strong>Meiji Restoration (1868):</strong> When Shinto and Buddhism were forcibly separated, the shrine reemerged as a purely Shinto institution</li>
+</ul>
+
+<h2>What to See on October 4</h2>
+
+<h3>The Danjiri Festival Experience</h3>
+
+<p>Arriving during the festival means you'll witness Otori district neighborhoods bringing their most treasured possessions—their danjiri—to the shrine for blessing. Each float represents years of craftsmanship and community pride.</p>
+
+<p><strong>Best viewing tips:</strong></p>
+<ul>
+<li><strong>Morning arrival (before 11:00 AM):</strong> Watch danjiri enter the shrine grounds; less crowded than evening</li>
+<li><strong>Shrine grounds exploration:</strong> Between processions, explore the historic buildings and peaceful forest</li>
+<li><strong>Late afternoon (4:00-6:00 PM):</strong> Most exciting period when floats exit and race through streets</li>
+<li><strong>Street corners:</strong> Best spots to see the dramatic yarimawashi turns (arrive early for good viewing position)</li>
+<li><strong>Evening atmosphere:</strong> Lantern-lit danjiri create magical atmosphere with traditional music echoing through streets</li>
+</ul>
+
+<h3>The Shrine Grounds</h3>
+
+<p>Even during the festival excitement, take time to appreciate the shrine's spiritual atmosphere:</p>
+<ul>
+<li><strong>Main sanctuary:</strong> Admire the Meiji-era architecture designated as cultural property</li>
+<li><strong>Ancient camphor tree:</strong> A 600-year-old natural wonder</li>
+<li><strong>Octagonal torii gate:</strong> Photograph this rare architectural feature</li>
+<li><strong>Forest pathways:</strong> Stroll through the sacred grove that grew to hold the white bird</li>
+<li><strong>Offering rituals:</strong> Observe traditional Shinto purification and prayer practices</li>
+</ul>
+
+<h2>Practical Festival Information</h2>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+- <strong>Date:</strong> Saturday, October 4, 2025 (continues Sunday, October 5)<br>
+- <strong>Hours:</strong> Shrine grounds open 6:00 AM - 6:00 PM (festival activities morning through evening)<br>
+- <strong>Admission:</strong> Free<br>
+- <strong>Time needed:</strong> 2-3 hours to experience festival highlights<br>
+- <strong>Crowds:</strong> Expect large crowds, especially late afternoon/evening<br>
+- <strong>Food stalls:</strong> Festival food vendors will be present
+</div>
+
+<p><strong>What to bring:</strong></p>
+<ul>
+<li><strong>Camera:</strong> Incredible photo opportunities with elaborately carved danjiri</li>
+<li><strong>Comfortable shoes:</strong> You'll be standing and walking on uneven ground</li>
+<li><strong>Cash:</strong> For festival food and drinks from street vendors</li>
+<li><strong>Light jacket:</strong> October evenings can be cool</li>
+<li><strong>Patience:</strong> Popular viewing spots fill up quickly; arrive early for best positions</li>
+</ul>
+
+<p><strong>Safety considerations:</strong></p>
+<ul>
+<li><strong>Stay behind barriers:</strong> Danjiri are unpredictable and dangerous; respect restricted areas around street corners</li>
+<li><strong>Don't climb or use stools:</strong> For safety reasons, spectators cannot use ladders or elevated viewing platforms</li>
+<li><strong>Watch children carefully:</strong> Keep young children close in crowds</li>
+<li><strong>Umbrella policy:</strong> If it rains, umbrellas are not permitted in viewing areas (for safety and visibility)</li>
+</ul>
+
+<h2>Regular Shrine Visits (Non-Festival Days)</h2>
+
+<p>If you visit Otori Taisha on a regular day, expect a completely different but equally rewarding experience:</p>
+
+<ul>
+<li><strong>Peaceful atmosphere:</strong> The ancient forest creates a serene sanctuary away from urban noise</li>
+<li><strong>New Year's (Hatsumode):</strong> Over 400,000 visitors during first three days of January</li>
+<li><strong>Regular hours:</strong> 6:00 AM-6:00 PM (October-March) or 5:30 AM-6:00 PM (April-September)</li>
+<li><strong>Reception desk:</strong> Open 9:00 AM-4:30 PM for shrine stamps, amulets, and fortunes</li>
+<li><strong>Photography:</strong> Excellent opportunities for architectural and nature photography</li>
+</ul>
+
+<h2>Combining with Other Sakai Attractions</h2>
+
+<p>Otori Taisha is located in Nishi Ward, making it easy to combine with other Sakai destinations:</p>
+
+<ul>
+<li><strong>From Sakai Station:</strong> Take Nankai train to Otori Station (quick journey)</li>
+<li><strong>Morning plan:</strong> Visit Daisen Kofun and Sakai City Museum, then afternoon at Otori Taisha festival</li>
+<li><strong>Evening plan:</strong> Experience the festival, then return to central Sakai for dinner</li>
+<li><strong>Photography route:</strong> Both ancient burial mounds and traditional festivals showcase different eras of Japanese culture</li>
+</ul>
+
+<h2>Cultural Context</h2>
+
+<p>The Otori Taisha Danjiri Festival represents the culmination of community pride and tradition. Each neighborhood's danjiri is maintained year-round, with bearing teams practicing for months. The festival serves multiple purposes:</p>
+
+<ul>
+<li><strong>Religious significance:</strong> Honoring the shrine deity and praying for community prosperity</li>
+<li><strong>Social cohesion:</strong> Bringing neighbors together across generations</li>
+<li><strong>Cultural preservation:</strong> Maintaining traditional woodcarving, music, and festival arts</li>
+<li><strong>Coming-of-age:</strong> Young men earn status by participating in pulling teams</li>
+<li><strong>Neighborhood identity:</strong> Each district's unique danjiri carvings tell their community's story</li>
+</ul>
+
+<div class="highlight">
+<strong>Why This Festival Matters</strong><br>
+Unlike heavily commercialized tourist festivals, the Otori Taisha Danjiri Festival remains an authentic community celebration. Participants are local residents continuing centuries-old traditions, not performers hired for tourists. This authenticity makes witnessing the festival a genuine cultural privilege.
+</div>
+
+<h2>Photography Tips</h2>
+
+<p>The combination of historic shrine architecture, ancient forest, and festival action creates exceptional photography opportunities:</p>
+
+<ul>
+<li><strong>Morning light:</strong> Best for shrine buildings and forest scenery</li>
+<li><strong>Festival action shots:</strong> Fast shutter speed needed for moving danjiri (1/500 second or faster)</li>
+<li><strong>Evening atmosphere:</strong> Lantern-lit floats with dusk sky create magical images</li>
+<li><strong>Detail shots:</strong> Zoom in on intricate wood carvings and traditional costumes</li>
+<li><strong>Wide angles:</strong> Capture the massive scale of danjiri and crowds</li>
+<li><strong>Video recommended:</strong> The sound and movement of the festival are hard to capture in still images</li>
+</ul>
+
+<h2>Why Visit Otori Taisha</h2>
+
+<p>Visiting Otori Taisha during the Danjiri Festival offers first-time visitors to Japan an unforgettable cultural experience that combines ancient spiritual traditions with vibrant community celebration. Unlike formal temple ceremonies, this festival pulses with raw energy, danger, and joy. The elaborate wooden floats represent the intersection of religious devotion, artistic achievement, and community identity—all themes central to understanding Japanese culture.</p>
+
+<p>The shrine's legendary history, architectural significance, and natural beauty would make it worth visiting any day—but experiencing it during the festival adds an extra dimension of excitement and cultural immersion that few tourists encounter.</p>
+
+<div class="wikipedia-link">
+<a href="https://en.wikipedia.org/wiki/%C5%8Ctori_taisha" target="_blank">Read more about Otori Taisha history →</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Sakai Mozu Hachiman Shrine">Mozu Hachiman Shrine Festival →</a>
+<a class="nav-link" data-passage="Town of Sakai">Back to Sakai Guide</a>
+<a class="nav-link" data-passage="Table of Contents">Back to Table of Contents</a>
+</div>
+</div>
