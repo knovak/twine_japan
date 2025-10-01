@@ -1,0 +1,300 @@
+:: Town of Sakai
+<div class="card active" id="card-sakai">
+<div class="card-number">N1</div>
+<div class="card-header">
+<h1 class="card-title">堺市</h1>
+<h1 class="card-title">Town of Sakai</h1>
+</div>
+
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Daisen-kofun_zenkei.jpg?width=800" alt="Aerial view of Daisen Kofun ancient tomb" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location-sakai')">
+<div class="location-label">📍 Location & Access</div>
+<div class="toggle-icon" id="icon-sakai">+</div>
+</div>
+<div class="location-content" id="location-sakai">
+<div class="address">
+<span class="address-label">City:</span>
+<span class="address-text">堺市 (Sakai-shi), Osaka Prefecture</span>
+</div>
+<div class="address">
+<span class="address-label">Main Station:</span>
+<span class="address-text">Sakai Station (Nankai Main Line)</span>
+</div>
+<div class="address">
+<span class="address-label">From Kansai Airport:</span>
+<span class="address-text">10 minutes by Nankai train (¥330)</span>
+</div>
+<a href="https://www.sakai-tcb.or.jp/en/" target="_blank" class="maps-link">🗺️ Sakai Tourism Website</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Why Visit Sakai?</strong><br>
+UNESCO World Heritage site featuring the world's largest ancient tomb, birthplace of tea ceremony culture, renowned knife-making tradition, and authentic Japanese craftsmanship—all just 10 minutes from Kansai Airport.
+</div>
+
+<h2>Introduction to Sakai</h2>
+
+<p>Sakai is a historic port city located just south of Osaka, with over 1,600 years of fascinating history. During the 16th century, Sakai flourished as an autonomous merchant republic and international trading hub, welcoming Portuguese traders who brought guns and bicycles to Japan. Today, Sakai preserves this rich heritage while remaining surprisingly off the tourist radar—making it a perfect destination for travelers seeking authentic Japanese culture without crowds.</p>
+
+<p>The city is famous for three main things: the <strong>Mozu-Furuichi Kofun Group</strong> (ancient keyhole-shaped burial mounds designated as UNESCO World Heritage in 2019), <strong>Sakai knives</strong> (used by 90% of professional sushi chefs worldwide), and <strong>tea ceremony culture</strong> (birthplace of Sen no Rikyu, who perfected the Japanese tea ceremony).</p>
+
+<h2>Top Attractions for Your October 4 Visit</h2>
+
+<h3>1. Daisen Kofun (Nintoku Emperor's Tomb)</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Type:</strong> UNESCO World Heritage Site (2019)<br>
+• <strong>Admission:</strong> Free to view from outside<br>
+• <strong>Time needed:</strong> 1-2 hours including museum visit<br>
+• <strong>Access:</strong> 15 min bike ride from Sakai Station, or JR Mozu Station (5 min walk)
+</div>
+
+<p>The Daisen Kofun is the world's largest tomb by area—even bigger than Egypt's Great Pyramid or China's Mausoleum of the First Qin Emperor! Built in the 5th century for Emperor Nintoku, this keyhole-shaped burial mound stretches 486 meters long and is surrounded by three moats. While you cannot enter the tomb itself (it remains sealed and protected by the Imperial Household Agency), the sheer scale is impressive from ground level.</p>
+
+<p><strong>What to do here:</strong></p>
+<ul>
+<li>Walk the 2.8 km perimeter path around the moat for perspective on the tomb's massive size</li>
+<li>Visit the worship site at the front of the tomb for the best ground-level view</li>
+<li>Take photos with the distinctive keyhole shape visible in the distance</li>
+<li>Note: For aerial views, visit Sakai City Hall Observatory (see below)</li>
+</ul>
+
+<h3>2. Sakai City Museum</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Hours:</strong> 9:30 AM - 5:15 PM (last entry 4:30 PM)<br>
+• <strong>Closed:</strong> Mondays (open on holidays, closed following day instead)<br>
+• <strong>Admission:</strong> ¥200 adults, ¥100 students, free for children<br>
+• <strong>Location:</strong> Inside Daisen Park, across from Nintoku tomb<br>
+• <strong>Time needed:</strong> 1 hour
+</div>
+
+<p>Located in the scenic Daisen Park directly across from the Nintoku tomb, this museum is essential for understanding the kofun (burial mounds). The highlight is a fascinating 20-minute documentary (with English subtitles) explaining how these massive tombs were constructed in the 5th century—requiring 2,000 workers and 15+ years to build!</p>
+
+<p><strong>Museum highlights:</strong></p>
+<ul>
+<li>Artifacts excavated from local kofun including pottery and haniwa (clay figures)</li>
+<li>Full-scale reconstructions showing tomb construction techniques</li>
+<li>Japan's oldest and largest sandalwood Buddhist statue (Important Cultural Property)</li>
+<li>Historical exhibits covering Sakai's role as a medieval trading port</li>
+<li>Interactive displays and models of the keyhole-shaped tombs</li>
+<li>Free theater showing CGI recreation of the kofun era</li>
+</ul>
+
+<p><strong>Pro tip:</strong> Watch the documentary first to fully appreciate what you're seeing when you visit the actual tomb.</p>
+
+<h3>3. Sakai City Traditional Crafts Museum</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Hours:</strong> 10:00 AM - 5:00 PM<br>
+• <strong>Closed:</strong> Mondays and year-end holidays<br>
+• <strong>Admission:</strong> Free<br>
+• <strong>Location:</strong> 10 min bike ride from Sakai Station<br>
+• <strong>Time needed:</strong> 45 minutes - 1 hour
+</div>
+
+<p>This museum showcases Sakai's traditional crafts, particularly its world-famous knife-making industry. The second floor features a showroom where 24 master craftsmen sell their hand-forged knives directly to visitors—an incredible opportunity to purchase genuine Sakai cutlery at fair prices.</p>
+
+<p><strong>What to see:</strong></p>
+<ul>
+<li>Live demonstrations of knife forging and blade sharpening (check schedule)</li>
+<li>Exhibition on the 600-year history of Sakai knife-making</li>
+<li>Traditional incense production displays</li>
+<li>Hand-dyed textiles using the "chusenwazarashi" dyeing method</li>
+<li>Traditional Japanese sweets essential for tea ceremonies</li>
+<li>Documentary explaining the meticulous craftsmanship process</li>
+</ul>
+
+<p><strong>Shopping opportunity:</strong> Sakai knives start from around ¥3,000 and are highly sought after by professional chefs worldwide. Each master craftsman specializes in only 2-3 types of knives, ensuring exceptional expertise.</p>
+
+<h3>4. Sakai Bicycle Museum</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Hours:</strong> 10:00 AM - 4:30 PM<br>
+• <strong>Closed:</strong> Mondays (open on holidays)<br>
+• <strong>Admission:</strong> ¥200<br>
+• <strong>Location:</strong> Near Daisen Park<br>
+• <strong>Time needed:</strong> 30-45 minutes
+</div>
+
+<p>Sakai is Japan's bicycle manufacturing center, producing high-quality bikes since the 1880s when gun-making techniques were adapted to bicycle production. This quirky museum features over 300 vintage and modern bicycles spanning 200 years of cycling history.</p>
+
+<p><strong>Museum highlights:</strong></p>
+<ul>
+<li>Evolution of bicycle design from the 1800s to present</li>
+<li>Rare vintage bicycles including penny-farthings</li>
+<li>Olympic racing bikes and cutting-edge modern designs</li>
+<li>Hilariously dated 1990s documentary (in English!) explaining Sakai's bicycle heritage</li>
+<li>Interactive displays about bicycle mechanics</li>
+</ul>
+
+<p><strong>Fun fact:</strong> Worth the admission price just for the cheesy retro documentary with amazing one-liners!</p>
+
+<h3>5. Sakai City Hall Observatory (21st Floor)</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Hours:</strong> 9:00 AM - 9:00 PM<br>
+• <strong>Closed:</strong> Year-end holidays only<br>
+• <strong>Admission:</strong> Free<br>
+• <strong>Location:</strong> Sakai-Higashi Station (Nankai Koya Line)<br>
+• <strong>Time needed:</strong> 20-30 minutes
+</div>
+
+<p>The best free observatory in the Sakai area! Located on the 21st floor of Sakai City Hall, this observation deck offers spectacular panoramic views including the Mozu Kofun Group. This is your only chance to see the distinctive keyhole shape of the ancient tombs from above.</p>
+
+<p><strong>What you can see:</strong></p>
+<ul>
+<li>Aerial view of Daisen Kofun's keyhole shape</li>
+<li>Surrounding smaller burial mounds dotting the landscape</li>
+<li>Osaka Bay and the city skyline</li>
+<li>On clear days: Osaka Castle, Abeno Harukas, and even Mt. Ikoma</li>
+<li>Informative panels explaining what you're viewing (English available)</li>
+</ul>
+
+<p><strong>Pro tip:</strong> Visit in late afternoon for beautiful light, or just before sunset for dramatic views.</p>
+
+<h3>6. Sakai Plaza of Rikyu and Akiko</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Hours:</strong> 10:00 AM - 6:00 PM<br>
+• <strong>Closed:</strong> Third Tuesday of each month<br>
+• <strong>Admission:</strong> ¥300 (includes tea and sweet)<br>
+• <strong>Location:</strong> 10 min walk from Sakai Station<br>
+• <strong>Time needed:</strong> 1 hour
+</div>
+
+<p>This cultural facility honors two famous Sakai natives: Sen no Rikyu (the tea master who perfected the Japanese tea ceremony in the 16th century) and Yosano Akiko (renowned poet and feminist). The plaza offers visitors a chance to experience authentic tea ceremony culture in a beautiful traditional setting.</p>
+
+<p><strong>Experience highlights:</strong></p>
+<ul>
+<li>Watch traditional tea ceremony demonstrations (check schedule)</li>
+<li>Participate in a simplified tea ceremony experience for beginners</li>
+<li>Beautiful traditional Japanese gardens</li>
+<li>Exhibition on Sen no Rikyu's life and philosophy of "wabi-sabi" (beauty in simplicity)</li>
+<li>Yosano Akiko poetry collection and biographical displays</li>
+<li>Enjoy matcha green tea and Japanese sweets in the tea rooms</li>
+</ul>
+
+<p><strong>Cultural note:</strong> Sen no Rikyu revolutionized tea ceremony by emphasizing simplicity, mindfulness, and hospitality (motenashi) over elaborate displays of wealth.</p>
+
+<h3>7. Sumiyoshi Taisha Shrine</h3>
+
+<div class="highlight">
+<strong>Essential Information</strong><br>
+• <strong>Hours:</strong> 6:00 AM - 5:00 PM (grounds always open)<br>
+• <strong>Admission:</strong> Free<br>
+• <strong>Location:</strong> Sumiyoshi Taisha Station (15 min from Sakai by Nankai train)<br>
+• <strong>Time needed:</strong> 45 minutes - 1 hour
+</div>
+
+<p>Though technically in Osaka City, Sumiyoshi Taisha is easily accessible from Sakai and makes an excellent addition to your day trip. This is one of Japan's oldest Shinto shrines (founded in 211 AD) and serves as the head shrine for over 2,000 Sumiyoshi shrines across Japan.</p>
+
+<p><strong>Shrine highlights:</strong></p>
+<ul>
+<li>Unique "Sumiyoshi-zukuri" architecture predating Buddhist influence</li>
+<li>Iconic arched Sorihashi Bridge (symbol of the shrine, beautifully photogenic)</li>
+<li>Four main halls dedicated to sea deities protecting sailors and travelers</li>
+<li>Sacred stone marking the birthplace of waka poetry</li>
+<li>Peaceful grounds with ancient trees and traditional gardens</li>
+<li>Cultural significance as protector of fishermen, sailors, and travelers</li>
+</ul>
+
+<h2>Suggested One-Day Itinerary for Saturday, October 4</h2>
+
+<div class="highlight">
+<strong>Morning (9:00 AM - 12:30 PM)</strong><br>
+• 9:15 AM: Arrive Sakai Station, rent bicycle at Tourist Information Center<br>
+• 9:30 AM: Cycle to Sakai City Museum, watch documentary (9:30-10:00 AM)<br>
+• 10:00 AM: Explore museum exhibitions (1 hour)<br>
+• 11:00 AM: Walk to Daisen Kofun worship site and perimeter path (1 hour)<br>
+• 12:00 PM: Cycle to Traditional Crafts Museum<br>
+<br>
+<strong>Afternoon (12:30 PM - 5:00 PM)</strong><br>
+• 12:30 PM: Explore Traditional Crafts Museum, watch knife-making demo<br>
+• 1:30 PM: Lunch break in Sakai (try local specialties)<br>
+• 2:30 PM: Visit Bicycle Museum (quick, fun stop)<br>
+• 3:15 PM: Cycle or train to Sakai City Hall Observatory for aerial views<br>
+• 4:00 PM: Visit Sakai Plaza of Rikyu and Akiko for tea ceremony experience<br>
+• 5:00 PM: Return bicycle, browse shopping arcade near station<br>
+• 6:00 PM: Return train to Kansai Airport
+</div>
+
+<p><strong>Alternative afternoon:</strong> If you prefer shrine visits, take the train to Sumiyoshi Taisha (15 min) instead of the Bicycle Museum and City Hall Observatory.</p>
+
+<h2>Where to Eat in Sakai</h2>
+
+<p>Sakai offers authentic local cuisine without tourist prices:</p>
+
+<ul>
+<li><strong>Sakai knife-cut soba:</strong> Try handmade buckwheat noodles cut with Sakai knives</li>
+<li><strong>Anago (conger eel):</strong> Sakai's signature seafood dish</li>
+<li><strong>Traditional wagashi:</strong> Japanese sweets from historic confectionery shops</li>
+<li><strong>Oshoji-suji Shopping Arcade:</strong> Covered arcade near Sakai Station with numerous restaurants and cafes</li>
+<li><strong>Lunch timing:</strong> Most restaurants close 2:30-5:00 PM, so eat before 2:00 PM</li>
+</ul>
+
+<p><strong>Special experience:</strong> For an unforgettable meal, book a tea ceremony lunch at Tsuboichi Seicha Honpo (170-year-old tea shop) featuring matcha-based cuisine in a 340-year-old traditional building.</p>
+
+<h2>Getting Around Sakai</h2>
+
+<p>The best way to explore Sakai is by bicycle. The city is flat, bicycle-friendly, and major attractions are spread out:</p>
+
+<ul>
+<li><strong>Bicycle rental:</strong> ¥300 regular, ¥500 electric (at Sakai Station Tourist Office)</li>
+<li><strong>Well-marked routes:</strong> Signage in English throughout the city</li>
+<li><strong>Distances:</strong> Most attractions within 15-20 minutes cycling</li>
+<li><strong>Alternative:</strong> Local buses available but less convenient</li>
+<li><strong>Train option:</strong> For Sumiyoshi Taisha, take Nankai train (easier than cycling)</li>
+</ul>
+
+<h2>October 4 Visitor Notes</h2>
+
+<div class="highlight">
+<strong>Perfect Timing!</strong><br>
+You're visiting on a Saturday when all museums are open. The famous Sakai Festival happens October 18-19 (two weeks after your visit), so you'll experience the city in its authentic, non-festival atmosphere with fewer crowds and easier access to attractions.
+</div>
+
+<p><strong>Weather expectations for early October:</strong></p>
+<ul>
+<li>Pleasant autumn temperatures: 20-24°C (68-75°F)</li>
+<li>Low humidity, comfortable for cycling</li>
+<li>Bring light jacket for morning/evening</li>
+<li>Excellent weather for outdoor exploring</li>
+</ul>
+
+<h2>Practical Tips for Your Visit</h2>
+
+<ul>
+<li><strong>Cash preferred:</strong> Many small shops and bicycle rental are cash-only</li>
+<li><strong>English support:</strong> Tourist office staff speak English; major sites have English signage</li>
+<li><strong>Photography:</strong> The ancient tombs photograph best in morning or late afternoon light</li>
+<li><strong>Souvenirs:</strong> Consider purchasing a Sakai knife (authentic, high-quality, and used by professionals worldwide)</li>
+<li><strong>Avoid Mondays:</strong> Most museums closed (but you're visiting Saturday—perfect!)</li>
+<li><strong>Download maps:</strong> Save offline Google Maps of Sakai before your visit</li>
+<li><strong>Return timing:</strong> Last convenient trains to airport around 11 PM, but aim for 6-7 PM return</li>
+</ul>
+
+<h2>Why Sakai is Special</h2>
+
+<p>While millions of tourists flock to Kyoto and Osaka, Sakai remains blissfully under-discovered despite being a UNESCO World Heritage site. This gives you the rare opportunity to experience authentic Japanese history, craftsmanship, and culture without crowds or tourist prices. The combination of ancient history (world's largest tomb), living traditions (knife-making and tea ceremony), and easy accessibility from Kansai Airport makes Sakai an ideal addition to any Kansai itinerary.</p>
+
+<p>The city's transformation from medieval trading port to modern industrial center, while preserving its cultural heritage, offers fascinating insights into how Japan balances tradition with progress.</p>
+
+<div class="wikipedia-link">
+<a href="https://www.sakai-tcb.or.jp/en/" target="_blank">Sakai City Tourism Official Guide →</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="OMO Kansai Airport Hotel to Sakai Transit">← Back to Transit Guide</a>
+<a class="nav-link" data-passage="Table of Contents">Back to Table of Contents</a>
+</div>
+</div>
