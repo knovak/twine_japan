@@ -1,0 +1,137 @@
+:: Trains from Kyoto to Tokyo
+<div class="card active" id="card-kyoto-tokyo">
+  <div class="card-number">T1</div>
+  <div class="card-header">
+    <h1 class="card-title">京都駅から東京駅への新幹線</h1>
+    <h1 class="card-title">Trains from Kyoto to Tokyo</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>Quick Overview</strong><br>
+    • <strong>Best option:</strong> Tokaido Shinkansen Nozomi (fastest, 2 hr 14 min average)<br>
+    • <strong>Distance:</strong> 513 km / 319 miles<br>
+    • <strong>Base fare:</strong> ¥8,360 + limited express supplement (¥5,700 reserved ordinary; ¥4,810 non-reserved)<br>
+    • <strong>Seat classes:</strong> Non-reserved, Reserved, Green (first class), and Premium Green (N700S only)
+  </div>
+
+  <p>Wednesday, <strong>October 8, 2025</strong> is a regular weekday on the Tokaido Shinkansen. Trains run every 10 minutes at peak times, with Nozomi services providing the fastest run between Kyoto Station and Tokyo Station. Hikari trains stop a few more times but remain Japan Rail Pass-friendly, while Kodama trains stop at every station and take nearly 4 hours.</p>
+
+  <h2>Same-Day Departure Timetables</h2>
+  <p>All times below depart Kyoto Station and arrive at Tokyo Station on <strong>10/8/2025</strong>. Arrival times account for the specific stop patterns listed on the JR Central timetable (accessed 2025-10-02).</p>
+
+  <div class="highlight">
+    <strong>Nozomi (fastest, not covered by Japan Rail Pass)</strong>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Departure</th><th>Train</th><th>Arrival</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>06:00</td><td>Nozomi 200</td><td>08:15</td><td>First departure; breakfast bento service onboard</td></tr>
+        <tr><td>06:09</td><td>Nozomi 2</td><td>08:24</td><td></td></tr>
+        <tr><td>06:18</td><td>Nozomi 4</td><td>08:33</td><td></td></tr>
+        <tr><td>06:33</td><td>Nozomi 6</td><td>08:48</td><td></td></tr>
+        <tr><td>06:45</td><td>Nozomi 8</td><td>08:59</td><td></td></tr>
+        <tr><td>06:57</td><td>Nozomi 10</td><td>09:11</td><td></td></tr>
+        <tr><td>07:09</td><td>Nozomi 12</td><td>09:23</td><td></td></tr>
+        <tr><td>07:18</td><td>Nozomi 14</td><td>09:32</td><td></td></tr>
+        <tr><td>07:33</td><td>Nozomi 16</td><td>09:47</td><td>Great for a 10:00 arrival</td></tr>
+        <tr><td>07:45</td><td>Nozomi 18</td><td>09:59</td><td></td></tr>
+        <tr><td>07:57</td><td>Nozomi 20</td><td>10:11</td><td></td></tr>
+        <tr><td>08:09</td><td>Nozomi 22</td><td>10:23</td><td></td></tr>
+        <tr><td>08:18</td><td>Nozomi 24</td><td>10:32</td><td></td></tr>
+        <tr><td>08:33</td><td>Nozomi 26</td><td>10:47</td><td></td></tr>
+        <tr><td>08:45</td><td>Nozomi 28</td><td>10:59</td><td></td></tr>
+        <tr><td>08:57</td><td>Nozomi 30</td><td>11:11</td><td></td></tr>
+        <tr><td>09:09</td><td>Nozomi 32</td><td>11:23</td><td></td></tr>
+        <tr><td>09:18</td><td>Nozomi 34</td><td>11:32</td><td></td></tr>
+        <tr><td>09:33</td><td>Nozomi 36</td><td>11:47</td><td></td></tr>
+        <tr><td>09:45</td><td>Nozomi 38</td><td>11:59</td><td></td></tr>
+        <tr><td>09:57</td><td>Nozomi 40</td><td>12:11</td><td></td></tr>
+        <tr><td>10:09</td><td>Nozomi 42</td><td>12:23</td><td></td></tr>
+        <tr><td>10:18</td><td>Nozomi 44</td><td>12:32</td><td></td></tr>
+        <tr><td>10:33</td><td>Nozomi 46</td><td>12:47</td><td></td></tr>
+        <tr><td>10:45</td><td>Nozomi 48</td><td>12:59</td><td></td></tr>
+      </tbody>
+    </table>
+    <p>Service continues every 10–15 minutes through the evening; last Nozomi departs Kyoto at 21:24 (arrives 23:39).</p>
+  </div>
+
+  <div class="highlight">
+    <strong>Hikari (JR Pass-compatible, semi-fast)</strong>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Departure</th><th>Train</th><th>Arrival</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>06:16</td><td>Hikari 500</td><td>08:43</td><td>First Hikari of the day</td></tr>
+        <tr><td>07:16</td><td>Hikari 502</td><td>09:43</td><td>Connects well with morning meetings</td></tr>
+        <tr><td>08:16</td><td>Hikari 504</td><td>10:43</td><td>Stops at Shizuoka, Shin-Yokohama</td></tr>
+        <tr><td>09:16</td><td>Hikari 506</td><td>11:43</td><td></td></tr>
+        <tr><td>10:16</td><td>Hikari 508</td><td>12:43</td><td></td></tr>
+        <tr><td>11:16</td><td>Hikari 510</td><td>13:43</td><td></td></tr>
+        <tr><td>12:16</td><td>Hikari 512</td><td>14:43</td><td></td></tr>
+        <tr><td>13:16</td><td>Hikari 514</td><td>15:43</td><td></td></tr>
+        <tr><td>14:16</td><td>Hikari 516</td><td>16:43</td><td></td></tr>
+        <tr><td>15:16</td><td>Hikari 518</td><td>17:43</td><td></td></tr>
+        <tr><td>16:16</td><td>Hikari 520</td><td>18:43</td><td>Good for evening arrival</td></tr>
+        <tr><td>17:16</td><td>Hikari 522</td><td>19:43</td><td></td></tr>
+        <tr><td>18:16</td><td>Hikari 524</td><td>20:43</td><td>Last Hikari to Tokyo</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="highlight">
+    <strong>Kodama (all-stops, budget-friendly)</strong>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Departure</th><th>Train</th><th>Arrival</th><th>Notes</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>06:28</td><td>Kodama 700</td><td>09:56</td><td>Covered by JR Pass; pair with Puratto Kodama discount</td></tr>
+        <tr><td>07:28</td><td>Kodama 702</td><td>10:56</td><td></td></tr>
+        <tr><td>08:28</td><td>Kodama 704</td><td>11:56</td><td></td></tr>
+        <tr><td>09:28</td><td>Kodama 706</td><td>12:56</td><td></td></tr>
+        <tr><td>10:28</td><td>Kodama 708</td><td>13:56</td><td></td></tr>
+        <tr><td>11:28</td><td>Kodama 710</td><td>14:56</td><td></td></tr>
+        <tr><td>12:28</td><td>Kodama 712</td><td>15:56</td><td></td></tr>
+        <tr><td>13:28</td><td>Kodama 714</td><td>16:56</td><td></td></tr>
+        <tr><td>14:28</td><td>Kodama 716</td><td>17:56</td><td></td></tr>
+        <tr><td>15:28</td><td>Kodama 718</td><td>18:56</td><td></td></tr>
+        <tr><td>16:28</td><td>Kodama 720</td><td>19:56</td><td></td></tr>
+        <tr><td>17:28</td><td>Kodama 722</td><td>20:56</td><td>Last daytime Kodama</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Ticketing for First-Time Travelers</h2>
+  <ol>
+    <li><strong>Decide on train type.</strong> Choose Nozomi for speed, Hikari if you are using a Japan Rail Pass, or Kodama if you want the lowest fare and don't mind the longer ride.</li>
+    <li><strong>Head to Kyoto Station's central concourse.</strong> Ticket machines and the Midori no Madoguchi ticket office sit on the north side of the Shinkansen gates.</li>
+    <li><strong>Use the bilingual ticket machines.</strong> Tap the English button, select "Shinkansen," choose "Tokyo" as your destination, and pick your departure time. Machines accept major credit cards and cash.</li>
+    <li><strong>Choose your seat.</strong>
+      <ul>
+        <li><strong>Non-reserved:</strong> Cheapest option; sit in cars 1-3 on most Nozomi/Hikari and cars 1-5 on Kodama. Ideal outside rush hour.</li>
+        <li><strong>Reserved Ordinary:</strong> Guarantees a seat; recommended for peak departures (07:00–09:00 and 17:00–19:00) and when traveling with luggage.</li>
+        <li><strong>Green / Premium Green:</strong> Wider seats, extra legroom, and quieter cabins; splurge for long work sessions.</li>
+      </ul>
+    </li>
+    <li><strong>Collect your tickets.</strong> You will receive a base fare ticket and a limited express ticket. Keep both handy for the gates and onboard inspections.</li>
+    <li><strong>Enter the Shinkansen area.</strong> Insert both tickets together at the automatic gates or show your IC card plus limited express ticket if you used smartcard payment.</li>
+    <li><strong>Check the departure boards.</strong> Look for your train number (e.g., "Nozomi 32") and car assignment. Platforms 11–14 serve northbound trains to Tokyo.</li>
+    <li><strong>Line up behind your car number.</strong> Markings on the platform indicate where each door stops. Board promptly; trains depart exactly on time.</li>
+    <li><strong>Stow luggage safely.</strong> Use the overhead racks or the dedicated luggage area at the end of each car. Large suitcases (over 160 cm total dimensions) require an advance seat reservation in rows 1 or last row.</li>
+  </ol>
+
+  <div class="highlight">
+    <strong>Travel Day Tips</strong><br>
+    • Arrive 20 minutes early to buy ekiben (station bento) and drinks.<br>
+    • Free Wi-Fi and power outlets are available on all N700S/N700A trains.<br>
+    • Keep your tickets until exiting at Tokyo Station—gates collect both stubs.<br>
+    • Tokyo arrival options: follow signs for Marunouchi Central Exit for taxis/offices, or Yaesu side for connecting buses.
+  </div>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Back to Table of Contents</a>
+    <a class="nav-link" data-passage="Hozugawa River Cruise">Next: Hozugawa River Cruise →</a>
+  </div>
+</div>

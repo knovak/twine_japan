@@ -1,0 +1,33 @@
+:: Kyoto Overview
+<div class="card active" id="card-kyoto-overview">
+  <div class="card-number">I1</div>
+  <div class="card-header">
+    <h1 class="card-title">京都の概要</h1>
+    <h1 class="card-title">Kyoto Overview</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>Essential Snapshot</strong><br>
+    • <strong>Population:</strong> 1.46 million residents across 11 wards<br>
+    • <strong>Best seasons:</strong> Late March–April for cherry blossoms; mid-November for fall foliage<br>
+    • <strong>Signature experiences:</strong> Zen temples, tea ceremonies, artisan crafts, river valleys, kaiseki dining
+  </div>
+
+  <p>Kyoto served as Japan's imperial capital for more than a millennium, and its grid of streets still traces the Heian-period plan. Today the city blends modern universities and startups with preserved machiya townhouses, atmospheric geisha districts, and temple gardens designed for quiet contemplation. Each neighborhood has a distinct feel—from the bamboo groves and villa estates of Arashiyama to the artisan workshops of Nishijin and the lively food markets around downtown's Nishiki-dori.</p>
+
+  <p>Plan itineraries by compass point. Eastern Kyoto (Higashiyama) strings together hillside temples like Kiyomizu-dera and Nanzen-ji, while the northwest hides golden Kinkaku-ji, zen rock gardens, and scenic mountain passes. South of Kyoto Station you can explore Fushimi Inari's torii tunnels and the sake breweries of Fushimi. Outlying districts such as Ohara and Kurama offer day trips with rural scenery, hot springs, and hiking trails.</p>
+
+  <div class="highlight">
+    <strong>Transit Tips</strong><br>
+    • Kyoto Station anchors all long-distance trains and airport buses.<br>
+    • City buses are extensive but slow at rush hour—use the subway, Keihan, Hankyu, and JR lines for cross-town trips.<br>
+    • IC cards (ICOCA, Suica, PASMO) are interoperable; charge once and tap on buses, trains, and most convenience stores.
+  </div>
+
+  <p>Base yourself near the Karasuma or Kawaramachi subway corridors for easy access to dining, shopping, and transport. If you crave early-morning temple walks, consider staying in Higashiyama or Arashiyama to beat the crowds. Set aside evenings for kaiseki meals, craft cocktail bars, or night illuminations that spotlight temple gardens and riverbanks.</p>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Back to Table of Contents</a>
+    <a class="nav-link" data-passage="Trains from Kyoto to Tokyo">Next: Kyoto to Tokyo Trains →</a>
+  </div>
+</div>
