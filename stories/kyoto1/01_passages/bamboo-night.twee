@@ -1,0 +1,58 @@
+:: Bamboo Night
+<div class="card active" id="card-bamboo-night">
+  <div class="card-number">A2</div>
+  <div class="card-header">
+    <h1 class="card-title">嵐山月灯路</h1>
+    <h1 class="card-title">Bamboo Night</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>Event Snapshot</strong><br>
+    • <strong>Name:</strong> Arashiyama Tsukitōrō ("Moon Lantern Road"), a community-run bamboo grove illumination.<br>
+    • <strong>Dates:</strong> October 1–31, 2025.<br>
+    • <strong>Hours:</strong> 18:00–21:00 nightly; last entry 20:30.<br>
+    • <strong>Admission:</strong> ¥1,500 for adults; primary school children and younger enter free.<br>
+    • <strong>Route:</strong> Around 1 km of the main bamboo path plus feature lighting at nearby spots like the Kimono Forest.
+  </div>
+
+  <p>Arashiyama's famous bamboo grove gains a dreamlike glow each October evening during Bamboo Night. Hundreds of lanterns, hand-crafted by local residents and artisans, line the forest walkways so you can wander beneath illuminated stalks while cicadas quiet down and temple bells echo across the valley. Ticket revenue funds bamboo grove preservation, the repair of traditional fences, replanting projects, and upkeep of essentials such as restrooms—your visit directly supports the neighborhood.</p>
+
+  <h2>Plan Your Evening</h2>
+  <p>Arrive in Arashiyama by 17:30 to watch sunset over Togetsukyo Bridge before joining the queue at the bamboo grove entrance. Tickets are sold on-site near the north gate; have cash or a contactless card ready to keep the line moving. If you are traveling from central Kyoto, the JR Sagano Line to Saga-Arashiyama Station (17 minutes from Kyoto Station) or the Hankyu line to Arashiyama Station position you within a 10-minute walk. Weekends and the opening nights (October 1–5) are busiest—choose a weekday toward mid-month for thinner crowds and more space to photograph the lanterns.</p>
+
+  <h2>Step-by-Step Experience</h2>
+  <ol>
+    <li><strong>Enter quietly:</strong> Staff will greet you with soft-lit bags; accept one if you have small items or snacks to carry so you can pack out all trash.</li>
+    <li><strong>Walk the illuminated loop:</strong> Follow the one-way flow along roughly 1 km of bamboo, pausing at wider nodes for photos. Lanterns are staggered low to highlight trunks without blinding night vision—avoid flash photography.</li>
+    <li><strong>Pause at community installations:</strong> Volunteer-made lantern clusters explain how donations restore bamboo fences and reforest hillside clearings. QR codes link to bilingual panels with more stories.</li>
+    <li><strong>Extend the glow:</strong> Exit toward Randen Arashiyama Station to explore the "Kimono Forest" art poles, also lit for the event, before grabbing a late dessert or tea in the shopping arcade.</li>
+  </ol>
+
+  <div class="highlight">
+    <strong>Etiquette and Support Tips</strong><br>
+    • Keep voices low and phones on silent; sound carries easily through the bamboo.<br>
+    • October 4, 25, and 26 feature volunteer patrols who distribute trash bags and remind guests not to smoke—follow their cues.<br>
+    • Tripods are allowed only in designated bays; look for ground markings. Handheld photos work best when you brace against the railings.<br>
+    • Dress in layers: nights can drop below 15 °C, and the grove traps cool air once the sun sets.
+  </div>
+
+  <h2>After-Dark Logistics</h2>
+  <p>Restrooms are available at the grove exit and near the Randen station; lines are shortest just after opening. Food stalls stay outside the paid zone to protect the forest—eat before or after you walk. If you are returning to Kyoto Station after 20:30, head straight to JR Saga-Arashiyama; the final trains toward Kyoto depart around 23:00, but platforms can be crowded after closing. Ride-hailing supply in Arashiyama dips late at night, so schedule a taxi pickup in advance if you plan to stay for drinks along the Katsura River.</p>
+
+  <div class="location-section">
+    <button class="location-toggle" onclick="toggleLocation(this)">Show access details</button>
+    <div class="location-details">
+      <strong>Arashiyama Bamboo Grove Entrance</strong><br>
+      20-2 Sagatenryuji Susukinobaba-cho, Ukyo Ward, Kyoto 616-8384<br>
+      京都府京都市右京区嵯峨天龍寺芒ノ馬場町20-2<br>
+      <a href="https://maps.app.goo.gl/Ab87ncPe3hGvRzco9" target="_blank" rel="noopener">Open in Google Maps</a>
+    </div>
+  </div>
+
+  <p class="wikipedia-link">More info: <a href="https://www.discoverkyoto.com/event-calendar/october/arashiyama-tsukitoro/" target="_blank" rel="noopener">Discover Kyoto – Arashiyama Tsukitōrō</a></p>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Back to Table of Contents</a>
+    <a class="nav-link" data-passage="Moon Viewing">Next: Moon Viewing →</a>
+  </div>
+</div>
