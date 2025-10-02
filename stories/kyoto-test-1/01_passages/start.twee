@@ -1,4 +1,0 @@
-:: Start
-Welcome to the Kyoto Temples deck. Choose a temple:
-[[Kiyomizu-dera]] | [[Fushimi Inari Taisha]] | [[Kinkaku-ji]]
-<<include "Shared Tips">>
