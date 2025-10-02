@@ -1,0 +1,88 @@
+:: Futon Daiko Festival
+<div class="card active" id="card-futon-daiko">
+  <div class="card-number">F1</div>
+  <div class="card-header">
+    <h1 class="card-title">布団太鼓</h1>
+    <h1 class="card-title">Futon Daiko Festival</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>October 4 Spotlight</strong><br>
+    • Sakai's Futon Daiko troupes parade massive taiko-laden floats through neighborhood streets after dusk.<br>
+    • Processions depart each shrine in the late afternoon, regroup for nighttime lantern runs, and return before midnight.<br>
+    • Expect intense chanting, shoulder-borne floats weighing over a ton, and handheld fireworks along the route.
+  </div>
+
+  <p>Futon Daiko ("quilt drum") is Sakai's signature autumn festival tradition. Teams of carriers hoist a lacquered shrine float crowned with five tiers of brocade futon cushions surrounding a barrel drum. The layered bedding honors the deity's comfort while the thunderous taiko beat drives out misfortune and summons a bountiful season for the port city. The custom dates to the Edo period, when Sakai's merchants sponsored luxurious futon to thank the gods for safe trade winds and prosperous harvests.</p>
+
+  <p>Unlike wheeled danjiri, Futon Daiko floats sway on the shoulders of 40–60 bearers. A lead drummer hammers out complex rhythms while a bamboo fife band and call-and-response chants keep the crew in sync. Night runs are spectacular: lanterns outline the futon tiers, torches flare at corners, and the float is rocked wildly to show the community's strength. Spectators can stand close to the action, but stay behind ropes when the teams break into "mawari" spins at intersections.</p>
+
+  <h2>Where to See Futon Daiko on Saturday, October 4</h2>
+
+  <h3>Ishizu Jinja (石津神社)</h3>
+  <p>Ishizu's maritime parish is home to one of Sakai's most dramatic Futon Daiko performances. The float honors the sea deity enshrined here, and two carved danjiri carts join the parade so the shrine's guilds can showcase both traditions in a single evening. Expect the courtyard to fill quickly once the carriers shoulder the float around 6:30 p.m.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-ishizu-daiko')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-ishizu-daiko">+</div>
+    </div>
+    <div class="location-content" id="location-ishizu-daiko">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Ishizu port area, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Ishizugawa Station (Nankai Main Line), 8-minute walk</span>
+      </div>
+      <a href="https://maps.google.com/?q=Ishizu+Jinja+Sakai" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Kahyo Jinja (加茂神社)</h3>
+  <p>Hamadera's Kahyo Jinja sends its Futon Daiko along pine-lined streets near the seaside park. The shrine's youth association is known for agile shoulder work that makes the float hop on command—a sight best photographed near the Hamadera canal bridge when torches ignite at dusk.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-kahyo-daiko')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-kahyo-daiko">+</div>
+    </div>
+    <div class="location-content" id="location-kahyo-daiko">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Hamadera coastal district, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Hamaderakōen Station (Nankai Main Line), 5-minute walk</span>
+      </div>
+      <a href="https://maps.google.com/?q=Kahyo+Jinja+Sakai" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Mozu Hachimangū (百舌鳥八幡宮)</h3>
+  <p>Located beside the UNESCO-listed Mozu kofun cluster, Mozu Hachimangū features a Futon Daiko that threads between ancient keyhole tombs. Families gather in front of the honden to cheer as the float is raised high in a "tobiage" bounce before it proceeds toward the Mozu shopping street. Lantern-lit moats make this stop particularly atmospheric.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-mozu-daiko')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-mozu-daiko">+</div>
+    </div>
+    <div class="location-content" id="location-mozu-daiko">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Mozu area, Kita Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Mozu Station (JR Hanwa Line), 6-minute walk</span>
+      </div>
+      <a href="https://maps.google.com/?q=Mozu+Hachimangu" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <p><strong>Tips for visitors:</strong> Wear closed-toe shoes, stay outside the guard ropes when the carriers shout "sorya!" and charge forward, and be ready for sudden crowd surges when the floats enter narrow streets. Portable restrooms are usually set up near each shrine's precincts, and food stalls line the approach from late afternoon.</p>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Back to Table of Contents</a>
+    <a class="nav-link" data-passage="Danjiri Festival">Next: Danjiri Festival →</a>
+  </div>
+</div>

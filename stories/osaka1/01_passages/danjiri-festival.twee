@@ -1,0 +1,168 @@
+:: Danjiri Festival
+<div class="card active" id="card-danjiri">
+  <div class="card-number">F2</div>
+  <div class="card-header">
+    <h1 class="card-title">だんじり祭</h1>
+    <h1 class="card-title">Danjiri Festival</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>Wooden Floats in Full Sprint</strong><br>
+    • Saturday, October 4 features seven danjiri teams charging through Sakai's streets from dawn pull-outs to evening torch runs.<br>
+    • Carvers spend months polishing each cedar float; the front roof carries the shrine's guardian dragon while the rear stage hosts live musicians.<br>
+    • Watch for the high-speed "yarimawashi" cornering technique—ropes snap tight and the float drifts sideways at intersections.
+  </div>
+
+  <p>Danjiri are ornately carved festival floats pulled by ropes rather than carried. Sakai's tradition dates back to 1703 when carver Kishiwada Danjiri master Nakai Danjuro introduced the style to neighborhood guilds seeking dramatic autumn processions. The festival honors ujigami guardian deities, thanking them for harvests and commercial prosperity while rallying community teamwork. Each float can weigh up to four tons, so dozens of runners guide it while musicians pound taiko and clang kane gongs from the upper stage.</p>
+
+  <p>Compared with Futon Daiko, danjiri emphasize speed and precision steering. Teams in traditional happi coats sprint, brake, and swing the float to the rhythm of "sorya, sorya" chants. Night runs swap to paper lantern illumination, revealing woodcarvings that depict mythic battles, sea bream, and lion dogs protecting the shrine. Visitors should stand behind designated rope lines—when the signal whistles blow, the float may accelerate without warning.</p>
+
+  <h2>Danjiri Runs Scheduled for Saturday, October 4</h2>
+
+  <h3>Ishizu Jinja (石津神社)</h3>
+  <p>The Ishizu danjiri opens the morning with a blessing in front of the honden before joining the Futon Daiko lineup at dusk. Local shipwright families lead the pull, tracing a loop through Ishizu's grid of port warehouses.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-ishizu-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-ishizu-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-ishizu-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Ishizu port area, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Ishizugawa Station (Nankai Main Line)</span>
+      </div>
+      <a href="https://maps.google.com/?q=Ishizu+Jinja+Sakai" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Ōtori Taisha (大鳥大社)</h3>
+  <p>Sakai's grand Ōtori Taisha sends a massive danjiri from its stone torii toward Ōtori Station, accompanied by a lion-dance troupe. The float's carvings highlight the mythic phoenix that symbolizes the shrine's fire-protection miracles.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-ootori-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-ootori-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-ootori-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Ōtori Higashi-chō, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Ōtori Station (JR Hanwa Line)</span>
+      </div>
+      <a href="https://maps.google.com/?q=Ootori+Taisha" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Kusabe Jinja (草部神社)</h3>
+  <p>Kusabe's danjiri highlights agrarian motifs because the shrine protects Sakai's farming hamlets. The float starts before sunrise so it can visit each parish's granary en route to Ōtori Avenue.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-kusabe-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-kusabe-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-kusabe-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Kusabe district, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Tsukuno Station (JR Hanwa Line)</span>
+      </div>
+      <a href="https://maps.google.com/?q=Kusabe+Jinja" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Tajihayahime Jinja (多治速比売神社)</h3>
+  <p>This shrine guards the ancient Mozu kofun basin and celebrates Princess Tajihayahime. Its danjiri showcases refined carvings of imperial messengers and features a nighttime stop at the famed torii framed by pine trees.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-tajihayahime-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-tajihayahime-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-tajihayahime-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Mikunigaoka area, Sakai Ward</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Mikunigaoka Station (JR Hanwa Line)</span>
+      </div>
+      <a href="https://maps.google.com/?q=Tajihayahime+Jinja" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Nonomiya Jinja (野々宮神社)</h3>
+  <p>Nonomiya's float is compact but swift, weaving through residential lanes before merging with the Ōtori Taisha procession. Local children ride on the rear deck to scatter good-luck talismans.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-nonomiya-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-nonomiya-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-nonomiya-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Nonomiya-chō, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Tsukuno Station (JR Hanwa Line)</span>
+      </div>
+      <a href="https://maps.google.com/?q=Nonomiya+Jinja+Sakai" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Hishiki Jinja (菱木神社)</h3>
+  <p>Hishiki Jinja's danjiri emphasizes lumber trade scenes—look for woodcutters carved into the side panels. The float charges along Prefectural Route 30 before turning sharply into the shrine's cedar grove.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-hishiki-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-hishiki-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-hishiki-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Hishiki, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Tsukuno Station (JR Hanwa Line) via community shuttle</span>
+      </div>
+      <a href="https://maps.google.com/?q=Hishiki+Jinja" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h3>Tsukuno Hachiman Jinja (宿野八幡神社)</h3>
+  <p>Tsukuno's Hachiman shrine fields a danjiri with elaborate hawk carvings paying homage to the warrior deity. Evening runs feature synchronized lantern swings that make the float appear to breathe.</p>
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-tsukuno-danjiri')">
+      <div class="location-label">📍 Location & Access</div>
+      <div class="toggle-icon" id="icon-tsukuno-danjiri">+</div>
+    </div>
+    <div class="location-content" id="location-tsukuno-danjiri">
+      <div class="address">
+        <span class="address-label">Neighborhood:</span>
+        <span class="address-text">Tsukuno, Nishi Ward, Sakai</span>
+      </div>
+      <div class="address">
+        <span class="address-label">Nearest Station:</span>
+        <span class="address-text">Tsukuno Station (JR Hanwa Line), 4-minute walk</span>
+      </div>
+      <a href="https://maps.google.com/?q=Tsukuno+Hachiman+Jinja" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <p><strong>Viewing advice:</strong> Morning pull-outs (around 6:00 a.m.) are less crowded and great for photos. By evening, secure a spot at wide intersections such as Ōtori Ekimae or Tsukuno Crossing to watch yarimawashi turns. Earplugs help if you stand near the taiko deck.</p>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Futon Daiko Festival">← Futon Daiko Festival</a>
+    <a class="nav-link" data-passage="Table of Contents">Back to Table of Contents →</a>
+  </div>
+</div>
