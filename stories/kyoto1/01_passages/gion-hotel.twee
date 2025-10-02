@@ -1,0 +1,57 @@
+:: Gion Hotel
+<div class="card active" id="card-gion-hotel">
+  <div class="card-number">I2</div>
+  <div class="card-header">
+    <h1 class="card-title">京都イン祇園 ザ・セカンド</h1>
+    <h2 class="card-subtitle">Gion Hotel (Kyoto INN Gion the Second)</h2>
+  </div>
+
+  <div class="card-content">
+    <!-- TODO: Source Creative Commons image of the hotel's facade -->
+    <div class="location-section">
+      <div class="location-toggle" onclick="toggleLocation('location-gion-hotel')">
+        <div class="location-label">📍 Location</div>
+        <div class="toggle-icon" id="icon-gion-hotel">+</div>
+      </div>
+      <div class="location-content" id="location-gion-hotel">
+        <div class="address">
+          <span class="address-label">Japanese:</span>
+          <span class="address-text">〒605-0812 京都府京都市東山区毘沙門町44-1</span>
+        </div>
+        <div class="address">
+          <span class="address-label">English:</span>
+          <span class="address-text">44-1 Bishamonchō, Higashiyama Ward, Kyoto 605-0812, Japan</span>
+        </div>
+        <a href="https://www.google.com/maps/search/?api=1&query=Kyoto+INN+Gion+the+Second" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+      </div>
+    </div>
+
+    <p>Kyoto INN Gion the Second is a compact boutique stay tucked into the lantern-lit lanes of Gion, letting you wake up within steps of Hanamikoji Street and Yasaka Shrine. The property balances machiya-inspired textures with clean-lined interiors so you can slip easily between Kyoto's historic ambiance and modern comforts.</p>
+
+    <div class="highlight">
+      <strong>Why stay here?</strong><br>
+      • Three-minute walk to Yasaka Shrine and Maruyama Park for pre-dawn shrine visits.<br>
+      • Five-minute stroll to Gion-Shijō Station on the Keihan Line and Shijō-dori bus stops.<br>
+      • Every guest room includes a washer-dryer combo, microwave, and tableware for longer stays.
+    </div>
+
+    <p>Rooms are set up for longer itineraries with comfortable double beds, blackout curtains, and spacious showers that wash away a day of temple steps. Handy in-room appliances let you refresh clothes after a humid summer afternoon or warm up treats from Nishiki Market, while the front desk can help with luggage forwarding, restaurant reservations, and kimono rental suggestions in English.</p>
+
+    <div class="highlight">
+      <strong>Stay tips</strong><br>
+      • Check-in from 15:00, check-out by 11:00; staff will hold luggage before and after your stay.<br>
+      • Ask for an upper-floor corner room for peeks over the tiled rooftops of Higashiyama.<br>
+      • Hop on the Keihan Line at nearby Gion-Shijō Station for direct rides to Fushimi Inari or Demachiyanagi without transfers.
+    </div>
+
+    <p>Use the hotel as a base for twilight walks through Shirakawa Minami-dori, day trips to Kiyomizu-dera and Nanzen-ji, or a quick hop across the Kamogawa River to downtown dining. Evening strolls put you in prime position to spot maiko heading to teahouses while still having easy subway connections for wider Kyoto exploration the next morning.</p>
+
+    <a href="https://kyotoinn.com/en/gion-the-second" target="_blank" class="wikipedia-link">🏨 Official site</a>
+  </div>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+    <a class="nav-link" data-passage="Kyoto Overview">Back to Kyoto Overview</a>
+    <a class="nav-link" data-passage="Hozugawa River Cruise">Next: Hozugawa River Cruise →</a>
+  </div>
+</div>
