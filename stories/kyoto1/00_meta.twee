@@ -1,0 +1,20 @@
+:: StoryTitle
+Kyoto Travel Guide
+
+:: StoryData
+{
+  "ifid": "FBD0614C-C650-4FD3-9F9F-26F22F50F9D5",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "Table of Contents",
+  "zoom": 1
+}
+
+:: StoryStylesheet [stylesheet]
+@import url("./assets/styles.css");
+
+:: Story JavaScript [script]
+// Load functional JavaScript for location toggle
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);
