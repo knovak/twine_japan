@@ -1,0 +1,215 @@
+:: Moon Viewing
+<div class="card active" id="card-moon-viewing">
+  <div class="card-number">A2</div>
+  <div class="card-header">
+    <h1 class="card-title">京都 観月</h1>
+    <h1 class="card-title">Moon Viewing</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>Harvest Moon Weekend Snapshot</strong><br>
+    • Kyoto's 2025 tsukimi programs cluster on <strong>Sun Oct 5</strong> and <strong>Mon Oct 6</strong>, with Oct 6 as the Mid-Autumn moon night.<br>
+    • Expect a mix of gagaku court music, tea ceremonies, chanting meditations, and illuminated gardens; some require reservations or paid tea tokens.<br>
+    • Arrive 20–30 minutes early, especially at shrines with free entry but limited seating, and check weather updates for moon visibility.
+  </div>
+
+  <p>Kyoto leans into moon-viewing (tsukimi / 観月) traditions the first week of October. You can follow a gentle progression: begin with quieter temple programs on Sunday, then join larger shrine festivals when the full moon rises over the Kamogawa on Monday. Below is a day-by-day overview so you can mix paid rituals, free music, and serene pond reflections.</p>
+
+  <h2>Sun Oct 5 – Temple Warm-Ups</h2>
+
+  <h3>Chishaku-in Moon-Viewing Party & Performances (17:00–21:00)</h3>
+  <p>Lit lanterns guide you through the Shingon temple's garden while monks lead the <em>Gachirin-kan</em> chanting and meditation session on Oct 5. Tickets are required at the gate. ⭐ <strong>Close to Gion:</strong> the temple sits about a 15-minute walk southeast of Yasaka Shrine, making it an easy prelude after an afternoon in Gion's tea houses.</p>
+  <p>Reserve enough time to explore the illuminated pond garden before performances begin, and consider pairing the experience with an early dinner around Shichijō Street.</p>
+
+  <h3>Myōshin-ji Taizō-in Moon-Viewing Tea Ceremony (from 17:00)</h3>
+  <p>Taizō-in, one of Myōshin-ji's sub-temples, hosts an intimate tea ceremony under the moon. Reception opens at 17:00, but advance reservations and a participation fee are mandatory. Expect a guided appreciation of the temple's dry garden lit for the night and a quiet, small-group feel.</p>
+
+  <h3>Daikaku-ji “Kangetsu-no-Yūbe” at Ōsawa Pond (17:30–21:00; last entry 20:30)</h3>
+  <p>Historic imperial villa Daikaku-ji launches evening boat rides on Ōsawa Pond, complete with koto and gagaku floating across the water. Choose between day and night slots; the program runs Oct 4–6, so Sunday offers a less crowded option before the Mid-Autumn peak. Tickets sell out, so secure them early.</p>
+
+  <h2>Mon Oct 6 – Mid-Autumn Moon Night</h2>
+
+  <h3>Shimogamo-jinja Harvest Moon Music Festival (17:30–21:00)</h3>
+  <p>One of Kyoto's oldest shrines sets up stages near Tadasu-no-Mori forest for gagaku, bugaku, koto, and shakuhachi performances. Entry is free if you skip tea, or pay ¥1,000 for a tea ceremony bowl. Arrive before sunset to secure seats and enjoy lantern-lit woodland paths.</p>
+
+  <h3>Kamigamo-jinja Moon-Viewing Festival (from 16:30)</h3>
+  <p>The northern UNESCO shrine focuses on ritual: priests present offerings, kagura dancers perform, and visitors receive <em>tsukimi dango</em>. Early arrival lets you watch purification rites and explore the sand cones that symbolize sacred mountains.</p>
+
+  <h3>Hirano-jinja Harvest Moon Festival (from 18:30)</h3>
+  <p>Hirano-jinja's spacious precinct hosts koto and shakuhachi recitals followed by gagaku ensembles. A matcha service is available for an additional fee, and food stalls typically line the approach for casual snacks while you wait.</p>
+
+  <h3>Yasaka-jinja Moon-Viewing Musical Performance (from 19:00)</h3>
+  <p>Bugaku dancers, koto players, taiko, and waka recitations animate Yasaka Shrine's main stage. ⭐ <strong>Right inside Gion:</strong> this is the district's signature tsukimi event, just steps from Hanamikoji Street, so you can stroll straight from your ryokan or photo walk.</p>
+
+  <h3>Matsunoo-taisha Moon-Viewing Festival (17:00–20:30; ¥1,000)</h3>
+  <p>Sake breweries sponsor this west-side shrine's festival, serving sake and manju alongside shakuhachi music and an open haiku gathering. The admission fee covers refreshments and helps limit the crowd.</p>
+
+  <h3>Daikaku-ji “Kangetsu-no-Yūbe” Final Night (17:30–21:00)</h3>
+  <p>The boat-lit pond reaches its finale on Monday. Expect the largest audience of the weekend—arrive early for check-in, and book twilight cruises if you prefer to watch the moon rise while still on the water.</p>
+
+  <h2>Tue Oct 7–Wed Oct 8</h2>
+  <p>The full moon peaks on Oct 7, but most organized programs conclude after Oct 6. Many locals picnic along the Kamogawa or climb to Shōgunzuka and Mt. Daimonji lookouts for independent viewing if skies stay clear.</p>
+
+  <h2>Event Locations</h2>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-chishakuin')">
+      <div class="location-label">📍 Chishaku-in Temple</div>
+      <div class="toggle-icon" id="icon-chishakuin">+</div>
+    </div>
+    <div class="location-content" id="location-chishakuin">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒605-0951 京都府京都市東山区東山七条東瓦町964</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">964 Higashikawara-chō, Higashiyama Ward, Kyoto 605-0951</span>
+      </div>
+      <a href="https://maps.app.goo.gl/WRqjUc7E6LujSXBt6" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-taizoin')">
+      <div class="location-label">📍 Myōshin-ji Taizō-in</div>
+      <div class="toggle-icon" id="icon-taizoin">+</div>
+    </div>
+    <div class="location-content" id="location-taizoin">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒616-8035 京都府京都市右京区花園妙心寺町35</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">35 Hanazono Myōshinji-chō, Ukyo Ward, Kyoto 616-8035</span>
+      </div>
+      <a href="https://maps.app.goo.gl/Y4oe7oWoJ9dgRX1H7" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-daikakuji')">
+      <div class="location-label">📍 Daikaku-ji & Ōsawa Pond</div>
+      <div class="toggle-icon" id="icon-daikakuji">+</div>
+    </div>
+    <div class="location-content" id="location-daikakuji">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒616-8411 京都府京都市右京区嵯峨大沢町4</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">4 Saga Ōsawa-chō, Ukyo Ward, Kyoto 616-8411</span>
+      </div>
+      <a href="https://maps.app.goo.gl/1uvVtwbXKKnHZZK17" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-shimogamo')">
+      <div class="location-label">📍 Shimogamo-jinja</div>
+      <div class="toggle-icon" id="icon-shimogamo">+</div>
+    </div>
+    <div class="location-content" id="location-shimogamo">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒606-0807 京都府京都市左京区下鴨泉川町59</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">59 Shimogamo Izumigawa-chō, Sakyo Ward, Kyoto 606-0807</span>
+      </div>
+      <a href="https://maps.app.goo.gl/2kcv5dML9VyYhc2z9" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-kamigamo')">
+      <div class="location-label">📍 Kamigamo-jinja</div>
+      <div class="toggle-icon" id="icon-kamigamo">+</div>
+    </div>
+    <div class="location-content" id="location-kamigamo">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒603-8047 京都府京都市北区上賀茂本山339</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">339 Motoyama, Kamigamo, Kita Ward, Kyoto 603-8047</span>
+      </div>
+      <a href="https://maps.app.goo.gl/2QnbTBaZ2R9W3Guj9" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-hirano')">
+      <div class="location-label">📍 Hirano-jinja</div>
+      <div class="toggle-icon" id="icon-hirano">+</div>
+    </div>
+    <div class="location-content" id="location-hirano">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒603-8322 京都府京都市北区平野宮本町1</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">1 Hirano Miyamoto-chō, Kita Ward, Kyoto 603-8322</span>
+      </div>
+      <a href="https://maps.app.goo.gl/wtT9HyZtqJho8UoQ6" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-yasaka')">
+      <div class="location-label">📍 Yasaka-jinja (Gion)</div>
+      <div class="toggle-icon" id="icon-yasaka">+</div>
+    </div>
+    <div class="location-content" id="location-yasaka">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒605-0073 京都府京都市東山区祇園町北側625</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">625 Gionmachi Kitagawa, Higashiyama Ward, Kyoto 605-0073</span>
+      </div>
+      <a href="https://maps.app.goo.gl/9iDZUJ9n8p9zGkCn9" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <div class="location-section">
+    <div class="location-toggle" onclick="toggleLocation('location-matsunoo')">
+      <div class="location-label">📍 Matsunoo-taisha</div>
+      <div class="toggle-icon" id="icon-matsunoo">+</div>
+    </div>
+    <div class="location-content" id="location-matsunoo">
+      <div class="address">
+        <span class="address-label">Japanese:</span>
+        <span class="address-text">〒616-0024 京都府京都市西京区嵐山宮町3</span>
+      </div>
+      <div class="address">
+        <span class="address-label">English:</span>
+        <span class="address-text">3 Arashiyama Miyamachi, Nishikyo Ward, Kyoto 616-0024</span>
+      </div>
+      <a href="https://maps.app.goo.gl/dZugKa8mHwYyQMmRA" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h2>More Information</h2>
+  <ul>
+    <li><a href="https://chisan.or.jp/english/chishakuin/" target="_blank" rel="noopener">Chishaku-in Temple official site</a></li>
+    <li><a href="https://taizoin.com/" target="_blank" rel="noopener">Taizō-in (Myōshin-ji) official site</a></li>
+    <li><a href="https://www.daikakuji.or.jp/" target="_blank" rel="noopener">Daikaku-ji “Kangetsu-no-Yūbe” details</a></li>
+    <li><a href="https://www.shimogamo-jinja.or.jp/" target="_blank" rel="noopener">Shimogamo-jinja festival info</a></li>
+    <li><a href="https://www.kamigamojinja.jp/" target="_blank" rel="noopener">Kamigamo-jinja events</a></li>
+    <li><a href="https://www.hiranojinja.com/" target="_blank" rel="noopener">Hirano-jinja announcements</a></li>
+    <li><a href="https://www.yasaka-jinja.or.jp/" target="_blank" rel="noopener">Yasaka-jinja official calendar</a></li>
+    <li><a href="https://www.matsunoo.or.jp/" target="_blank" rel="noopener">Matsunoo-taisha festival guide</a></li>
+  </ul>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Back to Table of Contents</a>
+    <a class="nav-link" data-passage="Hozugawa River Cruise">Next: Hozugawa River Cruise →</a>
+  </div>
+</div>
