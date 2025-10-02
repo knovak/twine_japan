@@ -1,0 +1,116 @@
+:: Nara
+<div class="card active" id="card-nara">
+<div class="card-number">A1</div>
+<div class="card-header">
+<h1 class="card-title">奈良</h1>
+<h2 class="card-subtitle">Nara Day Trip from Osaka</h2>
+</div>
+
+<div class="card-content">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Nara_Park,_Nara,_Japan.jpg?width=800" alt="Nara Park with deer grazing near Todai-ji temple" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('location-nara')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="icon-nara">+</div>
+</div>
+<div class="location-content" id="location-nara">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">奈良県奈良市公園内（奈良公園・東大寺周辺）</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Nara Park &amp; Todai-ji Area, Nara City, Nara Prefecture</span>
+</div>
+<a href="https://maps.app.goo.gl/wWf6fU66Y7bhSpvq8" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Quick Stats</strong><br>
+• <strong>Travel time:</strong> ~85 minutes door-to-door from OMO Kansai Airport Hotel<br>
+• <strong>Best visit window:</strong> 8:30 AM – 3:00 PM to enjoy temples before tour buses<br>
+• <strong>Essentials:</strong> Comfortable walking shoes, small bills for deer crackers (¥200)
+</div>
+
+<p>Nara served as Japan's first permanent capital from 710 to 784 and still feels like an open-air museum. Within a compact park you can greet semi-wild deer, stand beneath the world's largest bronze Buddha, and wander lantern-lit shrine paths that glow each evening. It makes a perfect Saturday excursion before your Kyoto departure.</p>
+
+<h2>Signature Sights</h2>
+
+<h3>1. Todai-ji Daibutsuden</h3>
+<div class="highlight">
+<strong>Hours:</strong> 7:30 AM – 5:30 PM (last entry 5:00 PM)<br>
+<strong>Admission:</strong> ¥600 adults | <strong>Don't miss:</strong> 15-meter Great Buddha (Vairocana) &amp; guardian statues
+</div>
+<p>Step into the colossal Great Buddha Hall, rebuilt in 1709 yet still one of the world's largest wooden structures. The bronze Buddha dates to 752 and weighs 500 tons—its hands alone span 18 meters across. Take a moment to circle behind the statue for views of the cosmic mandala panels and the pillar with the famous "Buddha's nostril" crawl-through.</p>
+<a href="https://www.todaiji.or.jp/en/" target="_blank" class="wikipedia-link">🌐 Official Todai-ji Temple site</a>
+
+<h3>2. Nara Park Deer Enclave</h3>
+<div class="highlight">
+<strong>Deer crackers:</strong> Buy "shika senbei" for ¥200 from licensed vendors<br>
+<strong>Etiquette tip:</strong> Bow to the deer before offering snacks—they often bow back!
+</div>
+<p>More than 1,200 sacred sika deer roam freely through Nara Park. They're protected as messengers of the gods, so treat them with respect. Morning is calmer for photos; by afternoon the deer converge near the vendor stands.</p>
+<a href="https://www.visitnara.jp/destinations/area/nara-park/" target="_blank" class="wikipedia-link">🌐 Visit Nara: Nara Park guide</a>
+
+<h3>3. Kasuga Taisha Shrine</h3>
+<div class="highlight">
+<strong>Hours:</strong> 6:00 AM – 6:00 PM (inner paid area 8:30 AM – 4:00 PM, ¥500)<br>
+<strong>Signature:</strong> 3,000 bronze and stone lanterns lining vermilion corridors
+</div>
+<p>Follow the forested approach to Kasuga Taisha, founded in 768 by the Fujiwara clan. The shrine's lanterns are dramatically lit during the Setsubun Mantoro (February) and Obon (August) festivals, but even in daylight the mossy stone guardians feel otherworldly.</p>
+<a href="https://www.kasugataisha.or.jp/en/" target="_blank" class="wikipedia-link">🌐 Kasuga Taisha official site</a>
+
+<h3>4. Kofuku-ji &amp; Sarusawa Pond</h3>
+<div class="highlight">
+<strong>Must-see:</strong> Five-storied pagoda reflected in the pond at sunset<br>
+<strong>Museum:</strong> Kofuku-ji National Treasure Hall (¥1,000, 9:00 AM – 5:00 PM)
+</div>
+<p>Once a dominant temple of the Fujiwara clan, Kofuku-ji offers a striking pagoda skyline steps from Kintetsu Nara Station. Pair your visit with a stroll around Sarusawa Pond, where willow trees and swans create perfect golden-hour photos.</p>
+<a href="https://www.kofukuji.or.jp/en/" target="_blank" class="wikipedia-link">🌐 Kofuku-ji official site</a>
+
+<h3>5. Naramachi Lanes</h3>
+<div class="highlight">
+<strong>Atmosphere:</strong> Preserved merchant houses converted into cafés, sake bars, and craft studios<br>
+<strong>Tip:</strong> Reserve counter seats at Harushika Brewery for sake tasting flights (¥500)
+</div>
+<p>Wrap up the day in the historic merchant quarter south of the park. Many machiya townhouses now host dessert cafés and small galleries showcasing local textiles and washi paper. It's a relaxed spot for an early dinner before your return train.</p>
+<a href="https://www.visitnara.jp/destinations/area/naramachi/" target="_blank" class="wikipedia-link">🌐 Visit Nara: Naramachi highlights</a>
+
+<h2>OMO Kansai Airport Hotel → Nara Great Buddha Logistics</h2>
+<div class="highlight">
+<strong>Total time:</strong> ~85 minutes each way | <strong>Fare:</strong> ¥2,470 using ICOCA or ticket purchase<br>
+<strong>Best departure:</strong> Leave hotel by 7:45 AM to reach Todai-ji's gates just after opening.
+</div>
+
+<ol>
+<li><strong>Walk 5-7 minutes</strong> from the OMO Kansai Airport Hotel lobby through the Aeroplaza skybridge into Kansai Airport Station (same route as your Kyoto trip).</li>
+<li><strong>JR Haruka Limited Express</strong> to Tennoji Station (35 minutes). Non-reserved seat ¥2,330; covered by the Haruka discount ticket if you plan to use it for Kyoto as well.</li>
+<li><strong>Transfer at Tennoji</strong>: follow signs for the Yamatoji Line (platforms 17-18). Trains depart every 15 minutes.</li>
+<li><strong>JR Yamatoji Rapid or Direct Rapid</strong> to JR Nara Station (35 minutes, no seat reservation needed). Base fare for the Tennoji→Nara segment is ¥570.</li>
+<li><strong>Nara City loop bus</strong>: Exit JR Nara Station East Gate and board Bus #2 or #72 to "Daibutsuden/Kasuga Taisha" (10 minutes, ¥220). Alternatively, walk 20 minutes via Sanjo-dori to the park.</li>
+<li><strong>Return route</strong>: Reverse the steps; the last Haruka to Kansai Airport departs Tennoji at 10:16 PM.</li>
+</ol>
+
+<p><strong>Simplify with IC cards:</strong> Load at least ¥5,000 onto your ICOCA card at Kansai Airport Station ticket machines before departure. Tap through each gate without worrying about multiple paper tickets.</p>
+
+<div class="highlight">
+<strong>Time-saver:</strong> If you prefer to skip the Haruka surcharge, take the JR Kansai Airport Rapid to Tennoji (50 minutes, ¥1,070) then transfer to the same Yamatoji Rapid—adds 15 minutes but saves ¥1,260 each way.
+</div>
+
+<h2>Useful Planning Links</h2>
+<ul>
+<li><a href="https://www.visitnara.jp/itineraries/nara-day-trip/" target="_blank" class="wikipedia-link">Visit Nara one-day itinerary</a></li>
+<li><a href="https://www.japan-guide.com/e/e4107.html" target="_blank" class="wikipedia-link">Japan Guide: Nara Travel basics</a></li>
+<li><a href="https://www.jr-odekake.net/en/railroad/timetable/haruka/" target="_blank" class="wikipedia-link">JR West Haruka timetable</a></li>
+</ul>
+
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="OMO Kansai Airport Hotel to Kyoto Transit">Next: Kyoto Transit →</a>
+</div>
+
+</div>

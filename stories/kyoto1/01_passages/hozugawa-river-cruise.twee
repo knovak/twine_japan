@@ -1,0 +1,54 @@
+:: Hozugawa River Cruise
+<div class="card active" id="card-hozugawa-cruise">
+  <div class="card-number">A1</div>
+  <div class="card-header">
+    <h1 class="card-title">保津川下り</h1>
+    <h1 class="card-title">Hozugawa River Cruise</h1>
+  </div>
+
+  <div class="highlight">
+    <strong>Good to Know</strong><br>
+    • <strong>Season:</strong> Boats operate year-round; peak foliage in November, cherry blossoms late March–early April.<br>
+    • <strong>Duration:</strong> 90–120 minutes to float 16 km (10 mi) from Kameoka to Arashiyama.<br>
+    • <strong>Fare:</strong> ¥4,500 adults / ¥3,000 children (elementary age) as of 2025.<br>
+    • <strong>Boats:</strong> Wooden craft rowed by three experienced boatmen; clear canopies added in rain or winter.
+  </div>
+
+  <p>The Hozugawa River Cruise (Hozugawa Kudari) drifts through a forested gorge west of Kyoto. After boarding in Kameoka, you glide past cedar forests, granite outcrops, and small rapids before emerging beside Arashiyama's Togetsukyo Bridge. It is a centuries-old shipping route that now offers a relaxing way to enter the district with mountain and valley scenery that changes dramatically by season. Autumn brings fiery maples, spring adds cherry blossoms, and winter occasionally dusts the banks with snow.</p>
+
+  <div class="location-section">
+    <button class="location-toggle" onclick="toggleLocation(this)">Show boarding access</button>
+    <div class="location-details">
+      <strong>Hozugawa River Cruise Boarding Site</strong><br>
+      2 Shimo-Kameoka, Kameoka-shi, Kyoto<br>
+      京都府亀岡市保津町下中島2<br>
+      <a href="https://maps.app.goo.gl/Xs2hVhXECxJXvyG59" target="_blank" rel="noopener">Open in Google Maps</a>
+    </div>
+  </div>
+
+  <h2>Getting There</h2>
+  <p>Ride the JR Sagano Line (also called the JR San-in Line) from Kyoto Station to <strong>Kameoka Station</strong>; rapid trains take 23 minutes and cost ¥420 with frequent departures. From Kameoka Station it's a signed 10-minute walk or free shuttle bus to the boarding pier. Alternatively, pair the cruise with the <strong>Sagano Scenic Railway</strong> (Torokko) from Arashiyama: take the 25-minute retro train ride upstream to Torokko Kameoka Station, then follow the walkway down to the riverboats. Return to central Kyoto via JR trains from Saga-Arashiyama after you land.</p>
+
+  <h2>What to Expect on the River</h2>
+  <p>Each wooden boat holds up to 24 passengers plus three boatmen who pole, steer, and narrate the trip. The river alternates between calm pools and gentle rapids, so prepare for light splashes—plastic tarps are unfurled on rainy days, and heaters are set out in winter. Boatmen point out wildlife, cliff formations, and historical anecdotes in Japanese; multilingual pamphlets are available, and translation apps help with commentary.</p>
+
+  <div class="highlight">
+    <strong>Daily Schedule (typical)</strong><br>
+    • March–December: departures roughly every hour 9:00–15:30; last check-in 15:00.<br>
+    • January–February: shorter window 10:00–14:30 with fewer boats.<br>
+    • Boats may pause in heavy rain or when the river runs high—check the official notice boards at Kyoto Station or call ahead.
+  </div>
+
+  <h2>Tickets & Reservations</h2>
+  <p>Purchase tickets on-site at the Kameoka pier office (cash, major cards) or reserve in advance through the <a href="https://www.hozugawakudari.jp/en/" target="_blank" rel="noopener">official Hozugawa Kudari website</a>. Arrive at least 30 minutes early on weekends and during autumn foliage when queues grow quickly. Groups of 10 or more should pre-book. Combination tickets bundle the Sagano Scenic Railway ride with the river cruise and are popular in high season.</p>
+
+  <h2>After You Land in Arashiyama</h2>
+  <p>Boats disembark near Arashiyama Park. From here it's a 5-minute walk to Togetsukyo Bridge, bamboo grove paths, and riverside cafés. Consider renting a bicycle to continue exploring or visiting Tenryu-ji Temple and the Okochi Sanso Villa for landscaped gardens and tea.</p>
+
+  <p class="wikipedia-link">Sources: <a href="https://www.japan-guide.com/e/e3966.html" target="_blank" rel="noopener">Japan Guide – Hozugawa River Cruise</a>; <a href="https://www.discoverkyoto.com/places-go/hozugawakudari/" target="_blank" rel="noopener">Discover Kyoto – Hozugawa Kudari</a>.</p>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Table of Contents">← Back to Table of Contents</a>
+    <a class="nav-link" data-passage="Kyoto Overview">Kyoto Overview →</a>
+  </div>
+</div>

@@ -1,0 +1,47 @@
+:: StoryConfig [init]
+<<run Config.passages.nobr = true>>
+:: Table of Contents
+<div class="card active" id="card-kyoto-toc">
+  <div class="card-number">0</div>
+  <div class="card-header">
+    <h1 class="card-title">京都</h1>
+    <h1 class="card-title">Kyoto City Guide</h1>
+  </div>
+
+  <p>Kyoto rewards slow exploration: wooden machiya lanes, lantern-lit temples, seasonal cuisine, and quiet river valleys tucked just beyond the urban grid. Use this deck to orient yourself, move smoothly between cities, and uncover an iconic day trip on the water.</p>
+
+  <h2>Overview ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</h2>
+  <div class="toc-grid">
+    <div class="toc-item">
+      <h3>[[🏯 Kyoto Overview->Kyoto Overview]]</h3>
+      <p>Snapshot of neighborhoods, seasons, and what makes Japan's former capital special.</p>
+    </div>
+    <div class="toc-item">
+      <h3>[[🏨 Gion Hotel->Gion Hotel]]</h3>
+      <p>Boutique stay beside Hanamikoji with in-room amenities for longer Kyoto trips.</p>
+    </div>
+  </div>
+
+  <h2>Transport ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</h2>
+  <div class="toc-grid">
+    <div class="toc-item">
+      <h3>[[🚄 Trains Kyoto to Tokyo (Oct 8)->Trains from Kyoto to Tokyo]]</h3>
+      <p>Nozomi, Hikari, and Kodama departures on Wednesday, October 8, 2025 with first-timer tips.</p>
+    </div>
+  </div>
+
+  <h2>Attractions ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</h2>
+  <div class="toc-grid">
+    <div class="toc-item">
+      <h3>[[🛶 Hozugawa River Cruise->Hozugawa River Cruise]]</h3>
+      <p>Traditional boat ride through a forested gorge between Kameoka and Arashiyama.</p>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Kyoto Overview">Start with Kyoto Overview →</a>
+  </div>
+</div>
+
+:: PassageFooter
+<p class="footer">2025-10-02 Travel Ops</p>
