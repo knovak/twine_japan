@@ -1,0 +1,69 @@
+:: Ridesharing
+<div class="card active" id="card-ridesharing">
+  <div class="card-number">T5</div>
+  <div class="card-header">
+    <h1 class="card-title">ライドシェア・配車アプリ</h1>
+    <h1 class="card-title">Ridesharing</h1>
+  </div>
+
+  <p>Uber, DiDi, and GO all operate as taxi-hailing apps in Kansai rather than private cars. Install them before departure so you can compare prices, wait times, and payment options when you land.</p>
+
+  <div class="highlight">
+    <strong>Key tip:</strong> Enable location services and add a Japanese pickup note (copy it from your hotel confirmation) before requesting a car so drivers can find you quickly in busy stations.
+  </div>
+
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>App</th>
+        <th>Tokyo</th>
+        <th>Osaka</th>
+        <th>Kyoto</th>
+        <th>English interface</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Uber</strong></td>
+        <td>Uber Taxi partners with the big fleets inside the Yamanote loop and airports. Cars usually arrive within 5–10 minutes outside rush hour, and fares follow the taxi meter plus a small booking fee.</td>
+        <td>Coverage is solid across Umeda, Namba, and the bay area. Expect the same metered fares as street cabs; late-night supply is thinner so you may see longer waits after midnight.</td>
+        <td>Availability is moderate. It works best around Kyoto Station, downtown Kawaramachi, and hotel clusters; queue times grow during festivals so keep a backup app handy.</td>
+        <td>Yes — the app defaults to English and supports overseas cards and Apple Pay.</td>
+      </tr>
+      <tr>
+        <td><strong>DiDi</strong></td>
+        <td>Wide Tokyo coverage with live driver chat that auto-translates messages. Frequent coupons appear in the app, and you can choose cash or cashless payment before confirming.</td>
+        <td>Kansai is DiDi’s strongest market. Dispatch is quick in Osaka’s central wards and at Kansai Airport, and airport flat-fare vouchers regularly pop up for new users.</td>
+        <td>Serves Kyoto City plus Arashiyama and Fushimi corridors. Drivers are accustomed to tourists; note that some vehicles are Kyoto’s larger sightseeing taxis, so fares can be slightly higher.</td>
+        <td>Yes — switch languages from the profile screen and the menus, driver chat, and receipts appear in English.</td>
+      </tr>
+      <tr>
+        <td><strong>GO</strong></td>
+        <td>Japan’s largest taxi network with 100,000+ cars. Handy extras include advance airport bookings and the “GO Pay” cashless QR code for street hails.</td>
+        <td>Excellent fleet density around Osaka Station City, Shin-Osaka, and Namba. The app shows driver ETA and taxi company so you can match the vehicle at busy hotel stands.</td>
+        <td>GO recently expanded across Kyoto; coverage is best in the city core and along the Hankyu and JR corridors. Supply dips in the evenings in Arashiyama, so plan to request while still near the station.</td>
+        <td>Yes — toggle English under Menu → Settings; the interface, e-receipts, and support chat switch over while keeping driver notes in Japanese.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>How to choose</h2>
+  <ul>
+    <li><strong>Compare wait times:</strong> Request from two apps and cancel the slower one before a driver accepts. Osaka taxis usually respond fastest on GO, while Kyoto backups tend to appear on DiDi.</li>
+    <li><strong>Payment flexibility:</strong> Uber and DiDi accept foreign credit cards and Apple Pay. GO supports domestic IC cards via GO Pay; if your overseas card is rejected, switch to cash on arrival.</li>
+    <li><strong>Discount hunting:</strong> New-user coupons rotate often. Check the campaign tab in DiDi and GO before you book longer rides like KIX transfers.</li>
+  </ul>
+
+  <h2>Advice for first-time riders</h2>
+  <ul>
+    <li>Drop the pin on a taxi stand or a wide sidewalk and add a short landmark description (e.g., “At the south exit of Namba Station”).</li>
+    <li>Screenshot the license plate and driver name so you can confirm the correct cab in front of hotel doormen.</li>
+    <li>Keep a translation app ready. Even with English menus, drivers mainly speak Japanese; showing the Japanese address avoids confusion.</li>
+    <li>If the app struggles with an overseas SMS number, ask your hotel concierge to book through their business account or hail from the street and pay with GO Pay or cash.</li>
+  </ul>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Package Transfers">← Package Transfers</a>
+    <a class="nav-link" data-passage="KIX to OMO Kansai Airport Hotel">Next: KIX Arrival Options →</a>
+  </div>
+</div>
