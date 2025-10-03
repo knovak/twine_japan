@@ -1,0 +1,43 @@
+:: StoryConfig [init]
+<<run Config.passages.nobr = true>>
+
+:: general1
+<div class="card active" id="card1">
+  <div class="card-number">0</div>
+  <div class="card-header">
+    <h1 class="card-title">旅の基礎</h1>
+    <h1 class="card-title">Japan Travel Essentials</h1>
+  </div>
+
+  <p>This deck gathers practical logistics advice and cultural context cards you can drop into any Kansai or Kanto itinerary. Use these highlights as a quick reference when stitching together multi-city journeys.</p>
+
+  <h2>Logistics ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</h2>
+
+  <div class="toc-grid">
+    <div class="toc-item">
+      <h3>[[📦 Package Transfers->Package Transfers]]</h3>
+      <p>Ship suitcases ahead so you can hop trains with just a daypack.</p>
+    </div>
+
+    <div class="toc-item">
+      <h3>[[🚕 Ridesharing->Ridesharing]]</h3>
+      <p>Compare Uber, DiDi, and GO taxi apps before you request a ride.</p>
+    </div>
+  </div>
+
+  <h2>History ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</h2>
+
+  <div class="toc-grid">
+    <div class="toc-item">
+      <h3>[[🧘 Zen in Sakai and Osaka->Zen in Sakai and Osaka]]</h3>
+      <p>The history of Zen Buddhism in Sakai and Osaka, from Ikkyū's revolutionary teachings to Sen no Rikyū's tea ceremony philosophy.</p>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <a class="nav-link" data-passage="Package Transfers">Start with Package Transfers →</a>
+  </div>
+</div>
+
+:: PassageFooter
+<p class="footer">2025-09-18 Twine Japan</p>

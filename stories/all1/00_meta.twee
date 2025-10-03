@@ -1,0 +1,20 @@
+:: StoryTitle
+Japan Travel Essentials
+
+:: StoryData
+{
+  "ifid": "be45f1d9-24be-4cad-ba93-109ff2602f10",
+  "format": "SugarCube",
+  "format-version": "2.36.1",
+  "start": "general1",
+  "zoom": 1
+}
+
+:: StoryStylesheet [stylesheet]
+@import url("./assets/styles.css");
+
+:: Story JavaScript [script]
+// Load functional JavaScript for location toggle
+var script = document.createElement('script');
+script.src = 'assets/scripts.js';
+document.head.appendChild(script);
