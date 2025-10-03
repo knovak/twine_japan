@@ -54,7 +54,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-chishakuin')">
-      <div class="location-label">📍 Chishaku-in Temple</div>
+      <div class="location-label">📍 Location: Chishaku-in Temple</div>
       <div class="toggle-icon" id="icon-chishakuin">+</div>
     </div>
     <div class="location-content" id="location-chishakuin">
@@ -72,7 +72,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-taizoin')">
-      <div class="location-label">📍 Myōshin-ji Taizō-in</div>
+      <div class="location-label">📍 Location: Myōshin-ji Taizō-in</div>
       <div class="toggle-icon" id="icon-taizoin">+</div>
     </div>
     <div class="location-content" id="location-taizoin">
@@ -90,7 +90,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-daikakuji')">
-      <div class="location-label">📍 Daikaku-ji & Ōsawa Pond</div>
+      <div class="location-label">📍 Location: Daikaku-ji & Ōsawa Pond</div>
       <div class="toggle-icon" id="icon-daikakuji">+</div>
     </div>
     <div class="location-content" id="location-daikakuji">
@@ -108,7 +108,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-shimogamo')">
-      <div class="location-label">📍 Shimogamo-jinja</div>
+      <div class="location-label">📍 Location: Shimogamo-jinja</div>
       <div class="toggle-icon" id="icon-shimogamo">+</div>
     </div>
     <div class="location-content" id="location-shimogamo">
@@ -126,7 +126,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-kamigamo')">
-      <div class="location-label">📍 Kamigamo-jinja</div>
+      <div class="location-label">📍 Location: Kamigamo-jinja</div>
       <div class="toggle-icon" id="icon-kamigamo">+</div>
     </div>
     <div class="location-content" id="location-kamigamo">
@@ -144,7 +144,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-hirano')">
-      <div class="location-label">📍 Hirano-jinja</div>
+      <div class="location-label">📍 Location: Hirano-jinja</div>
       <div class="toggle-icon" id="icon-hirano">+</div>
     </div>
     <div class="location-content" id="location-hirano">
@@ -162,7 +162,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-yasaka')">
-      <div class="location-label">📍 Yasaka-jinja (Gion)</div>
+      <div class="location-label">📍 Location: Yasaka-jinja (Gion)</div>
       <div class="toggle-icon" id="icon-yasaka">+</div>
     </div>
     <div class="location-content" id="location-yasaka">
@@ -180,7 +180,7 @@
 
   <div class="location-section">
     <div class="location-toggle" onclick="toggleLocation('location-matsunoo')">
-      <div class="location-label">📍 Matsunoo-taisha</div>
+      <div class="location-label">📍 Location: Matsunoo-taisha</div>
       <div class="toggle-icon" id="icon-matsunoo">+</div>
     </div>
     <div class="location-content" id="location-matsunoo">
