@@ -1,0 +1,52 @@
+:: Namba Downtown Walk
+<div class="card active" id="card1">
+<div class="card-number">2</div>
+<div class="card-header">
+<h1 class="card-title">難波まち歩き</h1>
+<h2 class="card-subtitle">Namba Downtown Walk</h2>
+</div>
+
+<div class="card-content">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Namba_Station%2C_Osaka%2C_Japan.jpg?width=800" alt="Namba Station exterior and surrounding buildings" class="temple-image">
+
+<div class="location-section">
+<div class="location-toggle" onclick="toggleLocation('locationNamba')">
+<div class="location-label">📍 Location</div>
+<div class="toggle-icon" id="iconNamba">+</div>
+</div>
+<div class="location-content" id="locationNamba">
+<div class="address">
+<span class="address-label">Japanese:</span>
+<span class="address-text">〒542-0076 大阪府大阪市中央区難波・浪速区難波中</span>
+</div>
+<div class="address">
+<span class="address-label">English:</span>
+<span class="address-text">Namba, Chuo and Naniwa Wards, Osaka 542-0076, Japan</span>
+</div>
+<a href="https://www.google.com/maps/search/?api=1&query=Namba+Station+Osaka" target="_blank" class="maps-link">🗺️ Open in Google Maps</a>
+</div>
+</div>
+
+<div class="highlight">
+<strong>Transit hub:</strong> Namba Station is served by JR, Nankai, Kintetsu, Hanshin, Osaka Metro Midosuji, Yotsubashi, and Sennichimae lines. Follow color-coded wayfinding signs overhead; exits B7–B20 surface closest to Dotonbori and Shinsaibashi.
+</div>
+
+<p>Give yourself time to orient underground: the Namba Walk shopping streets connect the station's multiple operators, with easy grab-and-go bites from Takoyaki Wanaka and 551 Horai. Pop upstairs at the Takashimaya department store for basement depachika treats or the 7th-floor visitor service counter if you need a tax-free shopping form.</p>
+
+<p>Head south to Namba Parks, the terraced mall designed by Jon Jerde. Ride the escalators to the rooftop garden for a breezy circuit past waterfalls, herb planters, and skyline lookouts stretching toward Tennoji. Evening illuminations switch on around sunset, so time your visit for golden hour before dinner.</p>
+
+<div class="highlight">
+<strong>Walk this loop:</strong> From the Parks rooftop, descend to the street-level courtyard of Namba Yasaka Shrine, famous for its lion-head stage, then cut east to the lantern-hung Sennichimae Doguyasuji shopping street. Browse knife shops, noren curtain stalls, and takoyaki pans before continuing to Kuromon Market for seafood skewers and matcha parfaits.
+</div>
+
+<p>Finish the stroll by angling north along the covered arcades of Ebisubashi-suji and B1 underground passages. You'll rejoin the Dotonbori canal near the neon Glico sign, making it easy to transition into the evening promenade captured on the next card.</p>
+
+<a href="https://osaka-info.jp/en/areas/minami/namba/" target="_blank" class="wikipedia-link">🌐 Osaka Convention &amp; Tourism Bureau Namba guide</a>
+</div>
+
+<div class="navigation">
+<a class="nav-link" data-passage="Table of Contents">← Table of Contents</a>
+<a class="nav-link" data-passage="Shinsekai and Tsutenkaku Loop">Next: Shinsekai and Tsutenkaku →</a>
+</div>
+
+</div>
